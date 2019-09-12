@@ -16,9 +16,33 @@
       <ion-item>  
         <ion-label>구</ion-label>
         <ion-select placeholder="Select One" [(ngModel)]="usergu" >
-          <ion-select-option value="강남구">강남구</ion-select-option>
-          <ion-select-option value="강동구">강동구</ion-select-option>
+          <ion-select-option value="종로구">종로구</ion-select-option>
+          <ion-select-option value="중구">중구</ion-select-option>
+          <ion-select-option value="용산구">용산구</ion-select-option>
+          <ion-select-option value="성동구">성동구</ion-select-option>
+          <ion-select-option value="광진구">광진구</ion-select-option>
+          <ion-select-option value="동대문구">동대문구</ion-select-option>
+          <ion-select-option value="중랑구">중랑구</ion-select-option>
+          <ion-select-option value="성북구">성북구</ion-select-option>
+          <ion-select-option value="강북구">강북구</ion-select-option>
+          <ion-select-option value="도봉구">도봉구</ion-select-option>
+          <ion-select-option value="노원구">노원구</ion-select-option>
+          <ion-select-option value="은평구">은평구</ion-select-option>
+          <ion-select-option value="서대문구">서대문구</ion-select-option>
+          <ion-select-option value="마포구">마포구</ion-select-option>
+          <ion-select-option value="양천구">양천구</ion-select-option>
           <ion-select-option value="강서구">강서구</ion-select-option>
+          <ion-select-option value="구로구">구로구</ion-select-option>
+          <ion-select-option value="금천구">금천구</ion-select-option>
+          <ion-select-option value="영등포구">영등포구</ion-select-option>
+          <ion-select-option value="동작구">동작구</ion-select-option>
+          <ion-select-option value="관악구">관악구</ion-select-option>
+          <ion-select-option value="서초구">서초구</ion-select-option>
+          <ion-select-option value="강남구">강남구</ion-select-option>
+          <ion-select-option value="송파구">송파구</ion-select-option>
+          <ion-select-option value="강동구">강동구</ion-select-option>
+          
+          
         </ion-select>
       </ion-item>
 
@@ -106,6 +130,463 @@
             <ion-select-option value="인수동">인수동</ion-select-option>
             </ion-select>
         </div>
+        
+        <div *ngIf="usergu == '종로구'">
+          <ion-select placeholder="Select One" [(ngModel)]="userdong">
+          <ion-select-option value="사직동">사직동</ion-select-option>
+          <ion-select-option value="삼청동">삼청동</ion-select-option>
+          <ion-select-option value="부암동">부암동</ion-select-option>
+          <ion-select-option value="평창동">평창동</ion-select-option>
+          <ion-select-option value="무악동">무악동</ion-select-option>
+          <ion-select-option value="교남동">교남동</ion-select-option>
+          <ion-select-option value="가회동">가회동</ion-select-option>
+          <ion-select-option value="종로1·2·3·4가동">종로1·2·3·4가동</ion-select-option>
+          <ion-select-option value="종로5·6가동">종로5·6가동</ion-select-option>
+          <ion-select-option value="이화동">이화동</ion-select-option>
+          <ion-select-option value="창신1동">창신1동</ion-select-option>
+          <ion-select-option value="창신2동">창신2동</ion-select-option>
+          <ion-select-option value="창신3동">창신3동</ion-select-option>
+          <ion-select-option value="숭인1동">숭인1동</ion-select-option>
+          <ion-select-option value="숭인2동">숭인2동</ion-select-option>
+          <ion-select-option value="청운효자동">청운효자동</ion-select-option>
+          <ion-select-option value="혜화동">혜화동</ion-select-option>
+          </ion-select>
+          </div>
+          <div *ngIf="usergu == '중구'">
+            <ion-select placeholder="Select One" [(ngModel)]="userdong">
+            <ion-select-option value="소공동">소공동</ion-select-option>
+            <ion-select-option value="회현동">회현동</ion-select-option>
+            <ion-select-option value="명동">명동</ion-select-option>
+            <ion-select-option value="필동">필동</ion-select-option>
+            <ion-select-option value="장충동">장충동</ion-select-option>
+            <ion-select-option value="광희동">광희동</ion-select-option>
+            <ion-select-option value="을지로동">을지로동</ion-select-option>
+            <ion-select-option value="신당5동">신당5동</ion-select-option>
+            <ion-select-option value="황학동">황학동</ion-select-option>
+            <ion-select-option value="중림동">중림동</ion-select-option>
+            <ion-select-option value="신당동">신당동</ion-select-option>
+            <ion-select-option value="다산동">다산동</ion-select-option>
+            <ion-select-option value="약수동">약수동</ion-select-option>
+            <ion-select-option value="청구동">청구동</ion-select-option>
+            <ion-select-option value="동화동">동화동</ion-select-option>
+            </ion-select>
+            </div>
+            <div *ngIf="usergu == '용산구'">
+              <ion-select placeholder="Select One" [(ngModel)]="userdong">
+              <ion-select-option value="후암동">후암동</ion-select-option>
+              <ion-select-option value="용산2가동">용산2가동</ion-select-option>
+              <ion-select-option value="남영동">남영동</ion-select-option>
+              <ion-select-option value="원효로2동">원효로2동</ion-select-option>
+              <ion-select-option value="효창동">효창동</ion-select-option>
+              <ion-select-option value="용문동">용문동</ion-select-option>
+              <ion-select-option value="이촌1동">이촌1동</ion-select-option>
+              <ion-select-option value="이촌2동">이촌2동</ion-select-option>
+              <ion-select-option value="이태원1동">이태원1동</ion-select-option>
+              <ion-select-option value="이태원2동">이태원2동</ion-select-option>
+              <ion-select-option value="서빙고동">서빙고동</ion-select-option>
+              <ion-select-option value="보광동">보광동</ion-select-option>
+              <ion-select-option value="청파동">청파동</ion-select-option>
+              <ion-select-option value="원효로1동">원효로1동</ion-select-option>
+              <ion-select-option value="한강로동">한강로동</ion-select-option>
+              <ion-select-option value="한남동">한남동</ion-select-option>
+              </ion-select>
+              </div>
+              <div *ngIf="usergu == '성동구'">
+                <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                <ion-select-option value="왕십리2동">왕십리2동</ion-select-option>
+                <ion-select-option value="마장동">마장동</ion-select-option>
+                <ion-select-option value="사근동">사근동</ion-select-option>
+                <ion-select-option value="행당1동">행당1동</ion-select-option>
+                <ion-select-option value="행당2동">행당2동</ion-select-option>
+                <ion-select-option value="응봉동">응봉동</ion-select-option>
+                <ion-select-option value="금호1가동">금호1가동</ion-select-option>
+                <ion-select-option value="금호4가동">금호4가동</ion-select-option>
+                <ion-select-option value="성수1가1동">성수1가1동</ion-select-option>
+                <ion-select-option value="성수1가2동">성수1가2동</ion-select-option>
+                <ion-select-option value="성수2가1동">성수2가1동</ion-select-option>
+                <ion-select-option value="성수2가3동">성수2가3동</ion-select-option>
+                <ion-select-option value="송정동">송정동</ion-select-option>
+                <ion-select-option value="용답동">용답동</ion-select-option>
+                <ion-select-option value="왕십리도선동">왕십리도선동</ion-select-option>
+                <ion-select-option value="금호2·3가동">금호2·3가동</ion-select-option>
+                <ion-select-option value="옥수동">옥수동</ion-select-option>
+                </ion-select>
+                </div>
+                <div *ngIf="usergu == '광진구'">
+                  <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                  <ion-select-option value="화양동">화양동</ion-select-option>
+                  <ion-select-option value="군자동">군자동</ion-select-option>
+                  <ion-select-option value="중곡1동">중곡1동</ion-select-option>
+                  <ion-select-option value="중곡2동">중곡2동</ion-select-option>
+                  <ion-select-option value="중곡3동">중곡3동</ion-select-option>
+                  <ion-select-option value="중곡4동">중곡4동</ion-select-option>
+                  <ion-select-option value="능동">능동</ion-select-option>
+                  <ion-select-option value="구의1동">구의1동</ion-select-option>
+                  <ion-select-option value="구의2동">구의2동</ion-select-option>
+                  <ion-select-option value="구의3동">구의3동</ion-select-option>
+                  <ion-select-option value="광장동">광장동</ion-select-option>
+                  <ion-select-option value="자양1동">자양1동</ion-select-option>
+                  <ion-select-option value="자양2동">자양2동</ion-select-option>
+                  <ion-select-option value="자양3동">자양3동</ion-select-option>
+                  <ion-select-option value="자양4동">자양4동</ion-select-option>
+                  </ion-select>
+                  </div>
+                  <div *ngIf="usergu == '동대문구'">
+                    <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                    <ion-select-option value="회기동">회기동</ion-select-option>
+                    <ion-select-option value="휘경1동">휘경1동</ion-select-option>
+                    <ion-select-option value="휘경2동">휘경2동</ion-select-option>
+                    <ion-select-option value="청량리동">청량리동</ion-select-option>
+                    <ion-select-option value="용신동">용신동</ion-select-option>
+                    <ion-select-option value="제기동">제기동</ion-select-option>
+                    <ion-select-option value="전농1동">전농1동</ion-select-option>
+                    <ion-select-option value="전농2동">전농2동</ion-select-option>
+                    <ion-select-option value="답십리1동">답십리1동</ion-select-option>
+                    <ion-select-option value="답십리2동">답십리2동</ion-select-option>
+                    <ion-select-option value="장안1동">장안1동</ion-select-option>
+                    <ion-select-option value="장안2동">장안2동</ion-select-option>
+                    <ion-select-option value="이문1동">이문1동</ion-select-option>
+                    <ion-select-option value="이문2동">이문2동</ion-select-option>
+                    </ion-select>
+                    </div>
+                    <div *ngIf="usergu == '중랑구'">
+                      <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                      <ion-select-option value="면목2동">면목2동</ion-select-option>
+                      <ion-select-option value="면목4동">면목4동</ion-select-option>
+                      <ion-select-option value="면목5동">면목5동</ion-select-option>
+                      <ion-select-option value="면목7동">면목7동</ion-select-option>
+                      <ion-select-option value="상봉1동">상봉1동</ion-select-option>
+                      <ion-select-option value="상봉2동">상봉2동</ion-select-option>
+                      <ion-select-option value="중화1동">중화1동</ion-select-option>
+                      <ion-select-option value="중화2동">중화2동</ion-select-option>
+                      <ion-select-option value="묵1동">묵1동</ion-select-option>
+                      <ion-select-option value="묵2동">묵2동</ion-select-option>
+                      <ion-select-option value="망우3동">망우3동</ion-select-option>
+                      <ion-select-option value="신내1동">신내1동</ion-select-option>
+                      <ion-select-option value="신내2동">신내2동</ion-select-option>
+                      <ion-select-option value="면목본동">면목본동</ion-select-option>
+                      <ion-select-option value="면목3·8동">면목3·8동</ion-select-option>
+                      <ion-select-option value="망우본동">망우본동</ion-select-option>
+                      </ion-select>
+                      </div>
+                      <div *ngIf="usergu == '성북구'">
+                        <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                        <ion-select-option value="돈암1동">돈암1동</ion-select-option>
+                        <ion-select-option value="돈암2동">돈암2동</ion-select-option>
+                        <ion-select-option value="안암동">안암동</ion-select-option>
+                        <ion-select-option value="보문동">보문동</ion-select-option>
+                        <ion-select-option value="정릉1동">정릉1동</ion-select-option>
+                        <ion-select-option value="정릉2동">정릉2동</ion-select-option>
+                        <ion-select-option value="정릉3동">정릉3동</ion-select-option>
+                        <ion-select-option value="정릉4동">정릉4동</ion-select-option>
+                        <ion-select-option value="길음1동">길음1동</ion-select-option>
+                        <ion-select-option value="길음2동">길음2동</ion-select-option>
+                        <ion-select-option value="월곡1동">월곡1동</ion-select-option>
+                        <ion-select-option value="월곡2동">월곡2동</ion-select-option>
+                        <ion-select-option value="장위1동">장위1동</ion-select-option>
+                        <ion-select-option value="장위2동">장위2동</ion-select-option>
+                        <ion-select-option value="장위3동">장위3동</ion-select-option>
+                        <ion-select-option value="성북동">성북동</ion-select-option>
+                        <ion-select-option value="삼선동">삼선동</ion-select-option>
+                        <ion-select-option value="동선동">동선동</ion-select-option>
+                        <ion-select-option value="종암동">종암동</ion-select-option>
+                        <ion-select-option value="석관동">석관동</ion-select-option>
+                        </ion-select>
+                        </div>
+                        <div *ngIf="usergu == '강북구'">
+                          <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                          <ion-select-option value="번1동">번1동</ion-select-option>
+                          <ion-select-option value="번2동">번2동</ion-select-option>
+                          <ion-select-option value="번3동">번3동</ion-select-option>
+                          <ion-select-option value="수유1동">수유1동</ion-select-option>
+                          <ion-select-option value="수유2동">수유2동</ion-select-option>
+                          <ion-select-option value="수유3동">수유3동</ion-select-option>
+                          <ion-select-option value="삼양동">삼양동</ion-select-option>
+                          <ion-select-option value="미아동">미아동</ion-select-option>
+                          <ion-select-option value="송중동">송중동</ion-select-option>
+                          <ion-select-option value="송천동">송천동</ion-select-option>
+                          <ion-select-option value="삼각산동">삼각산동</ion-select-option>
+                          <ion-select-option value="우이동">우이동</ion-select-option>
+                          <ion-select-option value="인수동">인수동</ion-select-option>
+                          </ion-select>
+                          </div>
+                          <div *ngIf="usergu == '도봉구'">
+                            <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                            <ion-select-option value="쌍문1동">쌍문1동</ion-select-option>
+                            <ion-select-option value="쌍문2동">쌍문2동</ion-select-option>
+                            <ion-select-option value="쌍문3동">쌍문3동</ion-select-option>
+                            <ion-select-option value="쌍문4동">쌍문4동</ion-select-option>
+                            <ion-select-option value="방학1동">방학1동</ion-select-option>
+                            <ion-select-option value="방학2동">방학2동</ion-select-option>
+                            <ion-select-option value="방학3동">방학3동</ion-select-option>
+                            <ion-select-option value="창1동">창1동</ion-select-option>
+                            <ion-select-option value="창2동">창2동</ion-select-option>
+                            <ion-select-option value="창3동">창3동</ion-select-option>
+                            <ion-select-option value="창4동">창4동</ion-select-option>
+                            <ion-select-option value="창5동">창5동</ion-select-option>
+                            <ion-select-option value="도봉1동">도봉1동</ion-select-option>
+                            <ion-select-option value="도봉2동">도봉2동</ion-select-option>
+                            </ion-select>
+                            </div>
+                            <div *ngIf="usergu == '노원구'">
+                              <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                              <ion-select-option value="월계1동">월계1동</ion-select-option>
+                              <ion-select-option value="월계2동">월계2동</ion-select-option>
+                              <ion-select-option value="월계3동">월계3동</ion-select-option>
+                              <ion-select-option value="공릉2동">공릉2동</ion-select-option>
+                              <ion-select-option value="하계1동">하계1동</ion-select-option>
+                              <ion-select-option value="하계2동">하계2동</ion-select-option>
+                              <ion-select-option value="중계본동">중계본동</ion-select-option>
+                              <ion-select-option value="중계1동">중계1동</ion-select-option>
+                              <ion-select-option value="중계4동">중계4동</ion-select-option>
+                              <ion-select-option value="상계1동">상계1동</ion-select-option>
+                              <ion-select-option value="상계2동">상계2동</ion-select-option>
+                              <ion-select-option value="상계5동">상계5동</ion-select-option>
+                              <ion-select-option value="상계8동">상계8동</ion-select-option>
+                              <ion-select-option value="상계9동">상계9동</ion-select-option>
+                              <ion-select-option value="상계10동">상계10동</ion-select-option>
+                              <ion-select-option value="상계3·4동">상계3·4동</ion-select-option>
+                              <ion-select-option value="상계6·7동">상계6·7동</ion-select-option>
+                              <ion-select-option value="중계2·3동">중계2·3동</ion-select-option>
+                              <ion-select-option value="공릉1동">공릉1동</ion-select-option>
+                              </ion-select>
+                              </div>
+                              <div *ngIf="usergu == '은평구'">
+                                <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                <ion-select-option value="녹번동">녹번동</ion-select-option>
+                                <ion-select-option value="불광1동">불광1동</ion-select-option>
+                                <ion-select-option value="갈현1동">갈현1동</ion-select-option>
+                                <ion-select-option value="갈현2동">갈현2동</ion-select-option>
+                                <ion-select-option value="구산동">구산동</ion-select-option>
+                                <ion-select-option value="대조동">대조동</ion-select-option>
+                                <ion-select-option value="응암1동">응암1동</ion-select-option>
+                                <ion-select-option value="응암2동">응암2동</ion-select-option>
+                                <ion-select-option value="신사1동">신사1동</ion-select-option>
+                                <ion-select-option value="신사2동">신사2동</ion-select-option>
+                                <ion-select-option value="증산동">증산동</ion-select-option>
+                                <ion-select-option value="수색동">수색동</ion-select-option>
+                                <ion-select-option value="진관동">진관동</ion-select-option>
+                                <ion-select-option value="불광2동">불광2동</ion-select-option>
+                                <ion-select-option value="응암3동">응암3동</ion-select-option>
+                                <ion-select-option value="역촌동">역촌동</ion-select-option>
+                                </ion-select>
+                                </div>
+                                <div *ngIf="usergu == '서대문구'">
+                                  <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                  <ion-select-option value="천연동">천연동</ion-select-option>
+                                  <ion-select-option value="홍제1동">홍제1동</ion-select-option>
+                                  <ion-select-option value="홍제3동">홍제3동</ion-select-option>
+                                  <ion-select-option value="홍제2동">홍제2동</ion-select-option>
+                                  <ion-select-option value="홍은1동">홍은1동</ion-select-option>
+                                  <ion-select-option value="홍은2동">홍은2동</ion-select-option>
+                                  <ion-select-option value="남가좌1동">남가좌1동</ion-select-option>
+                                  <ion-select-option value="남가좌2동">남가좌2동</ion-select-option>
+                                  <ion-select-option value="북가좌1동">북가좌1동</ion-select-option>
+                                  <ion-select-option value="북가좌2동">북가좌2동</ion-select-option>
+                                  <ion-select-option value="충현동">충현동</ion-select-option>
+                                  <ion-select-option value="북아현동">북아현동</ion-select-option>
+                                  <ion-select-option value="신촌동">신촌동</ion-select-option>
+                                  <ion-select-option value="연희동">연희동</ion-select-option>
+                                  </ion-select>
+                                  </div>
+                                  <div *ngIf="usergu == '마포구'">
+                                    <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                    <ion-select-option value="용강동">용강동</ion-select-option>
+                                    <ion-select-option value="대흥동">대흥동</ion-select-option>
+                                    <ion-select-option value="염리동">염리동</ion-select-option>
+                                    <ion-select-option value="신수동">신수동</ion-select-option>
+                                    <ion-select-option value="서교동">서교동</ion-select-option>
+                                    <ion-select-option value="합정동">합정동</ion-select-option>
+                                    <ion-select-option value="망원1동">망원1동</ion-select-option>
+                                    <ion-select-option value="망원2동">망원2동</ion-select-option>
+                                    <ion-select-option value="연남동">연남동</ion-select-option>
+                                    <ion-select-option value="성산1동">성산1동</ion-select-option>
+                                    <ion-select-option value="성산2동">성산2동</ion-select-option>
+                                    <ion-select-option value="상암동">상암동</ion-select-option>
+                                    <ion-select-option value="도화동">도화동</ion-select-option>
+                                    <ion-select-option value="서강동">서강동</ion-select-option>
+                                    <ion-select-option value="공덕동">공덕동</ion-select-option>
+                                    <ion-select-option value="아현동">아현동</ion-select-option>
+                                    </ion-select>
+                                    </div>
+                                    <div *ngIf="usergu == '양천구'">
+                                      <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                      <ion-select-option value="목1동">목1동</ion-select-option>
+                                      <ion-select-option value="목2동">목2동</ion-select-option>
+                                      <ion-select-option value="목3동">목3동</ion-select-option>
+                                      <ion-select-option value="목4동">목4동</ion-select-option>
+                                      <ion-select-option value="신월1동">신월1동</ion-select-option>
+                                      <ion-select-option value="신월2동">신월2동</ion-select-option>
+                                      <ion-select-option value="신월3동">신월3동</ion-select-option>
+                                      <ion-select-option value="신월4동">신월4동</ion-select-option>
+                                      <ion-select-option value="신월5동">신월5동</ion-select-option>
+                                      <ion-select-option value="신월6동">신월6동</ion-select-option>
+                                      <ion-select-option value="신월7동">신월7동</ion-select-option>
+                                      <ion-select-option value="신정1동">신정1동</ion-select-option>
+                                      <ion-select-option value="신정2동">신정2동</ion-select-option>
+                                      <ion-select-option value="신정3동">신정3동</ion-select-option>
+                                      <ion-select-option value="신정6동">신정6동</ion-select-option>
+                                      <ion-select-option value="신정7동">신정7동</ion-select-option>
+                                      <ion-select-option value="목5동">목5동</ion-select-option>
+                                      <ion-select-option value="신정4동">신정4동</ion-select-option>
+                                      </ion-select>
+                                      </div>
+                                      <div *ngIf="usergu == '구로구'">
+                                        <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                        <ion-select-option value="신도림동">신도림동</ion-select-option>
+                                        <ion-select-option value="구로1동">구로1동</ion-select-option>
+                                        <ion-select-option value="구로3동">구로3동</ion-select-option>
+                                        <ion-select-option value="구로4동">구로4동</ion-select-option>
+                                        <ion-select-option value="구로5동">구로5동</ion-select-option>
+                                        <ion-select-option value="고척1동">고척1동</ion-select-option>
+                                        <ion-select-option value="고척2동">고척2동</ion-select-option>
+                                        <ion-select-option value="개봉2동">개봉2동</ion-select-option>
+                                        <ion-select-option value="개봉3동">개봉3동</ion-select-option>
+                                        <ion-select-option value="오류1동">오류1동</ion-select-option>
+                                        <ion-select-option value="오류2동">오류2동</ion-select-option>
+                                        <ion-select-option value="수궁동">수궁동</ion-select-option>
+                                        <ion-select-option value="가리봉동">가리봉동</ion-select-option>
+                                        <ion-select-option value="구로2동">구로2동</ion-select-option>
+                                        <ion-select-option value="개봉1동">개봉1동</ion-select-option>
+                                        </ion-select>
+                                        </div>
+                                        <div *ngIf="usergu == '금천구'">
+                                          <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                          <ion-select-option value="가산동">가산동</ion-select-option>
+                                          <ion-select-option value="독산1동">독산1동</ion-select-option>
+                                          <ion-select-option value="독산2동">독산2동</ion-select-option>
+                                          <ion-select-option value="독산3동">독산3동</ion-select-option>
+                                          <ion-select-option value="독산4동">독산4동</ion-select-option>
+                                          <ion-select-option value="시흥1동">시흥1동</ion-select-option>
+                                          <ion-select-option value="시흥2동">시흥2동</ion-select-option>
+                                          <ion-select-option value="시흥3동">시흥3동</ion-select-option>
+                                          <ion-select-option value="시흥4동">시흥4동</ion-select-option>
+                                          <ion-select-option value="시흥5동">시흥5동</ion-select-option>
+                                          </ion-select>
+                                          </div>
+                                          <div *ngIf="usergu == '영등포구'">
+                                            <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                            <ion-select-option value="여의동">여의동</ion-select-option>
+                                            <ion-select-option value="당산1동">당산1동</ion-select-option>
+                                            <ion-select-option value="당산2동">당산2동</ion-select-option>
+                                            <ion-select-option value="양평1동">양평1동</ion-select-option>
+                                            <ion-select-option value="양평2동">양평2동</ion-select-option>
+                                            <ion-select-option value="신길1동">신길1동</ion-select-option>
+                                            <ion-select-option value="신길3동">신길3동</ion-select-option>
+                                            <ion-select-option value="신길4동">신길4동</ion-select-option>
+                                            <ion-select-option value="신길5동">신길5동</ion-select-option>
+                                            <ion-select-option value="신길6동">신길6동</ion-select-option>
+                                            <ion-select-option value="신길7동">신길7동</ion-select-option>
+                                            <ion-select-option value="대림1동">대림1동</ion-select-option>
+                                            <ion-select-option value="대림2동">대림2동</ion-select-option>
+                                            <ion-select-option value="대림3동">대림3동</ion-select-option>
+                                            <ion-select-option value="영등포본동">영등포본동</ion-select-option>
+                                            <ion-select-option value="영등포동">영등포동</ion-select-option>
+                                            <ion-select-option value="도림동">도림동</ion-select-option>
+                                            <ion-select-option value="문래동">문래동</ion-select-option>
+                                            </ion-select>
+                                            </div>
+                                              
+
+                                            <div *ngIf="usergu == '동작구'">
+                                              <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                              <ion-select-option value="노량진2동">노량진2동</ion-select-option>
+                                              <ion-select-option value="상도1동">상도1동</ion-select-option>
+                                              <ion-select-option value="상도2동">상도2동</ion-select-option>
+                                              <ion-select-option value="상도3동">상도3동</ion-select-option>
+                                              <ion-select-option value="상도4동">상도4동</ion-select-option>
+                                              <ion-select-option value="사당1동">사당1동</ion-select-option>
+                                              <ion-select-option value="사당3동">사당3동</ion-select-option>
+                                              <ion-select-option value="사당4동">사당4동</ion-select-option>
+                                              <ion-select-option value="사당5동">사당5동</ion-select-option>
+                                              <ion-select-option value="대방동">대방동</ion-select-option>
+                                              <ion-select-option value="신대방1동">신대방1동</ion-select-option>
+                                              <ion-select-option value="신대방2동">신대방2동</ion-select-option>
+                                              <ion-select-option value="흑석동">흑석동</ion-select-option>
+                                              <ion-select-option value="노량진1동">노량진1동</ion-select-option>
+                                              <ion-select-option value="사당2동">사당2동</ion-select-option>
+                                              </ion-select>
+                                              </div>
+                                              <div *ngIf="usergu == '관악구'">
+                                                <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                                <ion-select-option value="보라매동">보라매동</ion-select-option>
+                                                <ion-select-option value="청림동">청림동</ion-select-option>
+                                                <ion-select-option value="행운동">행운동</ion-select-option>
+                                                <ion-select-option value="낙성대동">낙성대동</ion-select-option>
+                                                <ion-select-option value="중앙동">중앙동</ion-select-option>
+                                                <ion-select-option value="인헌동">인헌동</ion-select-option>
+                                                <ion-select-option value="남현동">남현동</ion-select-option>
+                                                <ion-select-option value="서원동">서원동</ion-select-option>
+                                                <ion-select-option value="신원동">신원동</ion-select-option>
+                                                <ion-select-option value="서림동">서림동</ion-select-option>
+                                                <ion-select-option value="신사동">신사동</ion-select-option>
+                                                <ion-select-option value="신림동">신림동</ion-select-option>
+                                                <ion-select-option value="난향동">난향동</ion-select-option>
+                                                <ion-select-option value="조원동">조원동</ion-select-option>
+                                                <ion-select-option value="대학동">대학동</ion-select-option>
+                                                <ion-select-option value="은천동">은천동</ion-select-option>
+                                                <ion-select-option value="성현동">성현동</ion-select-option>
+                                                <ion-select-option value="청룡동">청룡동</ion-select-option>
+                                                <ion-select-option value="난곡동">난곡동</ion-select-option>
+                                                <ion-select-option value="삼성동">삼성동</ion-select-option>
+                                                <ion-select-option value="미성동">미성동</ion-select-option>
+                                                </ion-select>
+                                                </div>
+                                                <div *ngIf="usergu == '서초구'">
+                                                  <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                                  <ion-select-option value="서초1동">서초1동</ion-select-option>
+                                                  <ion-select-option value="서초2동">서초2동</ion-select-option>
+                                                  <ion-select-option value="서초3동">서초3동</ion-select-option>
+                                                  <ion-select-option value="서초4동">서초4동</ion-select-option>
+                                                  <ion-select-option value="잠원동">잠원동</ion-select-option>
+                                                  <ion-select-option value="반포본동">반포본동</ion-select-option>
+                                                  <ion-select-option value="반포1동">반포1동</ion-select-option>
+                                                  <ion-select-option value="반포2동">반포2동</ion-select-option>
+                                                  <ion-select-option value="반포3동">반포3동</ion-select-option>
+                                                  <ion-select-option value="반포4동">반포4동</ion-select-option>
+                                                  <ion-select-option value="방배본동">방배본동</ion-select-option>
+                                                  <ion-select-option value="방배1동">방배1동</ion-select-option>
+                                                  <ion-select-option value="방배2동">방배2동</ion-select-option>
+                                                  <ion-select-option value="방배3동">방배3동</ion-select-option>
+                                                  <ion-select-option value="방배4동">방배4동</ion-select-option>
+                                                  <ion-select-option value="양재1동">양재1동</ion-select-option>
+                                                  <ion-select-option value="양재2동">양재2동</ion-select-option>
+                                                  <ion-select-option value="내곡동">내곡동</ion-select-option>
+                                                  </ion-select>
+                                                  </div>
+                                                  <div *ngIf="usergu == '송파구'">
+                                                    <ion-select placeholder="Select One" [(ngModel)]="userdong">
+                                                    <ion-select-option value="풍납1동">풍납1동</ion-select-option>
+                                                    <ion-select-option value="풍납2동">풍납2동</ion-select-option>
+                                                    <ion-select-option value="거여1동">거여1동</ion-select-option>
+                                                    <ion-select-option value="거여2동">거여2동</ion-select-option>
+                                                    <ion-select-option value="마천1동">마천1동</ion-select-option>
+                                                    <ion-select-option value="마천2동">마천2동</ion-select-option>
+                                                    <ion-select-option value="방이1동">방이1동</ion-select-option>
+                                                    <ion-select-option value="방이2동">방이2동</ion-select-option>
+                                                    <ion-select-option value="오륜동">오륜동</ion-select-option>
+                                                    <ion-select-option value="오금동">오금동</ion-select-option>
+                                                    <ion-select-option value="송파1동">송파1동</ion-select-option>
+                                                    <ion-select-option value="송파2동">송파2동</ion-select-option>
+                                                    <ion-select-option value="석촌동">석촌동</ion-select-option>
+                                                    <ion-select-option value="삼전동">삼전동</ion-select-option>
+                                                    <ion-select-option value="가락본동">가락본동</ion-select-option>
+                                                    <ion-select-option value="가락1동">가락1동</ion-select-option>
+                                                    <ion-select-option value="가락2동">가락2동</ion-select-option>
+                                                    <ion-select-option value="문정1동">문정1동</ion-select-option>
+                                                    <ion-select-option value="문정2동">문정2동</ion-select-option>
+                                                    <ion-select-option value="장지동">장지동</ion-select-option>
+                                                    <ion-select-option value="잠실본동">잠실본동</ion-select-option>
+                                                    <ion-select-option value="잠실4동">잠실4동</ion-select-option>
+                                                    <ion-select-option value="잠실6동">잠실6동</ion-select-option>
+                                                    <ion-select-option value="잠실7동">잠실7동</ion-select-option>
+                                                    <ion-select-option value="잠실2동">잠실2동</ion-select-option>
+                                                    <ion-select-option value="잠실3동">잠실3동</ion-select-option>
+                                                    </ion-select>
+                                                    </div>
+                                                         
+
+
       </ion-item>
       <ion-item>
         <ion-label position="floating">아이디</ion-label>
