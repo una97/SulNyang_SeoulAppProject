@@ -1,4 +1,12 @@
 import { Component } from '@angular/core';
+import { Platform } from '@ionic/angular';
+import { NavController } from '@ionic/angular';
+import {ActivatedRoute} from '@angular/router';
+import * as firebase from 'firebase';
+import { Router } from '@angular/router';
+import { AlertController } from '@ionic/angular';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpModule } from '@angular/http';
 
 @Component({
   selector: 'app-tab1',
@@ -6,7 +14,12 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
-  constructor() {}
-
+  public userid: string = null;
+  constructor(
+    public plat: Platform,
+    public activatedRoute: ActivatedRoute,
+    public navCtrl: NavController,
+    public router: Router,
+    public atrCtrl: AlertController
+    ) {}
 }
