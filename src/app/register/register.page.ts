@@ -4,7 +4,7 @@ import { auth } from 'firebase/app';
 import { NavController } from '@ionic/angular';
 import { AlertController } from '@ionic/angular';
 import { AngularFireDatabase } from 'angularfire2/database';
-import { IonicStorageModule } from '@ionic/storage';
+import { Storage } from '@ionic/storage';
 
 @Component({
   selector: 'app-register',
@@ -29,7 +29,7 @@ export class RegisterPage implements OnInit {
     public afAuth: AngularFireAuth,
     private alertCtrl: AlertController,
     public db: AngularFireDatabase,
-    public Storage: IonicStorageModule
+    public stor: Storage
     ) { }
   ngOnInit() {
   }

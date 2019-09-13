@@ -28,7 +28,8 @@ import { IonicStorageModule } from '@ionic/storage';
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    IonicStorageModule
+    IonicStorageModule,
+    IonicStorageModule.forRoot()
   ],
   providers: [
     StatusBar,

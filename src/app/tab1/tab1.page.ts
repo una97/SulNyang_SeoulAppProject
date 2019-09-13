@@ -5,7 +5,7 @@ import {ActivatedRoute} from '@angular/router';
 import * as firebase from 'firebase';
 import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
-import { IonicStorageModule } from '@ionic/storage';
+import { Storage } from '@ionic/storage';
 
 @Component({
   selector: 'app-tab1',
@@ -20,6 +20,39 @@ export class Tab1Page {
     public navCtrl: NavController,
     public router: Router,
     public atrCtrl: AlertController,
-    public Storage: IonicStorageModule
+    public stor: Storage
     ) {}
+    ionViewWillEnter() {
+      this.stor.get('id').then((val) => {
+        this.userid = val;
+        console.log(val);
+      });
+    }
+    async atrLout() {
+      const alert = await this.atrCtrl.create({
+        header: '확인',
+        message: '로그아웃되었습니다',
+        buttons: [
+          {
+            text: 'Okay',
+            role: 'cancel',
+            handler: (blah) => {
+              console.log('logout');
+              this.router.navigateByUrl('/tabs/tab1');
+            }
+          }
+        ]
+      });
+      await alert.present();
+    }
+    logout() {
+      this.userid = null;
+      this.stor.set('id', null);
+      // tslint:disable-next-line:only-arrow-functions
+      firebase.auth().signOut().then(function() { // 채팅 못하도록 함
+        console.log('Sign-out successful');
+      });
+      this.router.navigateByUrl('tabs/tab1');
+      this.atrLout();
+    }
 }
