@@ -4,6 +4,7 @@ import { auth } from 'firebase/app';
 import { NavController } from '@ionic/angular';
 import { AlertController } from '@ionic/angular';
 import { Router } from '@angular/router';
+import { IonicStorageModule } from '@ionic/storage';
 
 @Component({
   selector: 'app-login',
@@ -21,7 +22,8 @@ export class LoginPage implements OnInit {
     public navCtrl: NavController,
     public afAuth: AngularFireAuth,
     private alertCtrl: AlertController,
-    public router: Router
+    public router: Router,
+    public Storage: IonicStorageModule
     ) { }
 
   ngOnInit() {

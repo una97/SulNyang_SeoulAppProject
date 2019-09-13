@@ -27,6 +27,7 @@
     "@ionic/angular": "^4.7.1",
     "@ionic/storage": "^2.2.0",
     "angularfire2": "^5.2.1",
+    "cordova-sqlite-storage": "3.3.0",
     "core-js": "^2.5.4",
     "firebase": "^6.6.0",
     "rxjs": "~6.5.1",
@@ -59,5 +60,10 @@
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-sqlite-storage": {}
+    }
+  }
 }

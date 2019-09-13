@@ -4,6 +4,7 @@ import { auth } from 'firebase/app';
 import { NavController } from '@ionic/angular';
 import { AlertController } from '@ionic/angular';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { IonicStorageModule } from '@ionic/storage';
 
 @Component({
   selector: 'app-register',
@@ -27,7 +28,8 @@ export class RegisterPage implements OnInit {
     public navCtrl: NavController,
     public afAuth: AngularFireAuth,
     private alertCtrl: AlertController,
-    public db: AngularFireDatabase
+    public db: AngularFireDatabase,
+    public Storage: IonicStorageModule
     ) { }
   ngOnInit() {
   }
@@ -58,9 +60,11 @@ export class RegisterPage implements OnInit {
       });
       return;
     }
-
-    this.db.object(`userInfo/${this.userid}/usergu`).set(this.usergu);
-    this.db.object(`userInfo/${this.userid}/userdong`).set(this.userdong);
+    // tslint:disable-next-line:prefer-const
+    let strArray = this.username.split('.');
+    this.db.object(`userInfo/${strArray[0]}/userid`).set(this.userid);
+    this.db.object(`userInfo/${strArray[0]}/usergu`).set(this.usergu);
+    this.db.object(`userInfo/${strArray[0]}/userdong`).set(this.userdong);
     try {
       const res =  this.afAuth.auth.createUserWithEmailAndPassword(username, password);
       this.navCtrl.navigateBack('/tabs/tab1');

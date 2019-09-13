@@ -5,8 +5,7 @@ import {ActivatedRoute} from '@angular/router';
 import * as firebase from 'firebase';
 import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
-import { HttpClientModule } from '@angular/common/http';
-import { HttpModule } from '@angular/http';
+import { IonicStorageModule } from '@ionic/storage';
 
 @Component({
   selector: 'app-tab1',
@@ -20,6 +19,7 @@ export class Tab1Page {
     public activatedRoute: ActivatedRoute,
     public navCtrl: NavController,
     public router: Router,
-    public atrCtrl: AlertController
+    public atrCtrl: AlertController,
+    public Storage: IonicStorageModule
     ) {}
 }
