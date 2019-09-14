@@ -7,8 +7,6 @@
     <ion-icon slot="icon-only"name="search"></ion-icon>
   </ion-button>
   </ion-toolbar> -->
-
-
   <ion-toolbar>
       <ion-buttons slot="secondary">
           <ion-button >
@@ -20,7 +18,7 @@
         <ion-button >
           <ion-icon slot="icon-only" ios="ios-search" md="md-search"></ion-icon>
         </ion-button>
-        <ion-button >
+        <ion-button (click)="goCreatePost()" >
             <ion-icon slot="icon-only" ios="ios-create" md="md-create"></ion-icon>
           </ion-button>
          
@@ -41,8 +39,9 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
-
+    <!-- <ion-col *ngFor="let item of items" col-12 no-padding>
+      밑에도 매개변수 item넣기  -->
+  <ion-card (click)="getPost()">
     <ion-row>
       <ion-col col-3>
         <!-- <ion-avatar item-start> -->
@@ -51,7 +50,7 @@
       </ion-col>
       <ion-col col-7>
           <ion-card-header>
-           
+      
             </ion-card-header>
             <ion-card-content>
                 dsdf

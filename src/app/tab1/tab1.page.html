@@ -5,6 +5,7 @@
     </ion-title>
     <div align="right" *ngIf="userid == null">
       <button class="butn" [routerLink]="['/login']" routerDirection="forward">로그인</button><br>
+    
     </div>
     <div align="right" *ngIf="userid != null">
       <table>

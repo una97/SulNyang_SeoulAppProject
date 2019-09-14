@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button text="" defaultHref="/tabs/tab2"></ion-back-button>
+        </ion-buttons>
+    <ion-title>글쓰기</ion-title>
+    <ion-buttons slot="primary">
+        <ion-button (click)="register()" >
+          완료
+        </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-grid>
+      <ion-row>
+        <div id="camera">
+          <img id="imgboard"src="">
+        </div>
+      </ion-row>
+      <ion-row>
+        <button style="width:100%; height:150px;" ion-button (click)="pickPicture()">
+          <ion-icon name="image"></ion-icon><p>사진 업로드</p>
+          </button>
+      </ion-row>
+    </ion-grid>
+    <ion-item>
+      <ion-label>
+        카테고리 선택
+      </ion-label>
+      <ion-select [(ngModel)]="category">
+        <ion-select-option value="help">위탁</ion-select-option>
+        <ion-select-option value="give">분양</ion-select-option>
+      </ion-select>
+      
+    </ion-item>
+    
+    <ion-item>
+        <ion-label>
+          동네 선택
+        </ion-label>
+        <ion-select [(ngModel)]="address">
+        </ion-select>
+        
+      </ion-item>
+      
+    <ion-item>
+        <ion-input type = "text" [(ngModel)]="titleInput" placeholder="글 제목"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-textarea rows="20" [(ngModel)]="contentInput" placeholder="글 내용"></ion-textarea>
+    </ion-item>
+</ion-content>
