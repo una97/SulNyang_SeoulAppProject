@@ -17,6 +17,9 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IonicStorageModule } from '@ionic/storage';
+import { AngularFireStorageModule } from 'angularfire2/storage';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { Camera } from '@ionic-native/camera/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -27,6 +30,7 @@ import { IonicStorageModule } from '@ionic/storage';
     AppRoutingModule,
     AngularFireDatabaseModule,
     AngularFireAuthModule,
+    AngularFireStorageModule,
     AngularFireModule.initializeApp(firebaseConfig),
     IonicStorageModule,
     IonicStorageModule.forRoot()
@@ -34,6 +38,8 @@ import { IonicStorageModule } from '@ionic/storage';
   providers: [
     StatusBar,
     SplashScreen,
+    AngularFirestore,
+    Camera,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
