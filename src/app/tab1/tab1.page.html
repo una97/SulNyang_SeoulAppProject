@@ -3,13 +3,23 @@
     <ion-title>
       설냥
     </ion-title>
-    <div *ngIf="userid == null">
+    <div align="right" *ngIf="userid == null">
       <button class="butn" [routerLink]="['/login']" routerDirection="forward">로그인</button><br>
-      <button class="butn" [routerLink]="['/register']" routerDirection="forward">회원가입</button>
     </div>
-    <div *ngIf="userid != null">
-      {{userid}}
-      <button class="butn" (click)="logout()">로그아웃</button>
+    <div align="right" *ngIf="userid != null">
+      <table>
+        <tbody align="center">
+        <tr>
+          <ion-avatar>
+                <img src="../../../assets/icon/favicon.png">
+          </ion-avatar>
+        </tr>
+        <tr>{{userid}}</tr>
+        <tr>
+          <button class="butn" (click)="logout()">로그아웃</button>
+        </tr>
+      </tbody>
+    </table>
     </div> 
   </ion-toolbar>
 </ion-header>
