@@ -17,9 +17,9 @@ export class CreatePostPage implements OnInit {
   download;
   pictureRef;
   picname: string = "";
-  imageURI;
+  imageURI: string = "";
   tmpimgurl:any;
-
+  public keyforpost;
   public userid:string;
   category:string='';
   titleInput:string='';
@@ -51,7 +51,30 @@ export class CreatePostPage implements OnInit {
   ngOnInit() {
   }
 
-
+  pickPicture() {
+    // tslint:disable-next-line:prefer-const
+    let options = {
+      quality: 100,
+      targetWidth: 500,
+      targetHeight: 500,
+      allowEdit: true,
+      destinationType: this.camera.DestinationType.DATA_URL,
+      sourceType: this.camera.PictureSourceType.PHOTOLIBRARY
+    };
+    this.camera.getPicture(options).then((imageURI) => {
+      // tslint:disable-next-line:prefer-const
+      let newName = `${new Date().getTime()}.png`;
+      console.log(imageURI);
+      // 이미지 미리보기
+      document.getElementById('imgboard').setAttribute('src', 'data:image/jpeg;base64,' + imageURI);
+      this.imageURI = imageURI;
+      this.picname = newName;
+      console.log(this.picname);
+      this.st.ref(`picture/${newName}`).putString(imageURI, 'base64', {contentType: 'image/png'});
+    }, (err) => {
+      console.log('err:' + JSON.stringify(err));
+    });
+  }
   
   register(){
     if(!this.userid){
@@ -86,7 +109,26 @@ export class CreatePostPage implements OnInit {
       this.regisTxt.content=this.contentInput;
       this.regisTxt.img=this.picname;
       alert('글이 등록되었습니다.');
+      this.keyforpost = new Date().getTime();
+      this.db.object(`regisTxt/${this.keyforpost}`).set(this.regisTxt);
+      // tslint:disable-next-line:max-line-length
+      if (this.regisTxt.img !== '') {
+        this.showImage();
+      }
     }
 
   }
+  showImage() {
+    // tslint:disable-next-line: prefer-const
+          let storageRef = firebase.storage().ref();
+    // tslint:disable-next-line: prefer-const
+          let imageRef = storageRef.child(`picture/${this.picname}`);
+          // console.log(imageRef.getDownloadURL());
+          imageRef.getDownloadURL()
+          .then((imageURI) => {
+            console.log(imageURI);
+            this.tmpimgurl = imageURI;
+            this.db.object(`regisTxt/${this.keyforpost}/img`).set(this.tmpimgurl);
+          });
+        }
 }
