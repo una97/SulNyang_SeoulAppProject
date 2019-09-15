@@ -9,6 +9,7 @@ import { AngularFireModule } from 'angularfire2';
 import { environment } from 'src/environments/environment';
 import { AngularFirestoreModule, FirestoreSettingsToken} from '@angular/fire/firestore';
 
+
 // Firebase Config
 import { firebaseConfig } from './firebase';
 
@@ -33,6 +34,7 @@ import { Camera } from '@ionic-native/camera/ngx';
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
+    AngularFirestoreModule,
     AngularFireModule.initializeApp(firebaseConfig, environment.firebase),
     IonicStorageModule,
     IonicStorageModule.forRoot()
