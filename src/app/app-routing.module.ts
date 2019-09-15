@@ -9,7 +9,9 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
   { path: 'post', loadChildren: './post/post.module#PostPageModule' },
-  { path: 'create-post', loadChildren: './create-post/create-post.module#CreatePostPageModule' }
+  { path: 'create-post', loadChildren: './create-post/create-post.module#CreatePostPageModule' },
+  { path: 'tabs/tab4',  loadChildren: './pages/idea-list/idea-list.module#IdeaListPageModule' },
+  { path: 'idea/:id', loadChildren: './pages/idea-details/idea-details.module#IdeaDetailsPageModule' }
 ];
 @NgModule({
   imports: [

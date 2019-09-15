@@ -6,6 +6,8 @@ import { RouteReuseStrategy } from '@angular/router';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireModule } from 'angularfire2';
+import { environment } from 'src/environments/environment';
+import { AngularFirestoreModule, FirestoreSettingsToken} from '@angular/fire/firestore';
 
 // Firebase Config
 import { firebaseConfig } from './firebase';
@@ -31,7 +33,7 @@ import { Camera } from '@ionic-native/camera/ngx';
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
-    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(firebaseConfig, environment.firebase),
     IonicStorageModule,
     IonicStorageModule.forRoot()
   ],
@@ -40,7 +42,8 @@ import { Camera } from '@ionic-native/camera/ngx';
     SplashScreen,
     AngularFirestore,
     Camera,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    { provide: FirestoreSettingsToken, useValue: {} }
   ],
   bootstrap: [AppComponent]
 })
