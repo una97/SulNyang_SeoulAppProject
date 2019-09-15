@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color = "primary">
+      <ion-buttons slot = "start">
+        </ion-buttons>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <section *ngIf ="(afAuth.user | async) as user; else loginItems">
+    {{ user.email }}님 안녕하세요!
+    환영합니다
+     <ion-card>
+        <img src="../../../assets/icon/favicon.png">
+     </ion-card>
+    *************임시로 적어봤어오**********
+    <ion-item>
+         내가쓴글
+    </ion-item>
+    <ion-item>
+        임시저장 글
+    </ion-item>
+    <ion-button (click)="logout()">로그아웃</ion-button>
+    <ion-button >회원탈퇴</ion-button>
+  </section>
+  
+  <ng-template #loginItems>
+  <ion-list>
+      <ion-item>
+        <ion-label position="floating" id = "input-name">이메일</ion-label>
+        <ion-input type="text" [(ngModel)]="username"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating" id ="input-password">비밀번호</ion-label>
+        <ion-input type="password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+  </ion-list>
+  <ion-button fill="solid" expand="block" color="dark" (click)="login()">Login</ion-button>
+  <br>
+  <p align="center">
+  아직 회원이 아니신가요?&nbsp;<button class="butn" [routerLink]="['/register']" routerDirection="forward">회원가입</button>
+  </p>
+</ng-template>
+</ion-content>

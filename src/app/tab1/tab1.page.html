@@ -4,20 +4,20 @@
       설냥
     </ion-title>
     <div align="right" *ngIf="userid == null">
-      <button class="butn" [routerLink]="['/login']" routerDirection="forward">로그인</button><br>
+     <!-- <button class="butn" [routerLink]="['/login']" routerDirection="forward">로그인</button><br>-->
     
     </div>
     <div align="right" *ngIf="userid != null">
       <table>
         <tbody align="center">
         <tr>
-          <ion-avatar>
+         <!-- <ion-avatar>
                 <img src="../../../assets/icon/favicon.png">
           </ion-avatar>
         </tr>
         <tr>{{userid}}</tr>
         <tr>
-          <button class="butn" (click)="logout()">로그아웃</button>
+          <button class="butn" (click)="logout()">로그아웃</button>-->
         </tr>
       </tbody>
     </table>
