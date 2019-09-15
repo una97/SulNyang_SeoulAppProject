@@ -39,7 +39,7 @@ export class PostPage implements OnInit {
 
   ngOnInit() {
   }
-  async chat2Me() {
+  /*async chat2Me() {
     const alert2 = await this.atrCtrl.create({
       header: '경고!',
       message: '본인이 작성한 게시글입니다',
@@ -136,4 +136,5 @@ export class PostPage implements OnInit {
     });
     await alert.present();
   }
+  */
 }
