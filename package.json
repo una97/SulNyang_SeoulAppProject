@@ -29,6 +29,7 @@
     "@ionic/angular": "^4.7.1",
     "@ionic/storage": "^2.2.0",
     "angularfire2": "^5.2.1",
+    "cordova-ios": "^5.0.1",
     "cordova-plugin-camera": "4.1.0",
     "cordova-sqlite-storage": "3.3.0",
     "core-js": "^2.5.4",
@@ -61,13 +62,28 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.4.3"
+    "typescript": "~3.4.3",
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-statusbar": "2.4.2",
+    "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-ionic-webview": "^4.0.0",
+    "cordova-plugin-ionic-keyboard": "^2.0.5"
   },
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
       "cordova-sqlite-storage": {},
-      "cordova-plugin-camera": {}
-    }
+      "cordova-plugin-camera": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
+    },
+    "platforms": [
+      "ios"
+    ]
   }
 }
