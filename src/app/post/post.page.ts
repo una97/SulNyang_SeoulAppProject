@@ -3,7 +3,7 @@ import {NavController, AlertController} from '@ionic/angular';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Router ,ActivatedRoute} from '@angular/router';
+import { Router , ActivatedRoute} from '@angular/router';
 import * as firebase from 'firebase';
 import { Storage } from '@ionic/storage';
 import { from } from 'rxjs';
@@ -13,31 +13,31 @@ import { from } from 'rxjs';
   styleUrls: ['./post.page.scss'],
 })
 export class PostPage implements OnInit {
-//글 보여주기 위한 변수들
-  temp:any;
-  public item:any;
-  title:string;
+// 글 보여주기 위한 변수들
+  temp: any;
+  public item: any;
+  title: string;
 
 
-//채팅에 필요한 변수들
-  check=false;
-  chattingRef:any;
-  getuid1:string;
-  getuid2:string;
-  size:number;
-  index:number;
-  first=true;
-  getSize:any;
-  currentU:string;
+// 채팅에 필요한 변수들
+  check = false;
+  chattingRef: any;
+  getuid1: string;
+  getuid2: string;
+  size: number;
+  index: number;
+  first = true;
+  getSize: any;
+  currentU: string;
   constructor(
-    public navCtrl : NavController,
-    public atrCtrl : AlertController,
-    public db : AngularFireDatabase,
-    public fs : AngularFirestore,
-    public af : AngularFireAuth, 
-    public router : Router,
-    public stor : Storage,
-    public activatedRoute:ActivatedRoute
+    public navCtrl: NavController,
+    public atrCtrl: AlertController,
+    public db: AngularFireDatabase,
+    public fs: AngularFirestore,
+    public af: AngularFireAuth,
+    public router: Router,
+    public stor: Storage,
+    public activatedRoute: ActivatedRoute
   ) {
    }
 
@@ -50,11 +50,11 @@ export class PostPage implements OnInit {
   }
 
   load() {
-    
+
     this.db.list('regisTxt/', ref => ref.orderByChild('title').equalTo(this.title)).valueChanges().subscribe(
       data => {
-        if(data.length != 1) return; // TODO: Error exception
-        this.item=data[0];
+        if(data.length !== 1) { return; } // TODO: Error exception
+        this.item = data[0];
     });
     console.log(this.item);
   }
@@ -92,8 +92,8 @@ export class PostPage implements OnInit {
             handler: () => {
               console.log('Confirm Okay');
 
-              var tmp1 = this.currentU;
-              var tmp2 = you;
+              const tmp1 = this.currentU;
+              const tmp2 = you;
 
               if ( tmp1 === tmp2 ) {
                 this.chat2Me();
@@ -104,16 +104,15 @@ export class PostPage implements OnInit {
 
                 collection.get().then(snapshot => {
                   snapshot.forEach(doc => {
-                    let get1 = doc.data().uid1;
-                    let get2 = doc.data().uid2;
+                    const get1 = doc.data().uid1;
+                    const get2 = doc.data().uid2;
                     this.getuid1 = get1;
                     this.getuid2 = get2;
                     if ((tmp1 === this.getuid1 && tmp2 === this.getuid2) || (tmp1 === this.getuid2 && tmp2 === this.getuid1)) {
                       this.check = true;
                     }
                   });
-                  if (this.check === false)
-                  {
+                  if (this.check === false) {
                     this.size = snapshot.size;
                     if (this.size === 0) { // 채팅 목록이 한개도 없음
                       this.index = 0;
@@ -147,7 +146,7 @@ export class PostPage implements OnInit {
                     console.log('new chatting list');
                   }
                 });
-                this.router.navigate(['chat-view',you]);
+                this.router.navigate(['chat-view', you]);
                 }
             }
           }

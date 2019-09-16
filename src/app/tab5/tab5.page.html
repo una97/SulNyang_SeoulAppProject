@@ -2,26 +2,37 @@
   <ion-toolbar color = "primary">
       <ion-buttons slot = "start">
         </ion-buttons>
-    <ion-title>login</ion-title>
+    <section *ngIf ="(afAuth.user | async) as user; else loginTitle">
+    <ion-title>마이페이지</ion-title>
+    </section>
+    <ng-template #loginTitle>
+        <ion-title>로그인</ion-title>
+    </ng-template>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
   <section *ngIf ="(afAuth.user | async) as user; else loginItems">
-    {{ user.email }}님 안녕하세요!
-    환영합니다
-     <ion-card>
-        <img src="../../../assets/icon/favicon.png">
-     </ion-card>
-    *************임시로 적어봤어오**********
+     <p align="center"><b>{{userid}}</b>님 안녕하세요!<br><br></p>
+     <div align="center">
+       <ion-avatar>
+        <img id="upic" src="{{userpic}}">
+      </ion-avatar>
+      <ion-button shape="round" ion-button (click)="pickPicture()">
+          <ion-icon name="image"></ion-icon>
+      </ion-button>
+    </div>
+    <br><br>
     <ion-item>
-         내가쓴글
+         내가 쓴글
     </ion-item>
     <ion-item>
-        임시저장 글
+        내 제보
     </ion-item>
+    <br><br>
+    <div align="center">
     <ion-button (click)="logout()">로그아웃</ion-button>
-    <ion-button >회원탈퇴</ion-button>
+    </div>
   </section>
   
   <ng-template #loginItems>
@@ -35,6 +46,7 @@
         <ion-input type="password" [(ngModel)]="password"></ion-input>
       </ion-item>
   </ion-list>
+
   <ion-button fill="solid" expand="block" color="dark" (click)="login()">Login</ion-button>
   <br>
   <p align="center">

@@ -23,6 +23,8 @@ export class RegisterPage implements OnInit {
   userid: string;
   usergu: string;
   userdong: string;
+  // tslint:disable-next-line:max-line-length
+  userpic = 'https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/%E1%84%82%E1%85%A3%E1%86%BC%E1%84%8B%E1%85%B5.jpg?alt=media&token=77e407ea-791e-461a-8e03-e5959635300f';
 
   constructor(
     public navCtrl: NavController,
@@ -65,6 +67,8 @@ export class RegisterPage implements OnInit {
     this.db.object(`userInfo/${strArray[0]}/userid`).set(this.userid);
     this.db.object(`userInfo/${strArray[0]}/usergu`).set(this.usergu);
     this.db.object(`userInfo/${strArray[0]}/userdong`).set(this.userdong);
+    // tslint:disable-next-line:max-line-length
+    this.db.object(`userInfo/${strArray[0]}/userpic`).set(this.userpic);
     try {
       const res =  this.afAuth.auth.createUserWithEmailAndPassword(username, password);
       this.navCtrl.navigateBack('/tabs/tab1');
