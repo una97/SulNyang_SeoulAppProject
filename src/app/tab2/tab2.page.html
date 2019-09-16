@@ -1,18 +1,9 @@
 <ion-header>
-  <!-- <ion-toolbar>
-    <ion-title>
-      게시판
-    </ion-title>
-  <ion-button >
-    <ion-icon slot="icon-only"name="search"></ion-icon>
-  </ion-button>
-  </ion-toolbar> -->
   <ion-toolbar>
       <ion-buttons slot="secondary">
           <ion-button >
               <ion-icon slot="icon-only" name="funnel"></ion-icon>
             </ion-button>
-       
       </ion-buttons>
       <ion-buttons slot="primary">
         <ion-button >
@@ -27,7 +18,7 @@
     </ion-toolbar>
 
 
-  <ion-segment (ionChange)="segmentChanged($event)" >
+  <ion-segment [(ngModel)]="segment" (ionChange)="segmentChanged($event)" >
       <ion-segment-button value="help">
       <ion-label>위탁</ion-label>
       </ion-segment-button>
@@ -39,35 +30,32 @@
 </ion-header>
 
 <ion-content>
-    <!-- <ion-col *ngFor="let item of items" col-12 no-padding>
-      밑에도 매개변수 item넣기  -->
-  <ion-card (click)="getPost()">
-    <ion-row>
-      <ion-col col-3>
-        <!-- <ion-avatar item-start> -->
-          <img src="/assets/una.jpg">
-        <!-- </ion-avatar> -->
-      </ion-col>
-      <ion-col col-7>
-          <ion-card-header>
-      
-            </ion-card-header>
-            <ion-card-content>
-                dsdf
-            </ion-card-content>
-      </ion-col>
-      <ion-col col-2>
-
-      </ion-col>
-    </ion-row>
-   <!-- <ion-row>
-      <ion-col col-2>
-          <ion-icon name= "heart"></ion-icon>
+  <ion-col *ngFor="let item of items" col-12 no-padding>
+    <ion-card    (click)="getPost(item)">
+      <ion-row>
+        <ion-col col-3>
+          <!-- <ion-avatar item-start> -->
+            <img src="{{item.img}}">
+          <!-- </ion-avatar> -->
         </ion-col>
-   </ion-row> -->
-  </ion-card>
-
-
-
+        <ion-col col-7>
+            <ion-card-header>
+              {{item.title}}
+              </ion-card-header>
+              <ion-card-content>
+                  {{item.content}}
+              </ion-card-content>
+        </ion-col>
+      
+      </ion-row>
+      <!-- </ion-col> -->
+     <!-- <ion-row>
+        <ion-col col-2>
+            <ion-icon name= "heart"></ion-icon>
+          </ion-col>
+     </ion-row> -->
+    </ion-card>
+  
+  </ion-col>
   
 </ion-content>

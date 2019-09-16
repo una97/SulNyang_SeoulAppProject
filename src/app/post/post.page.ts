@@ -3,7 +3,7 @@ import {NavController, AlertController} from '@ionic/angular';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Router } from '@angular/router';
+import { Router ,ActivatedRoute} from '@angular/router';
 import * as firebase from 'firebase';
 import { Storage } from '@ionic/storage';
 import { from } from 'rxjs';
@@ -13,7 +13,13 @@ import { from } from 'rxjs';
   styleUrls: ['./post.page.scss'],
 })
 export class PostPage implements OnInit {
+//글 보여주기 위한 변수들
+  temp:any;
+  public item:any;
+  title:string;
 
+
+//채팅에 필요한 변수들
   check=false;
   chattingRef:any;
   getuid1:string;
@@ -30,14 +36,24 @@ export class PostPage implements OnInit {
     public fs : AngularFirestore,
     public af : AngularFireAuth, 
     public router : Router,
-    public stor : Storage
+    public stor : Storage,
+    public activatedRoute:ActivatedRoute
   ) {
+    this.title = this.activatedRoute.snapshot.paramMap.get('title');
+    this.load();
     this.stor.get('id').then((val) => {
       this.currentU = val;
     });
    }
 
   ngOnInit() {
+  }
+
+  load(){
+    this.db.list('regisTxt/', ref => ref.orderByChild('title').equalTo(this.title)).valueChanges().subscribe(
+      data => {
+       this.item=data;
+    });
   }
   /*async chat2Me() {
     const alert2 = await this.atrCtrl.create({

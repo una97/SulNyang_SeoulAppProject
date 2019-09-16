@@ -1,25 +1,41 @@
 import { Component,OnInit, ViewChild } from '@angular/core';
-import {IonSegment} from '@ionic/angular';
+import {Storage} from '@ionic/storage';
+import { Platform} from '@ionic/angular';
 import {ActivatedRoute, Router} from '@angular/router';
 import { NavController } from '@ionic/angular';
+import {AngularFireDatabase} from 'angularfire2/database';
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-// segment:IonSegment;
- //@ViewChild(IonSegment) segment: IonSegment;
-  constructor( public router: Router, public navCtrl: NavController) {}
+public title:string;
+public items=[];
+segment:string;
+  constructor( 
+    public router: Router, 
+    public navCtrl: NavController,
+    public plat:Platform,
+    public stor:Storage,
+    public activatedRoute:ActivatedRoute,
+    public db:AngularFireDatabase
+  ) {}
   ngOnInit(){
-//  this.segment.value='help';
+    this.segment='help';
+    this.loadList();
   }
 
   segmentChanged(event){
-    const valueSeg = event.detail.value;
-    console.log(valueSeg);
+    this.segment=event.detail.value;
+    this.loadList();
   }
-
+  loadList(){
+    this.db.list('regisTxt/',ref=>ref.orderByChild('category/').equalTo(this.segment)).valueChanges().subscribe(
+      data=>{
+        this.items=data;
+      });
+  }
 
   // getPost(item: any) {
   //   this.title = item.title;
@@ -29,8 +45,9 @@ export class Tab2Page {
   goCreatePost(){
     this.router.navigate(['create-post']);
   }
-  getPost(){
-    this.router.navigate(['post']);
+  getPost(item:any){
+    this.title=item.title;
+    this.router.navigate(['post',this.title]);
   }
 
 }
