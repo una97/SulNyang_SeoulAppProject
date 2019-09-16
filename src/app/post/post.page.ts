@@ -39,21 +39,24 @@ export class PostPage implements OnInit {
     public stor : Storage,
     public activatedRoute:ActivatedRoute
   ) {
+   }
+
+  async ngOnInit() {
     this.title = this.activatedRoute.snapshot.paramMap.get('title');
     this.load();
     this.stor.get('id').then((val) => {
       this.currentU = val;
     });
-   }
-
-  ngOnInit() {
   }
 
-  load(){
+  load() {
+    
     this.db.list('regisTxt/', ref => ref.orderByChild('title').equalTo(this.title)).valueChanges().subscribe(
       data => {
-       this.item=data;
+        if(data.length != 1) return; // TODO: Error exception
+        this.item=data[0];
     });
+    console.log(this.item);
   }
   /*async chat2Me() {
     const alert2 = await this.atrCtrl.create({

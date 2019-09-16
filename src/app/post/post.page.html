@@ -1,9 +1,9 @@
-<ion-header>
+<ion-header *ngIf="item">
   <ion-toolbar>
       <ion-buttons slot="start">
           <ion-back-button text="" defaultHref="/tabs/tab2"></ion-back-button>
         </ion-buttons>
-    <ion-title></ion-title>
+    <ion-title>{{item.category}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -11,7 +11,7 @@
 
   <!-- <ion-item> -->
     <!-- <ion-label>       -->
-      <img src="/assets/una.jpg"/>
+      <img src="{{item.img}}"/>
     <!-- </ion-label> -->
   <!-- </ion-item> -->
   <br>
@@ -23,7 +23,7 @@
                 <img src="/assets/una.jpg"/>
             </ion-avatar>
          </td>
-        <td>유저아이디</td>
+        <td>{{item.userid}}</td>
       </tr>
       <tr> 
         <td>사는곳</td>
@@ -31,7 +31,7 @@
     </table>
   </ion-item>
  <!-- <ion-button shape="round" fill="outline" (click)="gotoChat(item.user)"><ion-icon name="contact"></ion-icon>{{item.user}}</ion-button>-->
-  <ion-item><b>타이틀</b></ion-item>
+  <ion-item><b>{{item.title}}</b></ion-item>
   <ion-item>
       <ion-label position="floating">
       
