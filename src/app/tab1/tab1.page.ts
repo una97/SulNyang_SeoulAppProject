@@ -60,4 +60,7 @@ export class Tab1Page {
     goInform(){
       this.router.navigateByUrl('inform');
     }
+    goMap(){
+      this.router.navigateByUrl('hospital');
+    }
 }

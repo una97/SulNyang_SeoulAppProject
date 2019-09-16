@@ -105,8 +105,7 @@ export class ChatViewPage implements OnInit {
           role:'cancel',
           handler:(blah)=>{
             console.log('채팅방 삭제');
-            //window.location.href = '/tabs/tab1';
-            this.router.navigateByUrl('tab1');
+            this.router.navigateByUrl('/tabs/tab1');
           }
         }
       ]
