@@ -67,6 +67,7 @@ user: User = {
   async login() {
     // tslint:disable-next-line:prefer-const
     let useridtmp;
+    let userpictmp;
     const { username, password } = this;
     try {
         const rootRef = firebase.database().ref();
