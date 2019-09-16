@@ -41,7 +41,7 @@ export class PostPage implements OnInit {
   ) {
    }
 
-  async ngOnInit() {
+   ngOnInit() {
     this.title = this.activatedRoute.snapshot.paramMap.get('title');
     this.load();
     this.stor.get('id').then((val) => {
@@ -50,10 +50,9 @@ export class PostPage implements OnInit {
   }
 
   load() {
-
     this.db.list('regisTxt/', ref => ref.orderByChild('title').equalTo(this.title)).valueChanges().subscribe(
       data => {
-        if(data.length !== 1) { return; } // TODO: Error exception
+        if (data.length !== 1) { return; } // TODO: Error exception
         this.item = data[0];
     });
     console.log(this.item);
@@ -126,6 +125,7 @@ export class PostPage implements OnInit {
                         num: this.index
                       });
                     } else { // 채팅 목록이 1개이상 존재할 때
+                      // tslint:disable-next-line:no-shadowed-variable
                       db.collection('ListSize').get().then( snapshot => {
                         snapshot.forEach(doc => {
                           this.getSize = doc.data().index;
