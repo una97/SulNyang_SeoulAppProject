@@ -55,4 +55,7 @@ export class Tab1Page {
       this.router.navigateByUrl('tabs/tab1');
       this.atrLout();
     }
+    map(){
+      this.router.navigateByUrl('/hospital');
+    }
 }
