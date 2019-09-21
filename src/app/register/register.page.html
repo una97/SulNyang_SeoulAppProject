@@ -41,14 +41,12 @@
           <ion-select-option value="강남구">강남구</ion-select-option>
           <ion-select-option value="송파구">송파구</ion-select-option>
           <ion-select-option value="강동구">강동구</ion-select-option>
-          
-          
         </ion-select>
       </ion-item>
 
       <ion-item>  
         <ion-label>동</ion-label>
-        <div class="placeholder" *ngIf="usergu == '강남구'">
+        <div class="placeholder" *ngIf="usergu == '강남구'" >
           <ion-select placeholder="Select One" [(ngModel)]="userdong" >
             <ion-select-option value="역삼동">역삼동</ion-select-option>
             <ion-select-option value="개포동">개포동</ion-select-option>
