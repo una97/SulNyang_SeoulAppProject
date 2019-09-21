@@ -12,7 +12,7 @@
 </ion-header>
 
 <ion-content padding>
-  <section *ngIf ="(afAuth.user | async) as user; else loginItems">
+  <section *ngIf ="userid!=null; else loginItems">
      <p align="center"><b>{{userid}}</b>님 안녕하세요!<br><br></p>
      <div align="center">
        <ion-avatar>
@@ -26,9 +26,28 @@
     <ion-item>
          내가 쓴글
     </ion-item>
+    <!--<section *ngIf="userauth=='일반사용자'; else admin">
     <ion-item>
         내 제보
     </ion-item>
+    </section>-->
+    <section *ngIf="userauth==null; else admin">
+    <ion-item>
+        내 제보
+    </ion-item>
+    </section>
+    <ng-template #admin>
+      <section *ngIf="userauth=='일반사용자'">
+      <ion-item>
+        내 제보
+      </ion-item>
+    </section>
+    <section *ngIf="userauth=='관리자'">
+        <ion-item>
+          제보 확인
+        </ion-item>
+      </section>
+    </ng-template>
     <br><br>
     <div align="center">
     <ion-button (click)="logout()">로그아웃</ion-button>

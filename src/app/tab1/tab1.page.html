@@ -3,29 +3,23 @@
     <ion-title>
       설냥
     </ion-title>
-    <div align="right" *ngIf="userid == null">
-     <!-- <button class="butn" [routerLink]="['/login']" routerDirection="forward">로그인</button><br>-->
-    
-    </div>
-    <div align="right" *ngIf="userid != null">
-      <table>
-        <tbody align="center">
-        <tr>
-         <!-- <ion-avatar>
-                <img src="../../../assets/icon/favicon.png">
-          </ion-avatar>
-        </tr>
-        <tr>{{userid}}</tr>
-        <tr>
-          <button class="butn" (click)="logout()">로그아웃</button>-->
-        </tr>
-      </tbody>
-    </table>
-    </div> 
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <!--<section *ngIf="userauth=='일반사용자'; else admin">
     <ion-button (click)="goInform()">제보하러가기</ion-button>
+  </section>-->
+  <section *ngIf="userauth==null; else admin">
+      <ion-button (click)="goInform()">제보하러가기</ion-button>
+    </section>
+  <ng-template #admin>
+      <section *ngIf="userauth=='일반사용자'">
+          <ion-button (click)="goInform()">제보하러가기</ion-button>
+      </section>
+      <section *ngIf="userauth=='관리자'">
+        <ion-button (click)="checkInform()">제보확인</ion-button>
+      </section>
+    </ng-template>
     <ion-button (click)="goMap()">우리동네 동물병원</ion-button>
 </ion-content>
