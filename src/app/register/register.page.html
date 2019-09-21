@@ -14,6 +14,13 @@
         <ion-input type="text" [(ngModel)]="username"></ion-input>
       </ion-item>
       <ion-item>  
+        <ion-label>사용자 구분</ion-label>
+        <ion-select placeholder="Select One" [(ngModel)]="userauth" >
+          <ion-select-option value="일반사용자">일반사용자</ion-select-option>
+          <ion-select-option value="관리자">관리자</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>  
         <ion-label>구</ion-label>
         <ion-select placeholder="Select One" [(ngModel)]="usergu" >
           <ion-select-option value="종로구">종로구</ion-select-option>

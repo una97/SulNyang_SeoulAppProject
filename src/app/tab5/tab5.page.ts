@@ -6,8 +6,8 @@ import { AlertController } from '@ionic/angular';
 import { Router } from '@angular/router';
 import { Storage } from '@ionic/storage';
 import * as firebase from 'firebase';
-import {AngularFireStorage}from 'angularfire2/storage';
-import { AngularFireDatabase } from 'angularfire2/database';
+import {AngularFireStorage} from 'angularfire2/storage';
+import {AngularFireDatabase } from 'angularfire2/database';
 import {Camera} from '@ionic-native/camera/ngx';
 
 interface User {
@@ -27,8 +27,8 @@ export class Tab5Page implements OnInit {
   public useremail: string = null;
   public keyforpost;
   public userid: string = null;
-  // tslint:disable-next-line:max-line-length
-  public userpic = '';
+  public userpic: string = null;
+  public userauth: any;
 user: User = {
   email: '',
   password: '',
@@ -49,7 +49,7 @@ user: User = {
     ) { }
 
   ngOnInit() {
-    let userpictmp;
+    // let userpictmp;
     this.stor.get('id').then((val) => {
       this.userid = val;
       console.log(val);
@@ -57,17 +57,26 @@ user: User = {
     this.stor.get('email').then((val) => {
       this.useremail = val;
       console.log(val);
-      firebase.database().ref().child('userInfo').child(`${this.useremail}/userpic`).once('value', function(data) {
+      /*firebase.database().ref().child('userInfo').child(`${this.useremail}/userpic`).once('value', function(data) {
         userpictmp = data.val();
       }).then( result => {
         this.userpic = result.val();
-      });
+      });*/
+    });
+    this.stor.get('pic').then((val) => {
+      this.userpic = val;
+      console.log(val);
+    });
+    this.stor.get('auth').then((val) => {
+      this.userauth = val;
+      console.log(val);
     });
   }
   async login() {
     // tslint:disable-next-line:prefer-const
     let useridtmp;
     let userpictmp;
+    let userauthtmp;
     const { username, password } = this;
     try {
         const rootRef = firebase.database().ref();
@@ -89,6 +98,15 @@ user: User = {
           userpictmp = data.val();
         }).then( result => {
           this.userpic = result.val();
+          document.getElementById('upic').setAttribute('src', this.userpic);
+          this.stor.set('pic', result.val());
+        });
+        // tslint:disable-next-line:only-arrow-functions
+        rootRef.child('userInfo').child(`${temp[0]}/userauth`).once('value', function(data) {
+          userauthtmp = data.val();
+        }).then( result => {
+          this.userauth = result.val();
+          this.stor.set('auth', result.val());
         });
         this.alertCtrl.create({
           header: '',
@@ -133,8 +151,12 @@ user: User = {
   logout() {
     this.userid = null;
     this.useremail = null;
+    this.userpic = null;
+    this.userauth = null;
     this.stor.set('id', null);
     this.stor.set('email', null);
+    this.stor.set('pic', null);
+    this.stor.set('auth', null);
     // tslint:disable-next-line:only-arrow-functions
     firebase.auth().signOut().then(function() { // 채팅 못하도록 함
       console.log('Sign-out successful');
@@ -164,7 +186,6 @@ user: User = {
         this.showImage();
       });
     });
-    // alert('프로필 사진이 변경되었습니다');
   }
   showImage() {
     // tslint:disable-next-line: prefer-const
@@ -177,6 +198,7 @@ user: User = {
             console.log(imageURI);
             this.tmpimgurl = imageURI;
             this.db.object(`userInfo/${this.useremail}/userpic`).set(this.tmpimgurl);
+            this.stor.set('pic', this.tmpimgurl);
           });
         }
 }

@@ -14,6 +14,7 @@ import { Storage } from '@ionic/storage';
 })
 export class Tab1Page {
   public userid: string = null;
+  public userauth: string = null;
   constructor(
     public plat: Platform,
     public activatedRoute: ActivatedRoute,
@@ -25,6 +26,10 @@ export class Tab1Page {
     ionViewWillEnter() {
       this.stor.get('id').then((val) => {
         this.userid = val;
+        console.log(val);
+      });
+      this.stor.get('auth').then((val) => {
+        this.userauth = val;
         console.log(val);
       });
     }
@@ -56,11 +61,13 @@ export class Tab1Page {
       this.atrLout();
     }
 
-
-    goInform(){
+    checkInform() {
+      this.router.navigateByUrl('cinform');
+    }
+    goInform() {
       this.router.navigateByUrl('inform');
     }
-    goMap(){
+    goMap() {
       this.router.navigateByUrl('hospital');
     }
 }
