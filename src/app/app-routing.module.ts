@@ -14,7 +14,8 @@ const routes: Routes = [
   { path: 'idea/:id', loadChildren: './pages/idea-details/idea-details.module#IdeaDetailsPageModule' },
   { path: 'chat-view/:you', loadChildren: './chat-view/chat-view.module#ChatViewPageModule' },  { path: 'inform', loadChildren: './inform/inform.module#InformPageModule' },
   { path: 'hospital', loadChildren: './hospital/hospital.module#HospitalPageModule' },
-  { path: 'cinform', loadChildren: './cinform/cinform.module#CinformPageModule' }
+  { path: 'cinform', loadChildren: './cinform/cinform.module#CinformPageModule' },
+  { path: 'progress', loadChildren: './progress/progress.module#ProgressPageModule' }
 
 
 ];
