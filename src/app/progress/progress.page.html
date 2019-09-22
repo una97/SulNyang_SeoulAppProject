@@ -1,12 +1,21 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>progress</ion-title>
-    <ion-buttons slot="start">
-      <ion-back-button text="" defaultHref="/tabs/tab1"></ion-back-button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-</ion-content>
+    <ion-toolbar>
+      <ion-title>처리 진행 현황 보기</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button text="" defaultHref="/tabs/tab1"></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+  <div style = 'display:block'>
+    <canvas baseChart
+    [data]='doughnutChartData'
+    [labels] = 'doughnutChartLabels'
+    [chartType] = 'doughnutChartType'>
+    </canvas>
+  
+  </div>
+  
+  </ion-content>
+  
