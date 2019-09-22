@@ -73,4 +73,7 @@ export class Tab1Page {
     goDevelop(){
       this.router.navigateByUrl('re-develop');
     }
+    goProgress(){
+      this.router.navigateByUrl('progress');
+    }
 }
