@@ -12,13 +12,21 @@
 <ion-content>
 
   <ion-card >
-    <!-- <ion-card-header>제보합니다</ion-card-header> -->
+    <ion-row>
+      <div id="camera">
+        <img id="imgboard"src="">
+      </div>
+    </ion-row>
+    <ion-row>
+      <button style="width:100%;" ion-button (click)="pickPicture()"><ion-icon name="image"></ion-icon></button>
+    </ion-row>
+    <br>
       <ion-card-content>
     <ion-label>제보분류</ion-label>
     <ion-select placeholder="선택" [(ngModel)]="category">
-        <ion-select-option value="cat">길냥이</ion-select-option>
+        <ion-select-option value="cat">재개발/공사지역 길냥이</ion-select-option>
         <ion-select-option value="abuse">학대</ion-select-option>
-        <ion-select-option value="accident">사고/신고</ion-select-option>
+        <ion-select-option value="accident">사고</ion-select-option>
         <ion-select-option value="other">기타</ion-select-option>
       </ion-select>
      <ion-label>위치</ion-label> 
