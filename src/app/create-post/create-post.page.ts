@@ -116,9 +116,9 @@ export class CreatePostPage implements OnInit {
         this.showImage();
       }
       // this.router.navigate(['post',this.titleInput]);
-     this.router.navigateByUrl('/tabs/tab2');
+      this.router.navigateByUrl('/tabs/tab2');
     }
-   
+
   }
   showImage() {
     // tslint:disable-next-line: prefer-const
