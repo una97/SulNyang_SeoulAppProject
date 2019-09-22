@@ -8,14 +8,34 @@
   </ion-header>
   
   <ion-content>
+    <div>
+      그냥 막 그래프 넣어봄
+    </div>
+    <div>
+        그냥 구경 해보세요ㅎㅎㅎㅎㅎㅎ
+    </div>
   <div style = 'display:block'>
     <canvas baseChart
     [data]='doughnutChartData'
     [labels] = 'doughnutChartLabels'
     [chartType] = 'doughnutChartType'>
     </canvas>
-  
   </div>
   
+  <div style = 'display:block'>
+    <canvas baseChart
+    [data] = 'chartData'
+    [labels] = 'labels'
+    [chartType] = 'chartType'>
+  </canvas>
+  </div>
+
+  <div style = 'display:block'>
+    <canvas baseChart
+    [data] = 'chartData2'
+    [labels] = 'labels2'
+    [chartType] = 'chartType2'>
+  </canvas>
+  </div>
   </ion-content>
   
