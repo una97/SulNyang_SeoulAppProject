@@ -11,6 +11,7 @@ import {AngularFireDatabase } from 'angularfire2/database';
 export class TabsPage implements OnInit {
   useremail;
   userpic;
+ 
   constructor(
     public stor: Storage,
     public st: AngularFireStorage,
@@ -33,5 +34,7 @@ export class TabsPage implements OnInit {
       console.log(val);
       document.getElementById('upicsmall').setAttribute('src', val);
     });*/
+    
+
   }
 }

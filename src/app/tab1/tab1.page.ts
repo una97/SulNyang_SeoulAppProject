@@ -13,8 +13,6 @@ import { Storage } from '@ionic/storage';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-  public userid: string = null;
-  public userauth: string = null;
   constructor(
     public plat: Platform,
     public activatedRoute: ActivatedRoute,
@@ -23,6 +21,8 @@ export class Tab1Page {
     public atrCtrl: AlertController,
     public stor: Storage
     ) {}
+  public userid: string = null;
+  public userauth: string = null;
     ionViewWillEnter() {
       this.stor.get('id').then((val) => {
         this.userid = val;
@@ -70,10 +70,10 @@ export class Tab1Page {
     goMap() {
       this.router.navigateByUrl('hospital');
     }
-    goDevelop(){
+    goDevelop() {
       this.router.navigateByUrl('re-develop');
     }
-    goProgress(){
+    goProgress() {
       this.router.navigateByUrl('progress');
     }
 }
