@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button text="" defaultHref="/tabs/tab1"></ion-back-button>
+        </ion-buttons>
+    <ion-title>재개발 지역</ion-title>
+  </ion-toolbar>
+  
+  <ion-segment [(ngModel)]="segment" (ionChange)="segmentChanged($event)" >
+      <ion-segment-button value="one">
+      <ion-label>재건축 사업구역</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="two">
+          <ion-label>도시정비형</ion-label>
+      </ion-segment-button>
+  </ion-segment>
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <ion-item *ngFor="let item of displayData">
+      <table>
+          <tr>{{item.address}}</tr>
+          <tr>면적 {{item.area}}</tr>
+          <!-- <tr>
+            <td>{{item.address}}</td>
+          </tr> -->
+        </table>
+  </ion-item>
+</ion-list>
+</ion-content>

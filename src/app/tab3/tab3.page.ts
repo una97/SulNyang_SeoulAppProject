@@ -37,6 +37,5 @@ export class Tab3Page {
   openChat(you: string) {
     this.you = you;
     this.router.navigate(['chat-view', this.you]);
-
   }
 }

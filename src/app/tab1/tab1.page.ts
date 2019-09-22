@@ -70,4 +70,7 @@ export class Tab1Page {
     goMap() {
       this.router.navigateByUrl('hospital');
     }
+    goDevelop(){
+      this.router.navigateByUrl('re-develop');
+    }
 }

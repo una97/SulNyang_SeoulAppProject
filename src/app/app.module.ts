@@ -23,6 +23,8 @@ import { IonicStorageModule } from '@ionic/storage';
 import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Camera } from '@ionic-native/camera/ngx';
+import {DataFinderService} from './data-finder.service';
+import {HttpModule} from '@angular/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -37,12 +39,14 @@ import { Camera } from '@ionic-native/camera/ngx';
     AngularFirestoreModule,
     AngularFireModule.initializeApp(firebaseConfig, environment.firebase),
     IonicStorageModule,
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    HttpModule
   ],
   providers: [
     StatusBar,
     SplashScreen,
     AngularFirestore,
+    DataFinderService,
     Camera,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     { provide: FirestoreSettingsToken, useValue: {} }
