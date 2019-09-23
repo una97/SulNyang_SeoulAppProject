@@ -17,8 +17,8 @@ export class PostPage implements OnInit {
   temp: any;
   public item: any;
   title: string;
-
-
+  headert: string;
+  public itemtmp: any;
 // 채팅에 필요한 변수들
   check = false;
   chattingRef: any;
@@ -53,9 +53,15 @@ export class PostPage implements OnInit {
     this.db.list('regisTxt/', ref => ref.orderByChild('title').equalTo(this.title)).valueChanges().subscribe(
       data => {
         if (data.length !== 1) { return; } // TODO: Error exception
-        this.item = data[0];
+        this.item = data;
+        this.itemtmp = data[0];
+        if (this.itemtmp.category === 'help'){
+          this.headert = '위탁';
+        } else {
+          this.headert = '분양';
+        }
+        console.log(this.item);
     });
-    console.log(this.item);
   }
   async chat2Me() {
     const alert2 = await this.atrCtrl.create({
