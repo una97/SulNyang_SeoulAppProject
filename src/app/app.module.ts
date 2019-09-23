@@ -25,6 +25,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { Camera } from '@ionic-native/camera/ngx';
 import {DataFinderService} from './data-finder.service';
 import {HttpModule} from '@angular/http';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -49,7 +50,8 @@ import {HttpModule} from '@angular/http';
     DataFinderService,
     Camera,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    { provide: FirestoreSettingsToken, useValue: {} }
+    { provide: FirestoreSettingsToken, useValue: {} },
+    Geolocation
   ],
   bootstrap: [AppComponent]
 })
