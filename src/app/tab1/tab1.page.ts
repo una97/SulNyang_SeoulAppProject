@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { Platform } from '@ionic/angular';
 import { NavController } from '@ionic/angular';
 import {ActivatedRoute} from '@angular/router';
@@ -7,19 +7,23 @@ import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 import { Storage } from '@ionic/storage';
 
+
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page {
+export class Tab1Page implements OnInit{
+  public h = 1;
+  public m = 0;
+
   constructor(
     public plat: Platform,
     public activatedRoute: ActivatedRoute,
     public navCtrl: NavController,
     public router: Router,
     public atrCtrl: AlertController,
-    public stor: Storage
+    public stor: Storage,
     ) {}
   public userid: string = null;
   public userauth: string = null;
@@ -33,33 +37,27 @@ export class Tab1Page {
         console.log(val);
       });
     }
-    async atrLout() {
-      const alert = await this.atrCtrl.create({
-        header: '확인',
-        message: '로그아웃되었습니다',
-        buttons: [
-          {
-            text: 'Okay',
-            role: 'cancel',
-            handler: (blah) => {
-              console.log('logout');
-              this.router.navigateByUrl('/tabs/tab1');
-            }
+    ngOnInit(){
+      firebase.database().ref().once('value').then((snapshot) => {
+        // tslint:disable-next-line: prefer-const
+        let i = 0;
+        
+        for(;i<25;i++){
+          let ifnum = snapshot.child('seoulGu/'+i+'/informNum').val();
+          let Gu_ary = ["JR","JG","YS","SD","GJ","DDM","JL","SB","GB","DB","NW","EP","SDM","MP","YC","GS","GR","GC","YDP","DJ","GA","SC","GN","SP","GD"];
+          let Gu_name = Gu_ary[i];
+
+          if(ifnum>this.h){
+            document.getElementById(Gu_name + '_Y').setAttribute('src','');
+            document.getElementById(Gu_name + '_G').setAttribute('src','');
+          }else if(ifnum>this.m){
+            document.getElementById(Gu_name + '_G').setAttribute('src','');
           }
-        ]
+        }
+        
       });
-      await alert.present();
     }
-    logout() {
-      this.userid = null;
-      this.stor.set('id', null);
-      // tslint:disable-next-line:only-arrow-functions
-      firebase.auth().signOut().then(function() { // 채팅 못하도록 함
-        console.log('Sign-out successful');
-      });
-      this.router.navigateByUrl('tabs/tab1');
-      this.atrLout();
-    }
+    
 
     checkInform() {
       this.router.navigateByUrl('cinform');
