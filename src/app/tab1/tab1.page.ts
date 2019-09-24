@@ -14,8 +14,8 @@ import { Storage } from '@ionic/storage';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page implements OnInit{
-  public h = 3;
-  public m = 2;
+  public h = 1;
+  public m = 0;
 
   constructor(
     public plat: Platform,
@@ -39,25 +39,21 @@ export class Tab1Page implements OnInit{
     }
     ngOnInit(){
       firebase.database().ref().once('value').then((snapshot) => {
-        console.log("???");
         // tslint:disable-next-line: prefer-const
         let i = 0;
-        /*
         for(;i<25;i++){
-          let route = 'seoulGu/' + i + 'InformNum';
-          let ifnum = snapshot.child(route).val();
+          let ifnum = snapshot.child('seoulGu/'+i+'/informNum').val();
           let Gu_ary = ["JR","JG","YS","SD","GJ","DDM","JL","SB","GB","DB","NW","EP","SDM","MP","YC","GS","GR","GC","YDP","DJ","GA","SC","GN","SP","GD"];
           let Gu_name = Gu_ary[i];
 
           if(ifnum>this.h){
-            document.getElementById(Gu_name + '_Y').setAttribute('visible','hidden');
-            document.getElementById(Gu_name + '_G').setAttribute('visible','hidden');
+            document.getElementById(Gu_name + '_Y').setAttribute('src','');
+            document.getElementById(Gu_name + '_G').setAttribute('src','');
           }else if(ifnum>this.m){
-            document.getElementById(Gu_name + '_G').setAttribute('visible','hidden');
+            document.getElementById(Gu_name + '_G').setAttribute('src','');
           }
-        }*/
-        document.getElementById("YC_G").setAttribute('visibility','hidden');
-        document.getElementById("YC_Y").setAttribute('visibility','hidden');
+        }
+        
       });
     }
     
