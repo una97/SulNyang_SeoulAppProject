@@ -48,7 +48,7 @@ export class ProgressPage implements OnInit {
           let k = snapshot.child(`seoulGu/wholeNum`).val(); // 전체 제보 받은 수
           this.temp_wholeNum = k;
           console.log(this.temp_wholeNum);
-          this.tempDoughnutData = [this.temp_completeNum, this.temp_wholeNum];
+          this.tempDoughnutData = [this.temp_completeNum, this.temp_wholeNum - this.temp_completeNum];
 
           let a = snapshot.child(`seoulGu/wabuse`).val(); // 전체 학대 받는 고양이 수
           this.temp_wabuse = a;
