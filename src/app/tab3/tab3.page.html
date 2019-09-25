@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color = "primary">
     <ion-title>
       채팅
     </ion-title>
@@ -7,25 +7,38 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
     <br>
     <div class="chatting" *ngFor="let chatting of chattingRef | async">
       <div  class="you" ion-item *ngIf="ID==chatting.uid1">
-          {{chatting.uid2}}
-          <span style="float:right">
-            <ion-button color="medium" (click)="openChat(chatting.uid2)">
+        <div class="userimg">
+            <img width="50%" height="50%" src="{{chatting.uid2Pic}}"/>
+        </div>
+        <div class="content">
+          <ion-item (click)="openChat(chatting.uid2)">
+            {{chatting.uid2}}
+          </ion-item>
+          <!--<span style="float:right">
+            <ion-button color="medium" >
               <ion-icon name="arrow-forward"></ion-icon>
             </ion-button>
           </span>
+        -->
+        </div>
       </div>
       <div  class="you" ion-item *ngIf="ID==chatting.uid2">
-          {{chatting.uid1}}
-          <span style="float:right">
+        <div class="userimg">
+          <img width="100%" height="200px" src="{{chatting.uid1Pic}}"/>
+        </div>
+        <div class="content">
+            <ion-item (click)="openChat(chatting.uid2)">
+              {{chatting.uid1}}
+            </ion-item>
+          <!--<span style="float:right">
             <ion-button color="medium" (click)="openChat(chatting.uid1)">
               <ion-icon name="arrow-forward"></ion-icon>
             </ion-button>
-          </span>
+          </span>-->
+        </div>
       </div>
     </div>
-  </ion-list>
 </ion-content>
