@@ -2,3 +2,31 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+#wrapper{
+  position: absolute;
+  padding: 5px;
+}
+
+#mapimg{
+  margin-top: 20px;
+  margin-bottom: 320px;
+  text-align: center;
+}
+
+#buttonimg{
+  text-align: center;
+  max-height : 100px;
+  width: auto;
+}
+
+.b-size{
+  max-height : 120px;
+  width: auto;
+  margin:5px;
+}
+
+.m-size{
+  max-height : 250px;
+  width: auto;
+}
