@@ -29,6 +29,10 @@ export class PostPage implements OnInit {
   first = true;
   getSize: any;
   currentU: string;
+
+  user1Pic;
+  user2Pic;
+
   constructor(
     public navCtrl: NavController,
     public atrCtrl: AlertController,
@@ -119,6 +123,21 @@ export class PostPage implements OnInit {
                   });
                   if (this.check === false) {
                     this.size = snapshot.size;
+                    /// this.currentU와 you의 프로필 사진 찾기
+                    firebase.database().ref().once('value').then((snapshot)=>{
+                      this.db.list('userInfo/',ref=>ref.orderByChild('userid').equalTo(this.currentU)).valueChanges().subscribe(
+                        data=>{
+                          this.user1Pic=data;
+                        });
+                    });
+
+                    firebase.database().ref().once('value').then((snapshot)=>{
+                      this.db.list('userInfo/',ref=>ref.orderByChild('userid').equalTo(you)).valueChanges().subscribe(
+                        data=>{
+                          this.user2Pic=data;
+                        });
+                    });
+
                     if (this.size === 0) { // 채팅 목록이 한개도 없음
                       this.index = 0;
                       this.fs.collection('ListSize').doc('index').set({
@@ -127,7 +146,9 @@ export class PostPage implements OnInit {
                       this.fs.collection('chatting').doc((this.index).toString()).set({
                         uid1: this.currentU,
                         uid2: you,
-                        Timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                        uid1Pic: this.user1Pic,
+                        uid2Pic:this.user2Pic,
+                        Timestamp: firebase.firestore.FieldValue.serverTimestamp(), // uid1, uid2의 프로필 사진도 같이 저장하자
                         num: this.index
                       });
                     } else { // 채팅 목록이 1개이상 존재할 때
@@ -140,6 +161,8 @@ export class PostPage implements OnInit {
                           this.fs.collection('chatting').doc((this.index).toString()).set({
                             uid1: this.currentU,
                             uid2: you,
+                            uid1Pic: this.user1Pic,
+                            uid2Pic:this.user2Pic,
                             Timestamp: firebase.firestore.FieldValue.serverTimestamp(),
                             num: this.index
                           });

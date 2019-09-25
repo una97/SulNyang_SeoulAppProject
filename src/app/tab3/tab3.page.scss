@@ -6,9 +6,15 @@
         width:100%;
         height:54px;
         align-self:flex-start;
-        background:#DEFCFC;
         font-size:20;
         text-align:center;
         line-height:3;
+
+        .userimg{
+            width:20%;           
+        }
+        .content{
+            width:70%;
+        }
     }
 }
