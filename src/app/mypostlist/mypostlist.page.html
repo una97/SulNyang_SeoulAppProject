@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>내가 쓴 글</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-col *ngFor="let item of items" col-12 no-padding>
+    <ion-card  (click)="getPost(item)">
+      <ion-row>
+        <ion-col col-3>
+          <!-- <ion-avatar item-start> -->
+            <img width="150px" height="120px" id="postimg" src="{{item.img}}">
+          <!-- </ion-avatar> -->
+        </ion-col>
+        <ion-col col-7>
+            <ion-card-header>
+              {{item.title}}
+              </ion-card-header>
+              <ion-card-content>
+                {{item.content.substring(0,15)}}
+              </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </ion-col>
+
+</ion-content>

@@ -13,7 +13,7 @@
 
 <ion-content padding>
   <section *ngIf ="userid!=null; else loginItems">
-     <p align="center"><b>{{userid}}</b>님 안녕하세요!<br><br></p>
+     <p align="center"><b>{{userid}}</b>님&nbsp;/&nbsp;<b>{{usergu}}&nbsp;{{userdong}}</b></p>
      <div align="center">
        <ion-avatar>
         <img id="upic" src="{{userpic}}">
@@ -24,27 +24,22 @@
     </div>
     <br><br>
     <ion-item>
-         내가 쓴글
+         <button class="transparent-button" (click)="gomypost()">내가 쓴 글</button>
     </ion-item>
-    <!--<section *ngIf="userauth=='일반사용자'; else admin">
-    <ion-item>
-        내 제보
-    </ion-item>
-    </section>-->
     <section *ngIf="userauth==null; else admin">
     <ion-item>
-        내 제보
+      <button class="transparent-button" (click)="gomyinform()">내 제보</button>
     </ion-item>
     </section>
     <ng-template #admin>
       <section *ngIf="userauth=='일반사용자'">
       <ion-item>
-        내 제보
+        <button class="transparent-button" (click)="gomyinform()">내 제보</button>
       </ion-item>
     </section>
     <section *ngIf="userauth=='관리자'">
         <ion-item>
-          제보 확인
+          <button class="transparent-button" (click)="gomyinform()">제보 확인</button>
         </ion-item>
       </section>
     </ng-template>

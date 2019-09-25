@@ -29,6 +29,8 @@ export class Tab5Page implements OnInit {
   public userid: string = null;
   public userpic: string = null;
   public userauth: any;
+  public usergu: string = null;
+  public userdong: string = null;
 user: User = {
   email: '',
   password: '',
@@ -49,7 +51,6 @@ user: User = {
     ) { }
 
   ngOnInit() {
-    // let userpictmp;
     this.stor.get('id').then((val) => {
       this.userid = val;
       console.log(val);
@@ -57,11 +58,6 @@ user: User = {
     this.stor.get('email').then((val) => {
       this.useremail = val;
       console.log(val);
-      /*firebase.database().ref().child('userInfo').child(`${this.useremail}/userpic`).once('value', function(data) {
-        userpictmp = data.val();
-      }).then( result => {
-        this.userpic = result.val();
-      });*/
     });
     this.stor.get('pic').then((val) => {
       this.userpic = val;
@@ -69,6 +65,14 @@ user: User = {
     });
     this.stor.get('auth').then((val) => {
       this.userauth = val;
+      console.log(val);
+    });
+    this.stor.get('gu').then((val) => {
+      this.usergu = val;
+      console.log(val);
+    });
+    this.stor.get('dong').then((val) => {
+      this.userdong = val;
       console.log(val);
     });
   }
@@ -87,6 +91,7 @@ user: User = {
         this.useremail = temp[0];
         this.stor.set('email', temp[0]);
         // tslint:disable-next-line:only-arrow-functions
+        // 사용자 아이디
         rootRef.child('userInfo').child(`${temp[0]}/userid`).once('value', function(data) {
           useridtmp = data.val();
         }).then( result => {
@@ -94,6 +99,7 @@ user: User = {
           this.stor.set('id', result.val());
         });
         // tslint:disable-next-line:only-arrow-functions
+        // 사용자 프로필 사진
         rootRef.child('userInfo').child(`${temp[0]}/userpic`).once('value', function(data) {
           userpictmp = data.val();
         }).then( result => {
@@ -102,11 +108,28 @@ user: User = {
           this.stor.set('pic', result.val());
         });
         // tslint:disable-next-line:only-arrow-functions
+        // 사용자 권한
         rootRef.child('userInfo').child(`${temp[0]}/userauth`).once('value', function(data) {
           userauthtmp = data.val();
         }).then( result => {
           this.userauth = result.val();
           this.stor.set('auth', result.val());
+        });
+        // tslint:disable-next-line:only-arrow-functions
+        // 사용자 구
+        rootRef.child('userInfo').child(`${temp[0]}/usergu`).once('value', function(data) {
+          userauthtmp = data.val();
+        }).then( result => {
+          this.usergu = result.val();
+          this.stor.set('gu', result.val());
+        });
+        // tslint:disable-next-line:only-arrow-functions
+        // 사용자 동
+        rootRef.child('userInfo').child(`${temp[0]}/userdong`).once('value', function(data) {
+          userauthtmp = data.val();
+        }).then( result => {
+          this.userdong = result.val();
+          this.stor.set('dong', result.val());
         });
         this.alertCtrl.create({
           header: '',
@@ -153,10 +176,14 @@ user: User = {
     this.useremail = null;
     this.userpic = null;
     this.userauth = null;
+    this.usergu = null;
+    this.userdong = null;
     this.stor.set('id', null);
     this.stor.set('email', null);
     this.stor.set('pic', null);
     this.stor.set('auth', null);
+    this.stor.set('gu', null);
+    this.stor.set('dong', null);
     // tslint:disable-next-line:only-arrow-functions
     firebase.auth().signOut().then(function() { // 채팅 못하도록 함
       console.log('Sign-out successful');
@@ -201,4 +228,10 @@ user: User = {
             this.stor.set('pic', this.tmpimgurl);
           });
         }
+  gomyinform() {
+    this.router.navigate(['cinform']);
+  }
+  gomypost() {
+    this.router.navigate(['mypostlist']);
+  }
 }

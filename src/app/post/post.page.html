@@ -17,7 +17,7 @@
                 <tr>
                     <td>
                       <div>
-                      <ion-avatar item-start>
+                      <ion-avatar>
                         <img src="/assets/una.jpg"/>
                       </ion-avatar>
                       {{item.userid}}
@@ -39,7 +39,7 @@
     </ion-item>
     <ion-item>
           <ion-label>
-             {{item.content}}
+            {{item.content.substring(0,15)}}
           </ion-label>   
       </ion-item>
   </ion-card-content>
