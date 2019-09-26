@@ -29,6 +29,7 @@ export class Tab3Page {
       });
       this.chattingRef = this.fs.collection('chatting', ref => ref.orderBy('Timestamp')).valueChanges();
   }
+
   ionViewWillEnter() {
     this.stor.get('id').then((val) => {
       this.ID = val;
