@@ -10,7 +10,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding class="background">
   <div class="chat" *ngFor="let chat of chatRef | async">
     <div class="me" *ngIf="currentU==chat.ID && you==chat.You">
       {{chat.Message}}
