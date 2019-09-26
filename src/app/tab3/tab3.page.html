@@ -10,15 +10,13 @@
     <br>
     <div class="chatting" *ngFor="let chatting of chattingRef | async">
         <div  class="you" ion-item *ngIf="ID==chatting.uid1" (click)="openChat(chatting.uid2)">
-            <img width="50px" height="50px" src="{{chatting.uid2Pic}}"/>
-              {{chatting.uid2}}  
-              sample 내용1
+            <img class="imgde" src="{{chatting.uid2Pic}}"/>
+              <div class="cname">{{chatting.uid2}}</div>
         </div>
 
         <div class="you" ion-item *ngIf="ID==chatting.uid2" (click)="openChat(chatting.uid1)">
-            <img width="50px" height="50px" src="{{chatting.uid2Pic}}"/>
-            {{chatting.uid1}}
-            sample 내용2
+            <img class="imgde" src="{{chatting.uid2Pic}}"/>
+            <div class="cname">{{chatting.uid1}}</div>
         </div>
 
         <!--<div  class="you" ion-item *ngIf="ID==chatting.uid2">
