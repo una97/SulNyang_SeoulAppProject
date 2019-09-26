@@ -9,43 +9,31 @@
 <ion-content>
     <br>
     <div class="chatting" *ngFor="let chatting of chattingRef | async">
-      <div  class="you" ion-item *ngIf="ID==chatting.uid1">
-        <div class="userimg">
+        <div  class="you" ion-item *ngIf="ID==chatting.uid1" (click)="openChat(chatting.uid2)">
             <img width="50px" height="50px" src="{{chatting.uid2Pic}}"/>
-            {{chatting.uid2Pic}}
+              {{chatting.uid2}}  
+              sample 내용1
         </div>
-        <div class="name">
-          {{chatting.uid2}}
+
+        <div class="you" ion-item *ngIf="ID==chatting.uid2" (click)="openChat(chatting.uid1)">
+            <img width="50px" height="50px" src="{{chatting.uid2Pic}}"/>
+            {{chatting.uid1}}
+            sample 내용2
         </div>
-        <div class="content">
-          <ion-item (click)="openChat(chatting.uid2)">
-            sample 내용
-          </ion-item>
-          <!--<span style="float:right">
-            <ion-button color="medium" >
-              <ion-icon name="arrow-forward"></ion-icon>
-            </ion-button>
-          </span>
-        -->
+
+        <!--<div  class="you" ion-item *ngIf="ID==chatting.uid2">
+            <div class="userimg">
+              <img width="50px" height="50px" src="{{chatting.uid1Pic}}"/>
+            </div>
+            <div class="name">
+              {{chatting.uid1}}
+            </div>
+            <div class="content">
+              <ion-item (click)="openChat(chatting.uid1)">
+                sample 내용
+              </ion-item>
+            </div>
         </div>
-      </div>
-      <div  class="you" ion-item *ngIf="ID==chatting.uid2">
-        <div class="userimg">
-          <img width="50px" height="50px" src="{{chatting.uid1Pic}}"/>
-        </div>
-        <div class="name">
-          {{chatting.uid1}}
-        </div>
-        <div class="content">
-            <ion-item (click)="openChat(chatting.uid1)">
-              sample 내용
-            </ion-item>
-          <!--<span style="float:right">
-            <ion-button color="medium" (click)="openChat(chatting.uid1)">
-              <ion-icon name="arrow-forward"></ion-icon>
-            </ion-button>
-          </span>-->
-        </div>
-      </div>
+      -->
     </div>
 </ion-content>
