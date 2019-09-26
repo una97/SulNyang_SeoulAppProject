@@ -53,27 +53,21 @@ user: User = {
   ngOnInit() {
     this.stor.get('id').then((val) => {
       this.userid = val;
-      console.log(val);
     });
     this.stor.get('email').then((val) => {
       this.useremail = val;
-      console.log(val);
     });
     this.stor.get('pic').then((val) => {
       this.userpic = val;
-      console.log(val);
     });
     this.stor.get('auth').then((val) => {
       this.userauth = val;
-      console.log(val);
     });
     this.stor.get('gu').then((val) => {
       this.usergu = val;
-      console.log(val);
     });
     this.stor.get('dong').then((val) => {
       this.userdong = val;
-      console.log(val);
     });
   }
   async login() {
@@ -208,7 +202,6 @@ user: User = {
       document.getElementById('upic').setAttribute('src', 'data:image/jpeg;base64,' + imageURI);
       this.imageURI = imageURI;
       this.picname = newName;
-      console.log(this.picname);
       this.st.ref(`userpic/${newName}`).putString(imageURI, 'base64', {contentType: 'image/png'}).then( value => {
         this.showImage();
       });
@@ -222,7 +215,6 @@ user: User = {
           // console.log(imageRef.getDownloadURL());
           imageRef.getDownloadURL()
           .then((imageURI) => {
-            console.log(imageURI);
             this.tmpimgurl = imageURI;
             this.db.object(`userInfo/${this.useremail}/userpic`).set(this.tmpimgurl);
             this.stor.set('pic', this.tmpimgurl);

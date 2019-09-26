@@ -64,6 +64,9 @@ export class Tab1Page implements OnInit{
     goInform() {
       this.router.navigateByUrl('inform');
     }
+    goCinform() {
+      this.router.navigateByUrl('cinform');
+    }
     goMap() {
       this.router.navigateByUrl('hospital');
     }

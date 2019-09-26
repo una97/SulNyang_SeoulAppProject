@@ -26,22 +26,15 @@
     <ion-item>
          <button class="transparent-button" (click)="gomypost()">내가 쓴 글</button>
     </ion-item>
-    <section *ngIf="userauth==null; else admin">
-    <ion-item>
-      <button class="transparent-button" (click)="gomyinform()">내 제보</button>
-    </ion-item>
-    </section>
-    <ng-template #admin>
-      <section *ngIf="userauth=='일반사용자'">
+    <section *ngIf="userauth=='일반사용자'; else admin">
       <ion-item>
         <button class="transparent-button" (click)="gomyinform()">내 제보</button>
       </ion-item>
     </section>
-    <section *ngIf="userauth=='관리자'">
-        <ion-item>
-          <button class="transparent-button" (click)="gomyinform()">제보 확인</button>
-        </ion-item>
-      </section>
+    <ng-template #admin>
+      <ion-item>
+        <button class="transparent-button" (click)="gomyinform()">제보 확인</button>
+      </ion-item>
     </ng-template>
     <br><br>
     <div align="center">

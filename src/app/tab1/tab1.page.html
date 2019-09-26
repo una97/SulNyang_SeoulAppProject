@@ -325,8 +325,10 @@
     </div>
   
     <div id = "buttonimg">
-      <img class = "b-size" src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/appimg%2F%EB%B2%84%ED%8A%BC-%EC%A0%9C%EB%B3%B4%ED%95%98%EB%9F%AC%EA%B0%80%EA%B8%B0.png?alt=media&token=6e3ebc74-ca52-43a5-8a86-4c83c39767dc"
+      <img *ngIf ="userauth=='일반사용자'||userauth==null" class = "b-size" src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/appimg%2F%EB%B2%84%ED%8A%BC-%EC%A0%9C%EB%B3%B4%ED%95%98%EB%9F%AC%EA%B0%80%EA%B8%B0.png?alt=media&token=6e3ebc74-ca52-43a5-8a86-4c83c39767dc"
       (click) = "goInform()">
+      <img *ngIf ="userauth=='관리자'" class = "b-size" src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/appimg%2F%EB%B2%84%ED%8A%BC-%EC%A0%9C%EB%B3%B4%ED%99%95%EC%9D%B8.png?alt=media&token=21f1dda8-af8e-4cb0-952a-958854ea743a"
+      (click) = "goCinform()">
       <img class = "b-size" src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/appimg%2F%EB%B2%84%ED%8A%BC-%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90.png?alt=media&token=373c55ce-a449-4737-a9c8-8c0e0612eb2d" 
       (click)="goMap()" >
       <img class = "b-size" src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/appimg%2F%EB%B2%84%ED%8A%BC-%EC%9E%AC%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%97%AD%ED%95%9C%EB%88%88%EC%97%90%EB%B3%B4%EA%B8%B0.png?alt=media&token=348a20c3-f3ad-4b9e-a0e7-2517e4ad6e00" 

@@ -26,6 +26,7 @@ import { Camera } from '@ionic-native/camera/ngx';
 import {DataFinderService} from './data-finder.service';
 import {HttpModule} from '@angular/http';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { InAppBrowser} from '@ionic-native/in-app-browser/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -51,7 +52,8 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
     Camera,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     { provide: FirestoreSettingsToken, useValue: {} },
-    Geolocation
+    Geolocation,
+    InAppBrowser
   ],
   bootstrap: [AppComponent]
 })

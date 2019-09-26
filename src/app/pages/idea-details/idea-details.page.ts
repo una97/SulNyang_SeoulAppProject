@@ -26,5 +26,4 @@ export class IdeaDetailsPage implements OnInit {
          });
      }
  }
-
 }

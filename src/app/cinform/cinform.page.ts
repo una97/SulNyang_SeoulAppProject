@@ -34,13 +34,15 @@ export class CinformPage implements OnInit {
         firebase.database().ref().once('value').then((snapshot) => {
           this.db.list('informTxt/', ref => ref.orderByChild('sender').equalTo(this.userid)).valueChanges().subscribe(
             data => {
-              console.log(data);
               this.items = data;
            });
         });
       } else if (this.userauth === '관리자') {
-        firebase.database().ref().child('informTxt/').once('value', function(data) {
-          this.items = data.val();
+        firebase.database().ref().child('informTxt/').once('value').then((snapshot) => {
+          this.db.list('informTxt/', ref => ref.orderByChild('sender').startAt(0)).valueChanges().subscribe(
+            data => {
+              this.items = data;
+           });
         });
       }
     });
