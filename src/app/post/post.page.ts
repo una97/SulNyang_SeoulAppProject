@@ -32,6 +32,7 @@ export class PostPage implements OnInit {
 
   user1Pic;
   user2Pic;
+  tmpPic;
 
   constructor(
     public navCtrl: NavController,
@@ -127,14 +128,16 @@ export class PostPage implements OnInit {
                     firebase.database().ref().once('value').then((snapshot)=>{
                       this.db.list('userInfo/',ref=>ref.orderByChild('userid').equalTo(this.currentU)).valueChanges().subscribe(
                         data=>{
-                          this.user1Pic=data;
+                          this.tmpPic=data;
+                          this.user1Pic=this.tmpPic[4];
                         });
                     });
 
                     firebase.database().ref().once('value').then((snapshot)=>{
                       this.db.list('userInfo/',ref=>ref.orderByChild('userid').equalTo(you)).valueChanges().subscribe(
                         data=>{
-                          this.user2Pic=data;
+                          this.tmpPic=data;
+                          this.user2Pic=this.tmpPic[4];
                         });
                     });
 

@@ -11,11 +11,15 @@
     <div class="chatting" *ngFor="let chatting of chattingRef | async">
       <div  class="you" ion-item *ngIf="ID==chatting.uid1">
         <div class="userimg">
-            <img width="50%" height="50%" src="{{chatting.uid2Pic}}"/>
+            <img width="50px" height="50px" src="{{chatting.uid2Pic}}"/>
+            {{chatting.uid2Pic}}
+        </div>
+        <div class="name">
+          {{chatting.uid2}}
         </div>
         <div class="content">
           <ion-item (click)="openChat(chatting.uid2)">
-            {{chatting.uid2}}
+            sample 내용
           </ion-item>
           <!--<span style="float:right">
             <ion-button color="medium" >
@@ -27,11 +31,14 @@
       </div>
       <div  class="you" ion-item *ngIf="ID==chatting.uid2">
         <div class="userimg">
-          <img width="100%" height="200px" src="{{chatting.uid1Pic}}"/>
+          <img width="50px" height="50px" src="{{chatting.uid1Pic}}"/>
+        </div>
+        <div class="name">
+          {{chatting.uid1}}
         </div>
         <div class="content">
-            <ion-item (click)="openChat(chatting.uid2)">
-              {{chatting.uid1}}
+            <ion-item (click)="openChat(chatting.uid1)">
+              sample 내용
             </ion-item>
           <!--<span style="float:right">
             <ion-button color="medium" (click)="openChat(chatting.uid1)">
