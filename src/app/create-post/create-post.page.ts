@@ -111,7 +111,7 @@ export class CreatePostPage implements OnInit {
       this.regisTxt.img=this.picname;
       alert('글이 등록되었습니다.');
       this.keyforpost = new Date().getTime();
-      this.regisTxt.code = this.keyforpost;
+      this.regisTxt.code = String(this.keyforpost);
       this.db.object(`regisTxt/${this.keyforpost}`).set(this.regisTxt);
       // tslint:disable-next-line:max-line-length
       if (this.regisTxt.img !== '') {

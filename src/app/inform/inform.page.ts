@@ -120,7 +120,7 @@ export class InformPage implements OnInit {
      // this.informTxt.receiverId="admin@naver";
      alert('글이 등록되었습니다.');
      this.keyforpost = new Date().getTime();
-     this.informTxt.code = this.keyforpost;
+     this.informTxt.code = String(this.keyforpost);
      this.db.object(`informTxt/${this.keyforpost}`).set(this.informTxt);
      // tslint:disable-next-line:max-line-length
      if (this.informTxt.img !== '') {

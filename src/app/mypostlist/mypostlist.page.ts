@@ -12,7 +12,8 @@ import {ActivatedRoute, Router} from '@angular/router';
 })
 export class MypostlistPage implements OnInit {
   userid: string;
-  title: string;
+  code: string;
+  writer: string;
   items = [];
   constructor(
     public db: AngularFireDatabase,
@@ -35,7 +36,8 @@ export class MypostlistPage implements OnInit {
     });
   }
   getPost(item: any) {
-    this.title = item.title;
-    this.router.navigate(['post', this.title]);
+    this.code = item.code;
+    this.writer = item.userid;
+    this.router.navigate(['post', this.code, this.writer]);
   }
 }
