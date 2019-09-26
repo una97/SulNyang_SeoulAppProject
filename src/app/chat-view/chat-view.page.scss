@@ -1,38 +1,41 @@
-.chat{
-    display:flex;
-    flex-direction: column;
-    .me{
-        position:relative;
-        margin:20px 5px 0px;
-        max-width:80%;
-        align-self:flex-end;
-        padding:6px 10px 7px;
-        border-radius: 15px 15px 0;
-        background:#A6E3E9;
-        font-size:medium;
-        line-height:1.5;
+ion-content{
+    -—background: #fff url('https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/%EC%B1%84%ED%8C%85%20%EB%B0%B0%EA%B2%BD.png?alt=media&token=b959e432-8f25-4975-a71a-8839451fc0a8') no-repeat center center / cover;
+    .chat{
+        display:flex;
+        flex-direction: column;
+        .me{
+            position:relative;
+            margin:20px 5px 0px;
+            max-width:80%;
+            align-self:flex-end;
+            padding:6px 10px 7px;
+            border-radius: 15px 15px 0;
+            background:#A6E3E9;
+            font-size:medium;
+            line-height:1.5;
+        }
+        .you{
+            position:relative;
+            margin:15px;
+            max-width:80%;
+            align-self:flex-start;
+            padding:6px 10px 7px;
+            border-radius: 15px 15px 15px 0;
+            background: #DEFCFC;
+            font-size:medium;
+            line-height:1.5; 
+        }
+        .name{
+            font-size:small;
+            font-weight:bold;
+            
+        }
     }
-    .you{
-        position:relative;
-        margin:15px;
-        max-width:80%;
-        align-self:flex-start;
-        padding:6px 10px 7px;
-        border-radius: 15px 15px 15px 0;
-        background: #DEFCFC;
-        font-size:medium;
-        line-height:1.5; 
+    .message {
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 4px;
+        white-space: pre-wrap;
+    
     }
-    .name{
-        font-size:small;
-        font-weight:bold;
-        
-    }
-}
-.message {
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 4px;
-    white-space: pre-wrap;
-
 }
