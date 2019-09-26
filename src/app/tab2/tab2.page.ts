@@ -10,11 +10,12 @@ import {AngularFireDatabase} from 'angularfire2/database';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-public title:string;
+public code: string;
+public writer: string;
 public items=[];
 segment:string;
   constructor( 
-    public router: Router, 
+    public router: Router,
     public navCtrl: NavController,
     public plat:Platform,
     public stor:Storage,
@@ -37,17 +38,13 @@ segment:string;
       });
   }
 
-  // getPost(item: any) {
-  //   this.title = item.title;
-  //   // window.location.href = 'post/' + this.title + '/' + this.userid;
-  //   this.router.navigate(['post', this.title, this.userid]);
-  // }
-  goCreatePost(){
+  goCreatePost() {
     this.router.navigate(['create-post']);
   }
-  getPost(item:any){
-    this.title=item.title;
-    this.router.navigate(['post',this.title]);
+  getPost(item: any) {
+    this.code = item.code;
+    this.writer = item.userid;
+    this.router.navigate(['post', this.code, this.writer]);
   }
 
 }

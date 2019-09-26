@@ -16,7 +16,8 @@ export class PostPage implements OnInit {
 // 글 보여주기 위한 변수들
   temp: any;
   public item: any;
-  title: string;
+  code: string;
+  writer: string;
   headert: string;
   public itemtmp: any;
 // 채팅에 필요한 변수들
@@ -47,7 +48,8 @@ export class PostPage implements OnInit {
    }
 
    ngOnInit() {
-    this.title = this.activatedRoute.snapshot.paramMap.get('title');
+    this.code = this.activatedRoute.snapshot.paramMap.get('code');
+    this.writer = this.activatedRoute.snapshot.paramMap.get('writer');
     this.load();
     this.stor.get('id').then((val) => {
       this.currentU = val;
@@ -55,17 +57,24 @@ export class PostPage implements OnInit {
   }
 
   load() {
-    this.db.list('regisTxt/', ref => ref.orderByChild('title').equalTo(this.title)).valueChanges().subscribe(
+    this.db.list('regisTxt/', ref => ref.orderByChild('code').equalTo(this.code)).valueChanges().subscribe(
       data => {
         if (data.length !== 1) { return; } // TODO: Error exception
         this.item = data;
         this.itemtmp = data[0];
-        if (this.itemtmp.category === 'help'){
+        if (this.itemtmp.category === 'help') {
           this.headert = '위탁';
         } else {
           this.headert = '분양';
         }
-        console.log(this.item);
+        this.db.list('userInfo/', ref => ref.orderByChild('userid').equalTo(this.writer)).valueChanges().subscribe(
+          // tslint:disable-next-line:no-shadowed-variable
+          data => {
+            if (data.length !== 1) { return; } // TODO: Error exception
+            let writerimg;
+            writerimg = data[0];
+            document.getElementById('writerimg').setAttribute('src', writerimg.userpic);
+        });
     });
   }
   async chat2Me() {
@@ -167,7 +176,7 @@ export class PostPage implements OnInit {
                             uid1: this.currentU,
                             uid2: you,
                             uid1Pic: this.user1Pic,
-                            uid2Pic:this.user2Pic,
+                            uid2Pic: this.user2Pic,
                             Timestamp: firebase.firestore.FieldValue.serverTimestamp(),
                             num: this.index
                           });

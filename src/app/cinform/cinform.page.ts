@@ -13,7 +13,8 @@ import {ActivatedRoute, Router} from '@angular/router';
 export class CinformPage implements OnInit {
   userid: string;
   userauth: string;
-  title: string;
+  code: string;
+  writer: string;
   items = [];
   constructor(
     public db: AngularFireDatabase,
@@ -30,7 +31,6 @@ export class CinformPage implements OnInit {
     this.stor.get('auth').then((val) => {
       this.userauth = val;
       if (this.userauth === '일반사용자') {
-        console.log('fdsf');
         firebase.database().ref().once('value').then((snapshot) => {
           this.db.list('informTxt/', ref => ref.orderByChild('sender').equalTo(this.userid)).valueChanges().subscribe(
             data => {
@@ -47,7 +47,8 @@ export class CinformPage implements OnInit {
   }
 
   getPost(item: any) {
-    this.title = item.title;
-    this.router.navigate(['post', this.title]);
+    this.code = item.code;
+    this.writer = item.sender;
+    this.router.navigate(['showinform', this.code, this.writer]);
   }
 }

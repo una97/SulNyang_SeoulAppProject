@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
-  { path: 'post/:title', loadChildren: './post/post.module#PostPageModule' },
+  { path: 'post/:code/:writer', loadChildren: './post/post.module#PostPageModule' },
   { path: 'create-post', loadChildren: './create-post/create-post.module#CreatePostPageModule' },
   { path: 'tabs/tab4',  loadChildren: './pages/idea-list/idea-list.module#IdeaListPageModule' },
   { path: 'idea/:id', loadChildren: './pages/idea-details/idea-details.module#IdeaDetailsPageModule' },
@@ -18,7 +18,9 @@ const routes: Routes = [
   { path: 'cinform', loadChildren: './cinform/cinform.module#CinformPageModule' },
   { path: 're-develop', loadChildren: './re-develop/re-develop.module#ReDevelopPageModule' },
   { path: 'progress', loadChildren: './progress/progress.module#ProgressPageModule' },
-  { path: 'mypostlist', loadChildren: './mypostlist/mypostlist.module#MypostlistPageModule' }
+  { path: 'mypostlist', loadChildren: './mypostlist/mypostlist.module#MypostlistPageModule' },
+  { path: 'showinform/:code/:writer', loadChildren: './showinform/showinform.module#ShowinformPageModule' }
+
 
 
 ];
