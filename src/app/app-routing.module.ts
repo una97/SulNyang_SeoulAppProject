@@ -17,7 +17,9 @@ const routes: Routes = [
   { path: 'hospital', loadChildren: './hospital/hospital.module#HospitalPageModule' },
   { path: 'cinform', loadChildren: './cinform/cinform.module#CinformPageModule' },
   { path: 're-develop', loadChildren: './re-develop/re-develop.module#ReDevelopPageModule' },
-  { path: 'progress', loadChildren: './progress/progress.module#ProgressPageModule' }
+  { path: 'progress', loadChildren: './progress/progress.module#ProgressPageModule' },
+  { path: 'mypostlist', loadChildren: './mypostlist/mypostlist.module#MypostlistPageModule' }
+
 
 ];
 @NgModule({

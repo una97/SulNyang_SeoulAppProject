@@ -12,24 +12,22 @@
           <img width="100%" height="200px" src="{{item.img}}"/>
       </ion-item>
       <ion-item >
-          <ion-label position ="floating">
               <table>
                 <tr>
                     <td>
-                      <div>
-                      <ion-avatar item-start>
+                      <ion-avatar>
                         <img src="/assets/una.jpg"/>
                       </ion-avatar>
                       {{item.userid}}
-                    </div>
                     </td>
                 </tr>
                 <tr>
-                    <td><ion-button shape="round" fill="outline"(click)="gotoChat(item.userid)"><ion-icon name="contact"></ion-icon>{{item.userid}}</ion-button></td>
+                  <td>
+                    <ion-button shape="round" fill="outline"(click)="gotoChat(item.userid)"><ion-icon name="contact"></ion-icon>{{item.userid}}</ion-button>
+                  </td>
                 </tr>
               </table>
               <br><br>
-            </ion-label>
       </ion-item>
 
     <ion-item>

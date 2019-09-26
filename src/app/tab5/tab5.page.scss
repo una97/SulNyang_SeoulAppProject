@@ -2,3 +2,10 @@ ion-avatar {
     width: 150px !important;
     height: 150px !important;
 }
+.transparent-button {
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: none;
+    font-size: 16px;
+}
