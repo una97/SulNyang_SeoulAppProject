@@ -4,6 +4,7 @@ import { Platform} from '@ionic/angular';
 import {ActivatedRoute, Router} from '@angular/router';
 import { NavController } from '@ionic/angular';
 import {AngularFireDatabase} from 'angularfire2/database';
+import { userInfo } from 'os';
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
