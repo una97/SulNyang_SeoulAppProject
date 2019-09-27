@@ -6,39 +6,53 @@
     <ion-title>{{headert}}</ion-title>
   </ion-toolbar>
 </ion-header>
+
+<ion-content>
 <ion-card>
   <ion-card-content *ngFor="let item of item">
-      <ion-item>
+      <ion-item lines="none">
           <img width="100%" height="200px" src="{{item.img}}"/>
       </ion-item>
-      <ion-item >
-              <table>
+      <br>
+      <ion-item lines="none" >
+              <table class="product_tabel" >
                 <tr>
-                    <td>
+                    <td rowspan="2" width="20vh;" >
                       <ion-avatar>
                         <img id="writerimg" src=""/>
                       </ion-avatar>
-                      {{item.userid}}
+                    </td>
+                    <td>
+                     {{item.userid}} 
                     </td>
                 </tr>
-                <tr>
+                <tr> 
                   <td>
-                    <ion-button shape="round" fill="outline"(click)="gotoChat(item.userid)"><ion-icon name="contact"></ion-icon>{{item.userid}}</ion-button>
-                  </td>
+                   <h6> {{writergu}} {{writerdong}}</h6>  
+                  </td> 
                 </tr>
+                
               </table>
-              <br><br>
+            
       </ion-item>
-
-    <ion-item>
-        <ion-label position ="floating">
-            <b>{{item.title}}</b>
+          <br>
+    <ion-item lines="none">
+        <ion-label>
+           <h1><b>{{item.title}}</b></h1> 
         </ion-label>
     </ion-item>
-    <ion-item>
-          <ion-label>
-             {{item.content}}
-          </ion-label>   
+
+  <!-- Disabled and readonly textarea in an item with a stacked label -->
+      <ion-item>
+        <ion-label position="stacked"></ion-label>
+        <ion-textarea
+          disabled
+          readonly
+          value="{{item.content}}">
+        </ion-textarea>
       </ion-item>
+      <ion-button  expand="block" shape="round" fill="outline"(click)="gotoChat(item.userid)"><ion-icon name="contact"></ion-icon>채팅하러 가기</ion-button>
   </ion-card-content>
 </ion-card>
+
+</ion-content>

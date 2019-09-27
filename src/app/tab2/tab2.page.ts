@@ -4,6 +4,7 @@ import { Platform} from '@ionic/angular';
 import {ActivatedRoute, Router} from '@angular/router';
 import { NavController } from '@ionic/angular';
 import {AngularFireDatabase} from 'angularfire2/database';
+import { userInfo } from 'os';
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
@@ -13,6 +14,7 @@ export class Tab2Page {
 public code: string;
 public writer: string;
 public items=[];
+public writerInfo=[];
 segment:string;
   constructor( 
     public router: Router,
@@ -36,6 +38,18 @@ segment:string;
       data=>{
         this.items=data;
       });
+    
+    for(let i=0;i<this.items.length;i++){
+      this.db.list('userInfo/',ref=>ref.orderByChild('userid/').equalTo(this.items[i].userid)).valueChanges().subscribe(
+        data=>{
+          this.writerInfo[i]=data[0];
+          // console.log(data);
+          // document.getElementById('writerimg').setAttribute('src')
+          document.getElementById('writerimg').setAttribute('src', this.writerInfo[i].userpic);
+        }
+      );
+    }
+    console.log(this.writerInfo);
   }
 
   goCreatePost() {

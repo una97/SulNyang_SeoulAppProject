@@ -35,6 +35,8 @@ export class PostPage implements OnInit {
   user2Pic;
   tmpPic;
 
+  writergu:string;
+  writerdong:string;
   constructor(
     public navCtrl: NavController,
     public atrCtrl: AlertController,
@@ -71,9 +73,11 @@ export class PostPage implements OnInit {
           // tslint:disable-next-line:no-shadowed-variable
           data => {
             if (data.length !== 1) { return; } // TODO: Error exception
-            let writerimg;
-            writerimg = data[0];
-            document.getElementById('writerimg').setAttribute('src', writerimg.userpic);
+            let writerInfo;
+            writerInfo = data[0]; // 변수명 왜이래ㅋㅋ큐ㅠㅠㅠ
+            this.writergu=writerInfo.usergu;
+            this.writerdong=writerInfo.userdong;
+            document.getElementById('writerimg').setAttribute('src', writerInfo.userpic);
         });
     });
   }
@@ -100,14 +104,14 @@ export class PostPage implements OnInit {
         message: '<strong>' + you + '</strong>' + '와 채팅하시겠습니까??',
         buttons: [
           {
-            text: 'Cancel',
+            text: '취소',
             role: 'cancel',
             cssClass: 'secondary',
             handler: (blah) => {
               console.log('Confirm Cancel: blah');
             }
           }, {
-            text: 'Okay',
+            text: '확인',
             handler: () => {
               console.log('Confirm Okay');
 
