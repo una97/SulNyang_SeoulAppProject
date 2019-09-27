@@ -22,16 +22,16 @@
       <ion-card-content>
     <ion-label>제보분류</ion-label>
     <ion-select placeholder="선택" [(ngModel)]="category">
+        <ion-select-option value="피해신고">피해신고</ion-select-option>
         <ion-select-option value="학대">학대</ion-select-option>
         <ion-select-option value="사고">사고</ion-select-option>
-        <ion-select-option value="피해신고">피해신고</ion-select-option>
         <ion-select-option value="기타민원">기타민원</ion-select-option>
       </ion-select>
      <ion-label>위치</ion-label> 
      <table>
        <tr>
          <td>
-            <ion-select placeholder="선택" [(ngModel)]="informGu">
+            <ion-select placeholder="구 선택" [(ngModel)]="informGu">
                 <ion-select-option value="종로구">종로구</ion-select-option>
                 <ion-select-option value="중구">중구</ion-select-option>
                 <ion-select-option value="용산구">용산구</ion-select-option>

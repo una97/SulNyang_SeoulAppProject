@@ -24,14 +24,18 @@ export class CreatePostPage implements OnInit {
   category:string='';
   titleInput:string='';
   contentInput:string='';
-  
+  informGu:string='';
+  informDong:string='';
+
   regisTxt={
     userid:'',
     category:'',
     title:'',
     content:'',
     img:'',
-    code: ''
+    code: '',
+    regisDong:'',
+    regisGu:''
   };
 
   constructor(
@@ -91,7 +95,7 @@ export class CreatePostPage implements OnInit {
       });
       this.router.navigateByUrl('login');
     }
-    if(this.titleInput===''||this.contentInput===''||this.category===''){
+    if(this.titleInput===''||this.contentInput===''||this.category===''||this.informDong===''||this.informGu===''||this.picname===''){
       this.alertCtrl.create({
         header: '',
         message: '내용을 전부 입력해주세요',
@@ -109,6 +113,8 @@ export class CreatePostPage implements OnInit {
       this.regisTxt.title=this.titleInput;
       this.regisTxt.content=this.contentInput;
       this.regisTxt.img=this.picname;
+      this.regisTxt.regisDong=this.informDong;
+      this.regisTxt.regisGu=this.informGu;
       alert('글이 등록되었습니다.');
       this.keyforpost = new Date().getTime();
       this.regisTxt.code = String(this.keyforpost);
