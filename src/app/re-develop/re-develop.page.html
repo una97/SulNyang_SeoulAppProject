@@ -17,14 +17,13 @@
 </ion-header>
 
 <ion-content>
+    <div id="map" style="width:100%;height:30%;"></div>
 <ion-list>
   <ion-item *ngFor="let item of displayData">
       <table>
           <tr>{{item.address}}</tr>
           <tr>면적 {{item.area}}</tr>
-          <!-- <tr>
-            <td>{{item.address}}</td>
-          </tr> -->
+          
         </table>
   </ion-item>
 </ion-list>

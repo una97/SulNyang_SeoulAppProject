@@ -54,10 +54,10 @@
       </ion-item>
   </ion-list>
 
-  <ion-button fill="solid" expand="block" color="dark" (click)="login()">Login</ion-button>
+  <ion-button fill="solid" expand="block" (click)="login()">Login</ion-button>
   <br>
   <p align="center">
-  아직 회원이 아니신가요?&nbsp;<button class="butn" [routerLink]="['/register']" routerDirection="forward">회원가입</button>
+  아직 회원이 아니신가요?&nbsp;<ion-button shape="round" fill="outline" class="butn" [routerLink]="['/register']" routerDirection="forward">회원가입</ion-button>
   </p>
 </ng-template>
 </ion-content>
