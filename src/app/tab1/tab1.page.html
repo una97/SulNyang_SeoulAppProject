@@ -335,6 +335,16 @@
       (click)="goDevelop()" >
       <img class = "b-size" src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/appimg%2F%EB%B2%84%ED%8A%BC-%EC%B2%98%EB%A6%AC%ED%98%84%ED%99%A9%EB%B3%B4%EA%B8%B0.png?alt=media&token=874ae7ae-3c6d-4bd1-a470-647e543bc9c5" 
       (click)="goProgress()" >
-    </div>
-  </div>
+  <ion-card *ngFor= "let group of (groups | async)" (click)="openBlank(group.notes)">
+    <ion-row>
+      <ion-col >
+          <img src = {{group.pic}} > 
+            <ion-card-content>
+                {{group.name}}
+            </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</div>
+</div>
 </ion-content>

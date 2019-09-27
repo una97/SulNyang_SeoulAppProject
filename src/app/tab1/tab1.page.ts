@@ -6,17 +6,19 @@ import * as firebase from 'firebase';
 import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 import { Storage } from '@ionic/storage';
-
+import { Observable } from 'rxjs';
+import { Idea, IdeaService } from 'src/app/services/idea.service';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page implements OnInit{
+export class Tab1Page implements OnInit {
   public h = 1;
   public m = 0;
-
+  public groups: Observable<Idea[]>;
   constructor(
     public plat: Platform,
     public activatedRoute: ActivatedRoute,
@@ -24,6 +26,8 @@ export class Tab1Page implements OnInit{
     public router: Router,
     public atrCtrl: AlertController,
     public stor: Storage,
+    private ideaService: IdeaService,
+    private iab: InAppBrowser
     ) {}
   public userid: string = null;
   public userauth: string = null;
@@ -37,7 +41,8 @@ export class Tab1Page implements OnInit{
         console.log(val);
       });
     }
-    ngOnInit(){
+    ngOnInit() {
+      this.groups = this.ideaService.getGroups();
       firebase.database().ref().once('value').then((snapshot) => {
         // tslint:disable-next-line: prefer-const
         let i = 0;
@@ -57,7 +62,10 @@ export class Tab1Page implements OnInit{
       });
     }
     
-
+    openBlank(note) {
+      console.log(note);
+      this.iab.create(note, `_blank`);
+    }
     checkInform() {
       this.router.navigateByUrl('cinform');
     }
