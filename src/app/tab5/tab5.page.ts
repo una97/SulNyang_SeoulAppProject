@@ -69,6 +69,7 @@ user: User = {
     this.stor.get('dong').then((val) => {
       this.userdong = val;
     });
+    
   }
   async login() {
     // tslint:disable-next-line:prefer-const

@@ -1,10 +1,12 @@
 <ion-header>
   <ion-toolbar color = "primary">
-      <ion-buttons slot="secondary">
+      <!-- <ion-buttons slot="secondary">
           <ion-button >
+            
               <ion-icon slot="icon-only" name="funnel"></ion-icon>
+            
             </ion-button>
-      </ion-buttons>
+      </ion-buttons> -->
       <ion-buttons slot="primary">
         <ion-button >
           <ion-icon slot="icon-only" ios="ios-search" md="md-search"></ion-icon>
@@ -30,37 +32,26 @@
 </ion-header>
 
 <ion-content>
-  <ion-col *ngFor="let item of items; let writer of writerInfo;" col-12 no-padding>
-    <ion-card  (click)="getPost(item)">
-      <ion-row>
-        <ion-col col-3>
-          <!-- <ion-avatar item-start> -->
-            <img width="150px" height="120px" src="{{item.img}}">
-          <!-- </ion-avatar> -->
-        </ion-col>
-        <ion-col col-7>
-            <ion-card-header>
-              {{writer.userid}}
-              
-              <!-- {{writer.userdong}} -->
-              <!-- <ion-avatar item-start>
-                  <img width="40px" height="40px"  src="{{writer.userpic}}"/>
-              </ion-avatar> -->
-              </ion-card-header>
-              <ion-card-content>
-                  {{writer.userauth}}
+  <ion-col *ngFor="let item of items; let writer of writerInfo;let gu of writerGu;let dong of writerDong" col-12 no-padding>
+    <!-- <ion-card  (click)="getPost(item)">
+      <ion-card-content>
 
-                {{item.title}}
-              </ion-card-content>
-        </ion-col>
-      
-      </ion-row>
-      <!-- </ion-col> -->
-     <!-- <ion-row>
-        <ion-col col-2>
-            <ion-icon name= "heart"></ion-icon>
-          </ion-col>
-     </ion-row> -->
+      </ion-card-content> -->
+      <ion-card (click)="getPost(item)" class="card" >
+          <img src="{{item.img}}" width="100px" height="150px"/>
+          <ion-card-content >
+                   <ion-row>
+                    <ion-col width-100><h1>{{item.title}}  </h1> </ion-col> 
+                    <!-- <ion-col width-100><h1>{{item.title}}  </h1> </ion-col>    -->
+                  </ion-row>
+                    <ion-row>
+                      <ion-col width-30><h4>{{item.regisGu}}&nbsp;{{item.regisDong}} </h4></ion-col>
+                    </ion-row>
+          </ion-card-content>
+
+
+
+
     </ion-card>
   
   </ion-col>

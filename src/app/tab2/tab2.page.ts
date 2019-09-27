@@ -15,6 +15,8 @@ public code: string;
 public writer: string;
 public items=[];
 public writerInfo=[];
+// public writerGu=[];
+// public writerDong=[];
 segment:string;
   constructor( 
     public router: Router,
@@ -23,10 +25,22 @@ segment:string;
     public stor:Storage,
     public activatedRoute:ActivatedRoute,
     public db:AngularFireDatabase
-  ) {}
+  ) {
+    // for(let i=0;i<this.items.length;i++){
+    //   this.db.list('userInfo/',ref=>ref.orderByChild('userid/').equalTo(this.items[i].userid)).valueChanges().subscribe(
+    //     data=>{
+    //       this.writerInfo[i]=data[0];
+    //       this.writerGu[i]=this.writerInfo[i].usergu;
+    //       this.writerDong[i]=this.writerInfo[i].userdong;
+    //     }
+    //   );
+    // }
+  }
   ngOnInit(){
     this.segment='help';
+   
     this.loadList();
+
   }
 
   segmentChanged(event){
@@ -38,18 +52,6 @@ segment:string;
       data=>{
         this.items=data;
       });
-    
-    for(let i=0;i<this.items.length;i++){
-      this.db.list('userInfo/',ref=>ref.orderByChild('userid/').equalTo(this.items[i].userid)).valueChanges().subscribe(
-        data=>{
-          this.writerInfo[i]=data[0];
-          // console.log(data);
-          // document.getElementById('writerimg').setAttribute('src')
-          document.getElementById('writerimg').setAttribute('src', this.writerInfo[i].userpic);
-        }
-      );
-    }
-    console.log(this.writerInfo);
   }
 
   goCreatePost() {
