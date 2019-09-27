@@ -35,7 +35,8 @@ export class InformPage implements OnInit {
     dong: '',
     content: '',
     img: '',
-    code: ''
+    code: '',
+    complete: 0
   };
   constructor(
     public plat: Platform,
