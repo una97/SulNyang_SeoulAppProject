@@ -10,7 +10,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 })
 export class IdeaListPage implements OnInit {
 
-  private ideas: Observable<Idea[]>;
+  public ideas: Observable<Idea[]>;
 
   constructor(private ideaService: IdeaService, private iab: InAppBrowser) { }
 

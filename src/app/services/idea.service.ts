@@ -14,8 +14,10 @@ export interface Idea {
   providedIn: 'root'
 })
 export class IdeaService {
-  private ideas: Observable<Idea[]>;
-  private ideaCollection: AngularFirestoreCollection<Idea>;
+  public ideas: Observable<Idea[]>;
+  public ideaCollection: AngularFirestoreCollection<Idea>;
+  public groupCollection: AngularFirestoreCollection<Idea>;
+  public groups: Observable<Idea[]>;
 
   constructor(private afs: AngularFirestore) {
       this.ideaCollection = this.afs.collection<Idea>('ideas'); //make firestore documents, every element will be there
@@ -28,8 +30,20 @@ export class IdeaService {
               });
           })
       );
+      this.groupCollection = this.afs.collection<Idea>('groups'); //make firestore documents, every element will be there
+      this.groups = this.groupCollection.snapshotChanges().pipe(
+          map(actions => {
+              return actions.map(a => {
+                  const data = a.payload.doc.data();
+                  const id = a.payload.doc.id;
+                  return { id, ...data };
+              });
+          })
+      );
    }
-
+   getGroups(): Observable<Idea[]> {
+        return this.groups;
+   }
    getIdeas(): Observable<Idea[]> {
        return this.ideas;
    }

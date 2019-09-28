@@ -24,7 +24,7 @@ export class RegisterPage implements OnInit {
   usergu: string;
   userdong: string;
   // tslint:disable-next-line:max-line-length
-  userpic = 'https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/%E1%84%82%E1%85%A3%E1%86%BC%E1%84%8B%E1%85%B5.jpg?alt=media&token=77e407ea-791e-461a-8e03-e5959635300f';
+  userpic = 'https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/userpic%2FKakaoTalk_20190927_163422437.png?alt=media&token=d3973554-afdc-403e-ad53-53f65f1e4022';
   userauth: string;
 
   constructor(

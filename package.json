@@ -33,6 +33,7 @@
     "angularfire2": "^5.2.1",
     "chart.js": "^2.8.0",
     "cordova": "^9.0.0",
+    "cordova-android": "8.1.0",
     "cordova-browser": "6.0.0",
     "cordova-plugin-apiai": "1.7.4",
     "cordova-plugin-camera": "4.1.0",
@@ -42,6 +43,7 @@
     "core-js": "^2.5.4",
     "firebase": "^6.6.2",
     "ng2-charts": "^2.3.0",
+    "os": "^0.1.1",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
