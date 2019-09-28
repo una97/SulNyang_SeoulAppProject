@@ -18,12 +18,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 export class Tab1Page implements OnInit {
   public h = 1;
   public m = 0;
-<<<<<<< HEAD
-  currentU : string;
-
-=======
   public groups: Observable<Idea[]>;
->>>>>>> 2d4f76dff22c086622e6cc97d98568d67bfca235
   constructor(
     public plat: Platform,
     public activatedRoute: ActivatedRoute,

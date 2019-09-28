@@ -15,13 +15,11 @@ declare var google;
 export class HospitalPage implements OnInit {
 
   //json data
-  hospitalName:string;
+  hospitalName:any;
   map:any;
   marker:any=[];
-  lat:any="";
-  lng:any="";
-  timestamp:any="";
-  infowindow:any=[];
+  lat:any;
+  lng:any;
   informGu:any;
   totalLat=0;
   totalLng=0;
@@ -36,7 +34,6 @@ export class HospitalPage implements OnInit {
 
   ) 
   { 
-    //this.userGu=this.ac.snapshot.paramMap.get('userGu');
     ////지도
     if(this.marker.length!=0)
     {
