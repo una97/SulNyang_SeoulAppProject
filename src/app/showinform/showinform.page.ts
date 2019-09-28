@@ -7,7 +7,7 @@ import { Router , ActivatedRoute} from '@angular/router';
 import * as firebase from 'firebase';
 import { Storage } from '@ionic/storage';
 import { from, VirtualTimeScheduler } from 'rxjs';
-import { runInThisContext } from 'vm';
+
 @Component({
   selector: 'app-showinform',
   templateUrl: './showinform.page.html',
