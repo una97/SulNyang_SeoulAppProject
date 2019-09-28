@@ -1,11 +1,12 @@
 <ion-header *ngIf="item">
   <ion-toolbar color ="medium">
       <ion-buttons slot="start">
-          <ion-back-button text="" ></ion-back-button>
+          <ion-back-button text=""></ion-back-button>
         </ion-buttons>
     <ion-title>{{headert}}</ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-content>
 <ion-card>
   <ion-card-content *ngFor="let item of item">
       <ion-item>
@@ -41,3 +42,6 @@
       </ion-item>
   </ion-card-content>
 </ion-card>
+</ion-content>
+<ion-button *ngIf= "temp_complete == 0" (click)="done()"> 확인 완료 </ion-button>
+<ion-button *ngIf= "temp_complete == 1" (click)="cancel()"> 확인 취소 </ion-button>

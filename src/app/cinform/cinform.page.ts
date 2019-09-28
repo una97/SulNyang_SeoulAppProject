@@ -11,6 +11,7 @@ import {ActivatedRoute, Router} from '@angular/router';
   styleUrls: ['./cinform.page.scss'],
 })
 export class CinformPage implements OnInit {
+  complete: number;
   userid: string;
   userauth: string;
   code: string;
@@ -25,6 +26,7 @@ export class CinformPage implements OnInit {
   ) { }
 
   ngOnInit() {
+    
     this.stor.get('id').then((val) => {
       this.userid = val;
     });

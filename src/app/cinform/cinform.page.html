@@ -2,7 +2,7 @@
     <ion-toolbar color="medium">
       <ion-title>제보 확인</ion-title>
         <ion-buttons slot="start">
-          <ion-back-button text=""></ion-back-button>
+            <ion-back-button text="" defaultHref="/tabs/tab1"></ion-back-button>
         </ion-buttons>
     </ion-toolbar>
   </ion-header>
@@ -17,9 +17,12 @@
             <!-- </ion-avatar> -->
           </ion-col>
           <ion-col col-7>
-              <ion-card-header>
-                {{item.category}}
+              <ion-card-header >
+                {{item.category}}   
                 </ion-card-header>
+                <ion-card-content *ngIf= "item.complete == 1">
+                   [[확인완료]]
+                </ion-card-content>
                 <ion-card-content>
                     {{item.content.substring(0,15)}}
                 </ion-card-content>
