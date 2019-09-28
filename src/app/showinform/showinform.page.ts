@@ -6,7 +6,8 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { Router , ActivatedRoute} from '@angular/router';
 import * as firebase from 'firebase';
 import { Storage } from '@ionic/storage';
-import { from } from 'rxjs';
+import { from, VirtualTimeScheduler } from 'rxjs';
+import { runInThisContext } from 'vm';
 @Component({
   selector: 'app-showinform',
   templateUrl: './showinform.page.html',
@@ -22,6 +23,7 @@ public itemtmp: any;
 writer: string;
 temp_content: number;
 temp_complete: number;
+comment: string;
 constructor(
   public navCtrl: NavController,
   public atrCtrl: AlertController,
@@ -40,6 +42,8 @@ constructor(
     // tslint:disable-next-line: prefer-const
         let c = snapshot.child(`informTxt/${this.code}/complete`).val();
         this.temp_complete = c;
+        let co = snapshot.child(`informTxt/${this.code}/comment`).val();
+        this.comment = co;
   });
   this.load();
 }
@@ -47,6 +51,7 @@ async done() {
   console.log(this.code);
   firebase.database().ref().once('value').then((snapshot) => {
     this.db.object(`informTxt/${this.code}/complete`).set(1);   // 확인 완료 버튼 누르면 complete가 1 되게
+    this.db.object(`informTxt/${this.code}/comment`).set(this.comment);
   });
   this.atrCtrl.create({
     header: '알림',
@@ -64,6 +69,7 @@ async done() {
 cancel() {
   firebase.database().ref().once('value').then((snapshot) => {
     this.db.object(`informTxt/${this.code}/complete`).set(0);   // 확인 취소 버튼 누르면 complete가 1 되게
+    this.db.object(`informTxt/${this.code}/comment`).set('');
   });
   this.atrCtrl.create({
     header: '알림',

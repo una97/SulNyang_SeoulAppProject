@@ -20,13 +20,10 @@
               <ion-card-header>
                 {{item.category}}   
                 </ion-card-header>
-
                 <ion-card-content *ngIf= "item.complete == 0">
                     {{item.content.substring(0,15)}}
                 </ion-card-content>
-                
                     <img *ngIf= "item.complete == 1" src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/KakaoTalk_Photo_2019-09-29-00-06-33.png?alt=media&token=e622ef94-950b-4482-9170-72eed338b91d"/>
-                
           </ion-col>
         </ion-row>
       </ion-card>

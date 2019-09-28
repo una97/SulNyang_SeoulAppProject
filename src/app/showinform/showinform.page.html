@@ -42,6 +42,17 @@
       </ion-item>
   </ion-card-content>
 </ion-card>
+
+<ion-card *ngIf = "temp_complete == 0">
+    <ion-textarea rows="20" [(ngModel)]="comment" placeholder="코멘트 작성란"></ion-textarea>
+</ion-card>
+
+<ion-card *ngIf = "temp_complete == 1">
+        <ion-card-title>관리자 의견</ion-card-title>
+    <ion-card-content>
+        {{comment}}
+    </ion-card-content>
+</ion-card>
 </ion-content>
 <ion-button *ngIf= "temp_complete == 0" (click)="done()"> 확인 완료 </ion-button>
 <ion-button *ngIf= "temp_complete == 1" (click)="cancel()"> 확인 취소 </ion-button>
