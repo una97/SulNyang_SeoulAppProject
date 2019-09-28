@@ -44,14 +44,17 @@
 </ion-card>
 
 <ion-card *ngIf = "temp_complete == 0">
-    <ion-textarea rows="20" [(ngModel)]="comment" placeholder="코멘트 작성란"></ion-textarea>
+    <ion-item>
+        <ion-label>Comment</ion-label>
+        <ion-textarea [(ngModel)]="comment" clearOnEdit="true" placeholder="코멘트를 작성해 주세요"></ion-textarea>
+      </ion-item>
 </ion-card>
 
 <ion-card *ngIf = "temp_complete == 1">
-        <ion-card-title>관리자 의견</ion-card-title>
-    <ion-card-content>
+    <ion-item>
+        <ion-label>Comment</ion-label>
         {{comment}}
-    </ion-card-content>
+      </ion-item>
 </ion-card>
 </ion-content>
 <ion-button *ngIf= "temp_complete == 0" (click)="done()"> 확인 완료 </ion-button>
