@@ -16,6 +16,7 @@ import { Storage } from '@ionic/storage';
 export class Tab1Page implements OnInit{
   public h = 1;
   public m = 0;
+  currentU : string;
 
   constructor(
     public plat: Platform,
@@ -36,6 +37,7 @@ export class Tab1Page implements OnInit{
         this.userauth = val;
         console.log(val);
       });
+
     }
     ngOnInit(){
       firebase.database().ref().once('value').then((snapshot) => {
@@ -53,7 +55,6 @@ export class Tab1Page implements OnInit{
             document.getElementById(Gu_name + '_G').setAttribute('src','');
           }
         }
-        
       });
     }
     

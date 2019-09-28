@@ -1,0 +1,555 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 동선동 동소문로 73",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5922066,
+               "lng" : 127.0135319
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59355642989272,
+                  "lng" : 127.0148817298927
+               },
+               "southwest" : {
+                  "lat" : 37.59085677010727,
+                  "lng" : 127.0121820701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "58875478b60286cf79fc7995767e0cb299cc1c3a",
+         "name" : "VIP동물의료센터",
+         "photos" : [
+            {
+               "height" : 729,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106487743117175404876/photos\"\u003eShambi Sotheb\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAgza330oW7IHBw-Gyk-FCPX76-uQ8LQdVUMh8piLMBwNTVYEB-hG5rKK5nhmgKv8f821zT0GGrJK3iZ0p91rZr7L8sOfSirgy0Q4rd6MHo2HgCaYTX4FNlhgZ5Hz27ed4EhBixW-GnAG5_4Ja3Wz4cHsyGhSJF8Hk7Xan21869b89Pp-e3S6ysg",
+               "width" : 727
+            }
+         ],
+         "place_id" : "ChIJ8xE5KMe8fDURYn1Qxa7EzLc",
+         "plus_code" : {
+            "compound_code" : "H2R7+VC 서울특별시",
+            "global_code" : "8Q99H2R7+VC"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJ8xE5KMe8fDURYn1Qxa7EzLc",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 72
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 정릉1동 139-3",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6030865,
+               "lng" : 127.0139094
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60443632989272,
+                  "lng" : 127.0152592298927
+               },
+               "southwest" : {
+                  "lat" : 37.60173667010728,
+                  "lng" : 127.0125595701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "555137c9890f000453bf963ed2f4298b94a7a710",
+         "name" : "북악동물병원",
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116452013980742543459/photos\"\u003eJungWoo Sung\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAHoY69mTN8aU0iaTU4qb03E7QOCePH03XcK73QgB17ynVUvLvMmqIWimsjcswNAMMm-_ybuB-Yvm_-XaYYrMp1btonyiwPQgOuOIzPYOSIA1_HPBLi4puRiEBihbyc9iyEhDnq876TsbvN4G2EIhZoAKSGhRFcJI9WDMFm1hI33BxWyJZZQIoNQ",
+               "width" : 1836
+            }
+         ],
+         "place_id" : "ChIJGSRj6Ou8fDUReFytz9gg76k",
+         "plus_code" : {
+            "compound_code" : "J237+6H 서울특별시",
+            "global_code" : "8Q99J237+6H"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJGSRj6Ou8fDUReFytz9gg76k",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 24
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 보문동1가 9-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5880051,
+               "lng" : 127.0181872
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.58935492989272,
+                  "lng" : 127.0195370298927
+               },
+               "southwest" : {
+                  "lat" : 37.58665527010728,
+                  "lng" : 127.0168373701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c2d00f8b790231a05e299afad7e000686f71391b",
+         "name" : "서울종합동물병원",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113216677747173577002/photos\"\u003e정진옥\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAPl5fBPs6vUh2k6h4HJrvRNrHqDXBt1dixIaN-AroFcMZ2ETJ0KxW3K03E7WjNYC6WOIi0wdcthpFQe4lrTuCJhwpeitMLzk_Hzn7BsY3GWI2VBEKNYrpz2F9phWL-xllEhBtKXKOCt6ntDMpWf9N2vXpGhR-Vod2IUCyAUrOCA_usqxdj_-OCQ",
+               "width" : 1960
+            }
+         ],
+         "place_id" : "ChIJ_yejG8i8fDURMa2nT98U0Es",
+         "plus_code" : {
+            "compound_code" : "H2Q9+67 서울특별시",
+            "global_code" : "8Q99H2Q9+67"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJ_yejG8i8fDURMa2nT98U0Es",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 길음동 877-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6025312,
+               "lng" : 127.0238529
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60388102989272,
+                  "lng" : 127.0252027298927
+               },
+               "southwest" : {
+                  "lat" : 37.60118137010728,
+                  "lng" : 127.0225030701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "00c052fc89ea0f5782f7d6f64a16064d3ba15f42",
+         "name" : "길음동물병원",
+         "place_id" : "ChIJg8Pn1ZO8fDURVWwO0h2FwYk",
+         "plus_code" : {
+            "compound_code" : "J23F+2G 서울특별시",
+            "global_code" : "8Q99J23F+2G"
+         },
+         "rating" : 4,
+         "reference" : "ChIJg8Pn1ZO8fDURVWwO0h2FwYk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 종암동 19-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5961711,
+               "lng" : 127.0351298
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59752092989272,
+                  "lng" : 127.0364796298927
+               },
+               "southwest" : {
+                  "lat" : 37.59482127010727,
+                  "lng" : 127.0337799701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "436c62b27f2fdcb76d8af6ef8aa0d6860fda4188",
+         "name" : "강북동물병원",
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110095394844570724316/photos\"\u003e유병로\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAVe5kkJdKtiStsXmSwJy8rhMIqUs9zkVXayvXMdWlcTC_GOrl5bLKMOpsWa69kUuWAM79F-SmFVpYWIeSeOtRg6T1vRPtgh3Mnqrq0B2CU3MNvjQxB8OO2pkh4-xuIn9PEhDNfmQQqSnSU1V3UFmW0461GhRR_3aJ3iCYDWRyjQve0ITUYocByA",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJDQMaqZ68fDURhHzFWwgvY7c",
+         "plus_code" : {
+            "compound_code" : "H2WP+F3 서울특별시",
+            "global_code" : "8Q99H2WP+F3"
+         },
+         "rating" : 0,
+         "reference" : "ChIJDQMaqZ68fDURhHzFWwgvY7c",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 동소문동3가 79",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5914225,
+               "lng" : 127.0129648
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59277232989272,
+                  "lng" : 127.0143146298927
+               },
+               "southwest" : {
+                  "lat" : 37.59007267010728,
+                  "lng" : 127.0116149701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "90f9b0888d2cca8a283e292b891472afa7949cb3",
+         "name" : "나래동물병원",
+         "place_id" : "ChIJE9mHi8i8fDURlzCiIyuDVj8",
+         "plus_code" : {
+            "compound_code" : "H2R7+H5 서울특별시",
+            "global_code" : "8Q99H2R7+H5"
+         },
+         "rating" : 0,
+         "reference" : "ChIJE9mHi8i8fDURlzCiIyuDVj8",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "번지 1 층, 1125-9 길음동 성북구 서울특별시 대한민국",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6107834,
+               "lng" : 127.0225838
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61213322989272,
+                  "lng" : 127.0239336298927
+               },
+               "southwest" : {
+                  "lat" : 37.60943357010728,
+                  "lng" : 127.0212339701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3d7828e38b4155d687de0b5d01fdb7c05b0f08c8",
+         "name" : "우리종합동물병원",
+         "place_id" : "ChIJpcOykou8fDUR5yeLSxwDvtU",
+         "plus_code" : {
+            "compound_code" : "J26F+82 서울특별시",
+            "global_code" : "8Q99J26F+82"
+         },
+         "rating" : 0,
+         "reference" : "ChIJpcOykou8fDUR5yeLSxwDvtU",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 정릉동 보국문로 4",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.605024,
+               "lng" : 127.0117205
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60637382989272,
+                  "lng" : 127.0130703298927
+               },
+               "southwest" : {
+                  "lat" : 37.60367417010728,
+                  "lng" : 127.0103706701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "065fc6c397ce2c545da3a3977d597a3d4adf1c21",
+         "name" : "정릉동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJs_Atwe-8fDURqkRRnbyNysk",
+         "plus_code" : {
+            "compound_code" : "J246+2M 서울특별시",
+            "global_code" : "8Q99J246+2M"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJs_Atwe-8fDURqkRRnbyNysk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 동소문동3가 32",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5899214,
+               "lng" : 127.0100768
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59127122989273,
+                  "lng" : 127.0114266298927
+               },
+               "southwest" : {
+                  "lat" : 37.58857157010728,
+                  "lng" : 127.0087269701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f5aa89f50b57b6b2a88fd543b028090e49ebf1a0",
+         "name" : "베스트동물병원",
+         "place_id" : "ChIJrcW8p8-8fDURdFMSIyeYeVM",
+         "plus_code" : {
+            "compound_code" : "H2Q6+X2 서울특별시",
+            "global_code" : "8Q99H2Q6+X2"
+         },
+         "rating" : 0,
+         "reference" : "ChIJrcW8p8-8fDURdFMSIyeYeVM",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 석관동 268-11",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6088366,
+               "lng" : 127.0592937
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61018642989271,
+                  "lng" : 127.0606435298927
+               },
+               "southwest" : {
+                  "lat" : 37.60748677010727,
+                  "lng" : 127.0579438701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3951a6de5901beda62f2f7dc86dd2d208a85e406",
+         "name" : "중앙동물병원",
+         "place_id" : "ChIJU4zNUZi7fDURGnbtcvNm2Fk",
+         "plus_code" : {
+            "compound_code" : "J355+GP 서울특별시",
+            "global_code" : "8Q99J355+GP"
+         },
+         "rating" : 0,
+         "reference" : "ChIJU4zNUZi7fDURGnbtcvNm2Fk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 장위동 6-107",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6135861,
+               "lng" : 127.0615434
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61493592989272,
+                  "lng" : 127.0628932298927
+               },
+               "southwest" : {
+                  "lat" : 37.61223627010727,
+                  "lng" : 127.0601935701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "fa2ee157dbf8e1307eaed8b502fb30c5084406d5",
+         "name" : "다나동물병원",
+         "place_id" : "ChIJBRgc9r27fDUR1Ca7yMkxGng",
+         "plus_code" : {
+            "compound_code" : "J376+CJ 서울특별시",
+            "global_code" : "8Q99J376+CJ"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJBRgc9r27fDUR1Ca7yMkxGng",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 장위동 3-16",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6140583,
+               "lng" : 127.0623488
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61540812989272,
+                  "lng" : 127.0636986298927
+               },
+               "southwest" : {
+                  "lat" : 37.61270847010728,
+                  "lng" : 127.0609989701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "9882d2a610d2a70c481ebd4e4dbddf3bb249e3bf",
+         "name" : "대학종합동물병원",
+         "place_id" : "ChIJRdV84r27fDURmVOyfwUhaXM",
+         "plus_code" : {
+            "compound_code" : "J376+JW 서울특별시",
+            "global_code" : "8Q99J376+JW"
+         },
+         "rating" : 4,
+         "reference" : "ChIJRdV84r27fDURmVOyfwUhaXM",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 하월곡동",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6054754,
+               "lng" : 127.0269081
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60682522989271,
+                  "lng" : 127.0282579298927
+               },
+               "southwest" : {
+                  "lat" : 37.60412557010727,
+                  "lng" : 127.0255582701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "608149d73d7b17283c2a7efd16ef6b41f07aa888",
+         "name" : "열린동물병원",
+         "place_id" : "ChIJhx3ms4-8fDURSicVB_dYzrQ",
+         "plus_code" : {
+            "compound_code" : "J24G+5Q 서울특별시",
+            "global_code" : "8Q99J24G+5Q"
+         },
+         "rating" : 0,
+         "reference" : "ChIJhx3ms4-8fDURSicVB_dYzrQ",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 하월곡동 77-67",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.61244689999999,
+               "lng" : 127.0371847
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61379672989272,
+                  "lng" : 127.0385345298927
+               },
+               "southwest" : {
+                  "lat" : 37.61109707010728,
+                  "lng" : 127.0358348701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "99515e5ae55cf7245ec3b0bb0303302e783dd71b",
+         "name" : "창문동물병원",
+         "place_id" : "ChIJXXr94n68fDURz_zLGfIfsoc",
+         "plus_code" : {
+            "compound_code" : "J26P+XV 서울특별시",
+            "global_code" : "8Q99J26P+XV"
+         },
+         "rating" : 0,
+         "reference" : "ChIJXXr94n68fDURz_zLGfIfsoc",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 성북구 성북동 성북로 27",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5903757,
+               "lng" : 127.0038594
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59172552989271,
+                  "lng" : 127.0052092298927
+               },
+               "southwest" : {
+                  "lat" : 37.58902587010727,
+                  "lng" : 127.0025095701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "9e3c0db0affc579d8458e4b672dda2fc6dc575af",
+         "name" : "HanSaRang Animal Hospital",
+         "place_id" : "ChIJzT5Mpt-9fDURTyZjblK_-Zc",
+         "plus_code" : {
+            "compound_code" : "H2R3+5G 서울특별시",
+            "global_code" : "8Q99H2R3+5G"
+         },
+         "rating" : 0,
+         "reference" : "ChIJzT5Mpt-9fDURTyZjblK_-Zc",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 중랑구 중화2동 207",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5952831,
+               "lng" : 127.0799032
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59663292989272,
+                  "lng" : 127.0812530298927
+               },
+               "southwest" : {
+                  "lat" : 37.59393327010728,
+                  "lng" : 127.0785533701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "026e6268466769aa50fa1c8cb353f00c156b4773",
+         "name" : "로얄동물메디컬센터",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105784056064545285650/photos\"\u003e00tv Choi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAlcCWuBAJqnHPISv3avIu1reoOmaVlvnM53WaCZXK8aa6_DBgUie5CC80XgXZHueiu91uqr32_UTQX97eHzFOarfGvzLmbwKrG6GOJXVMtvZdfdrJiUtaWtqNFSbsMoZ-EhAkerk8TRHkRC-5CpBT2ysaGhSc84xQcULmf8nQYq1TkPq86Yfv8A",
+               "width" : 2268
+            }
+         ],
+         "place_id" : "ChIJ-zwGXKq7fDURU2cZN2Lo8So",
+         "plus_code" : {
+            "compound_code" : "H3WH+4X 서울특별시",
+            "global_code" : "8Q99H3WH+4X"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ-zwGXKq7fDURU2cZN2Lo8So",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 74
+      }
+   ],
+   "status" : "OK"
+}

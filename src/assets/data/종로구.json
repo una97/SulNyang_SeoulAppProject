@@ -1,0 +1,326 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 홍지동 127-7",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5988639,
+               "lng" : 126.9602481
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60021372989272,
+                  "lng" : 126.9615979298927
+               },
+               "southwest" : {
+                  "lat" : 37.59751407010727,
+                  "lng" : 126.9588982701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2fbc9052b3602e5efa91d027520ca71daed7171f",
+         "name" : "북악동물병원",
+         "place_id" : "ChIJQQ8hkKyifDURyHlAkKSJzOU",
+         "plus_code" : {
+            "compound_code" : "HXX6+G3 서울특별시",
+            "global_code" : "8Q98HXX6+G3"
+         },
+         "rating" : 4,
+         "reference" : "ChIJQQ8hkKyifDURyHlAkKSJzOU",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 홍지동 자하문로",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.599235,
+               "lng" : 126.9589611
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60058482989272,
+                  "lng" : 126.9603109298927
+               },
+               "southwest" : {
+                  "lat" : 37.59788517010728,
+                  "lng" : 126.9576112701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "92f1bd2c366f78d745d345dce45a491262302f3f",
+         "name" : "올리브동물병원",
+         "photos" : [
+            {
+               "height" : 512,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108217515561418971427/photos\"\u003e원호준\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAJj0bokgkbOdFTwphcPt9U2y-mOhJdRwF3h9csYsN5_SoKf7PVQjD6eJgfmHL30A_MucITiEzs0B636SdGbB61e-0BWcpvYbkAQGRLgi2FB_B3bC9yq43ezb2hQqBC7ndEhBqI42PvvjmjGBi3EYMW3eOGhTakUCqeICf3TGBlc8xfDhf1fq4Xw",
+               "width" : 707
+            }
+         ],
+         "place_id" : "ChIJUxXhequifDUR2LpfmbHQov4",
+         "plus_code" : {
+            "compound_code" : "HXX5+MH 서울특별시",
+            "global_code" : "8Q98HXX5+MH"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJUxXhequifDUR2LpfmbHQov4",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 19
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 명륜2가 14-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5845885,
+               "lng" : 127.0001891
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.58593832989272,
+                  "lng" : 127.0015389298927
+               },
+               "southwest" : {
+                  "lat" : 37.58323867010728,
+                  "lng" : 126.9988392701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "83955f1a251453e870402f165f8658c1079c4652",
+         "name" : "대학로동물병원",
+         "place_id" : "ChIJc3xfGSujfDURDzqS18TxViA",
+         "plus_code" : {
+            "compound_code" : "H2M2+R3 서울특별시",
+            "global_code" : "8Q99H2M2+R3"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJc3xfGSujfDURDzqS18TxViA",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 숭인동 65-22",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.57528440000001,
+               "lng" : 127.0158545
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57663422989273,
+                  "lng" : 127.0172043298927
+               },
+               "southwest" : {
+                  "lat" : 37.57393457010729,
+                  "lng" : 127.0145046701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f799852b69a1fa61c07f46b6efda7543b6876f48",
+         "name" : "소망동물병원",
+         "place_id" : "ChIJHS-ChzajfDURnNVK4lCtQ2U",
+         "plus_code" : {
+            "compound_code" : "H2G8+48 서울특별시",
+            "global_code" : "8Q99H2G8+48"
+         },
+         "rating" : 0,
+         "reference" : "ChIJHS-ChzajfDURnNVK4lCtQ2U",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 신영동 16",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6049187,
+               "lng" : 126.9612201
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60626852989273,
+                  "lng" : 126.9625699298927
+               },
+               "southwest" : {
+                  "lat" : 37.60356887010728,
+                  "lng" : 126.9598702701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "0d711f2c66d9e56dec9cdf1a1befd597f9165e1b",
+         "name" : "월드펫동물병원",
+         "place_id" : "ChIJnWbJ3lO9fDUR_nMNBzL4cMs",
+         "plus_code" : {
+            "compound_code" : "JX36+XF 서울특별시",
+            "global_code" : "8Q98JX36+XF"
+         },
+         "rating" : 0,
+         "reference" : "ChIJnWbJ3lO9fDUR_nMNBzL4cMs",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 내자동 125-3",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5757558,
+               "lng" : 126.9710255
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57710562989271,
+                  "lng" : 126.9723753298927
+               },
+               "southwest" : {
+                  "lat" : 37.57440597010727,
+                  "lng" : 126.9696756701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "906e3fe11bfddb77b05bc53af8cc03d4b1aa9bbc",
+         "name" : "누리봄동물병원",
+         "place_id" : "ChIJnR7_MpSifDUR6J7SbkQ5Jf4",
+         "plus_code" : {
+            "compound_code" : "HXGC+8C 서울특별시",
+            "global_code" : "8Q98HXGC+8C"
+         },
+         "rating" : 0,
+         "reference" : "ChIJnR7_MpSifDUR6J7SbkQ5Jf4",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 평창동 289-2",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6049465,
+               "lng" : 126.9647197
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60629632989272,
+                  "lng" : 126.9660695298927
+               },
+               "southwest" : {
+                  "lat" : 37.60359667010728,
+                  "lng" : 126.9633698701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "01860dd11207a6044756200274e45d507e0952ad",
+         "name" : "평화종합동물병원",
+         "place_id" : "ChIJVeMi31G9fDURfq6KsdrILC8",
+         "plus_code" : {
+            "compound_code" : "JX37+XV 서울특별시",
+            "global_code" : "8Q98JX37+XV"
+         },
+         "rating" : 0,
+         "reference" : "ChIJVeMi31G9fDURfq6KsdrILC8",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 필운동 137-5번지",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5764907,
+               "lng" : 126.968655
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57784052989273,
+                  "lng" : 126.9700048298927
+               },
+               "southwest" : {
+                  "lat" : 37.57514087010728,
+                  "lng" : 126.9673051701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "9d4c0d4841d644d2a5e7f02310a453245e136dc8",
+         "name" : "광화문동물병원",
+         "place_id" : "ChIJSU1x9JaifDUR1hk4SzQZ8Hs",
+         "plus_code" : {
+            "compound_code" : "HXG9+HF 서울특별시",
+            "global_code" : "8Q98HXG9+HF"
+         },
+         "rating" : 5,
+         "reference" : "ChIJSU1x9JaifDUR1hk4SzQZ8Hs",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 숭인동 52-8번지 1층",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5786667,
+               "lng" : 127.0156223
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.58001652989272,
+                  "lng" : 127.0169721298927
+               },
+               "southwest" : {
+                  "lat" : 37.57731687010727,
+                  "lng" : 127.0142724701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "6fcb8ab58aef367e428f66715fc8247e198179b2",
+         "name" : "우리동물병원",
+         "place_id" : "ChIJXzC2_DSjfDURbe8VVPI5C1g",
+         "plus_code" : {
+            "compound_code" : "H2H8+F6 서울특별시",
+            "global_code" : "8Q99H2H8+F6"
+         },
+         "rating" : 0,
+         "reference" : "ChIJXzC2_DSjfDURbe8VVPI5C1g",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 종로구 홍파동 42-13번지 상가동 2층 2229호 경희궁자이2단지아파트",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5713246,
+               "lng" : 126.9635654
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57267442989272,
+                  "lng" : 126.9649152298927
+               },
+               "southwest" : {
+                  "lat" : 37.56997477010727,
+                  "lng" : 126.9622155701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "682b0f7f1191a5f7398d7c2a6f8618d8890c86b3",
+         "name" : "경희궁바른동물병원",
+         "place_id" : "ChIJyULCSYWifDURk1O2I0Axc5M",
+         "plus_code" : {
+            "compound_code" : "HXC7+GC 서울특별시",
+            "global_code" : "8Q98HXC7+GC"
+         },
+         "rating" : 0,
+         "reference" : "ChIJyULCSYWifDURk1O2I0Axc5M",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      }
+   ],
+   "status" : "OK"
+}

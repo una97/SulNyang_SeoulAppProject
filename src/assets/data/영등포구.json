@@ -1,0 +1,732 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CpQCCAEAADq4QByF7L3GUpOBAUvCiW0NiH0tR8-mikF516cqrDOnaGWKwmJpaJCcuiC_F5TmfnEkMzvQ0-gGCZgINRnTDmhk0_yt2BbkCoBNNKbA0AbMEORPfHrnDgwwt_Vd0P8lesmxJHg2GjPbnnO5GqRdj5_TFpQY8LhU_2g8qpVn64BBUFaJFviq9jtXIjDxpZNT9MAk_6I1TRdZm1bvGGIHbZoLn3hhsmAS9vU3IQr3fpmSBmU_v32n3T75yy59odSdDCvQRt-qyNXM9YEMql_j-82-lE6gmaG8D965smeRaUGuIt8pzn1JjHTuoVPmIfqhwuBKvduRgC3SSM6KO6rRNigEMLQIVWRC7JcLmHE-9wnVEhC5ge4IvG82pnf2hDtMX6dvGhQl5RNZdzK5wqLzcjlVoJm7Oh1IWw",
+   "results" : [
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 당산동1가 348",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5231775,
+               "lng" : 126.8962565
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.52452732989271,
+                  "lng" : 126.8976063298927
+               },
+               "southwest" : {
+                  "lat" : 37.52182767010726,
+                  "lng" : 126.8949066701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "fad6083453c08a10bcf1a7bc08d2c4ba8838248b",
+         "name" : "영등포동물병원",
+         "photos" : [
+            {
+               "height" : 1920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101489188521723956358/photos\"\u003emazing oh\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAH_wS4X57XYZBLqlGn4ScB47vf7CZ6EroIRmCNdI1QdyXMID3qU8GupMVjG0Zx4ZVoFJ16_cMD8j3PyPeyjQ-JMRT89DDzQEjKUPXvsV9zfyoGaR-rHBqwSmnjVfQ-X5SEhC6ZuMURNkA5QR0LWWm0BPxGhRi-EI9SXJPuoC28Fuj6Kpk-XJp2Q",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJpQ8Qx_KefDURjhm0RUNdBzg",
+         "plus_code" : {
+            "compound_code" : "GVFW+7G 서울특별시",
+            "global_code" : "8Q98GVFW+7G"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJpQ8Qx_KefDURjhm0RUNdBzg",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 영등포동7가 64-48",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5242887,
+               "lng" : 126.9042279
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.52563852989272,
+                  "lng" : 126.9055777298927
+               },
+               "southwest" : {
+                  "lat" : 37.52293887010728,
+                  "lng" : 126.9028780701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "34736de129e8cb02a6278786f90fcd7fff406d67",
+         "name" : "서울축산약품상사",
+         "place_id" : "ChIJu-7ZmOaefDURqRYXjW9EHM8",
+         "plus_code" : {
+            "compound_code" : "GWF3+PM 서울특별시",
+            "global_code" : "8Q98GWF3+PM"
+         },
+         "rating" : 0,
+         "reference" : "ChIJu-7ZmOaefDURqRYXjW9EHM8",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 신길6동 628",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5015695,
+               "lng" : 126.920477
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50291932989271,
+                  "lng" : 126.9218268298927
+               },
+               "southwest" : {
+                  "lat" : 37.50021967010727,
+                  "lng" : 126.9191271701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "fdfe0db4547b7bfc783bc98329613cbcf30de22d",
+         "name" : "대방동물병원",
+         "place_id" : "ChIJS0BP86iffDURYFmXrm85kXk",
+         "plus_code" : {
+            "compound_code" : "GW2C+J5 서울특별시",
+            "global_code" : "8Q98GW2C+J5"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJS0BP86iffDURYFmXrm85kXk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 25
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 신길4동 232-15",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.50711570000001,
+               "lng" : 126.9111947
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50846552989272,
+                  "lng" : 126.9125445298927
+               },
+               "southwest" : {
+                  "lat" : 37.50576587010728,
+                  "lng" : 126.9098448701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "752df70b96503dbd984f416ed9bd4f0d9a5f551b",
+         "name" : "우신동물병원",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJPTOYrKqffDURci2IXaju19o",
+         "plus_code" : {
+            "compound_code" : "GW46+RF 서울특별시",
+            "global_code" : "8Q98GW46+RF"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJPTOYrKqffDURci2IXaju19o",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 15
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 신길6동 4824",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4934314,
+               "lng" : 126.9098116
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49478122989272,
+                  "lng" : 126.9111614298927
+               },
+               "southwest" : {
+                  "lat" : 37.49208157010727,
+                  "lng" : 126.9084617701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e714a0d0cda5842fbe84c4fcc8529b22659a3d66",
+         "name" : "유석동물병원",
+         "photos" : [
+            {
+               "height" : 2112,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114960370421741490060/photos\"\u003e김태현\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAACa4RZX99szBEKyx502N0sjGXAtSroFrVz1CC0rFxZUKS97zugtg9w-_mKoFDfcVlkasDQdAxA0vbsArcNBBHz5fBF-ib6-cT2EQUcCcyGYa_tJj19Pd3CnOkYd2mt9i_EhCPVua3vxfEysl17VNN_-HiGhTR7A70XmDuUb02CYAjfMlMCX14pQ",
+               "width" : 2816
+            }
+         ],
+         "place_id" : "ChIJORoNQkuefDURmIWg9clRd-o",
+         "plus_code" : {
+            "compound_code" : "FWV5+9W 서울특별시",
+            "global_code" : "8Q98FWV5+9W"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJORoNQkuefDURmIWg9clRd-o",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 17
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 여의도동 국제금융로 108",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5187643,
+               "lng" : 126.9334972
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.52011412989273,
+                  "lng" : 126.9348470298927
+               },
+               "southwest" : {
+                  "lat" : 37.51741447010728,
+                  "lng" : 126.9321473701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7252b40656c32c5950bbc825adb98b4758b1f896",
+         "name" : "여의도동물병원 은하점",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 573,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100036344404070105388/photos\"\u003e여의도동물병원 은하점\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAuqCNrNKhoaMSE4eJQQm05lVzqSBv4b5xii0VgSspfof_J-EDCp6AuEO4ro-Qh0mJeT-pNMWqipYYyBbI4VBOAMs8RoAehxak030gjQYX5g0OExrDmInT-yl5uO7eOrSREhAN04lOCvX-emP96QE1jZ0LGhQYKSbIAaVN5Z5GMWKxrGuTXwKWqg",
+               "width" : 764
+            }
+         ],
+         "place_id" : "ChIJKfVOEUCffDURa8jJ5vv-0yo",
+         "plus_code" : {
+            "compound_code" : "GW9M+G9 서울특별시",
+            "global_code" : "8Q98GW9M+G9"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJKfVOEUCffDURa8jJ5vv-0yo",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 11
+      },
+      {
+         "formatted_address" : "대한민국 SEOUL YEONGDEUNGPO-GU 영등포동",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5171897,
+               "lng" : 126.9022603
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.51853952989272,
+                  "lng" : 126.9036101298927
+               },
+               "southwest" : {
+                  "lat" : 37.51583987010727,
+                  "lng" : 126.9009104701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f4e03247ecd6b685b20a74784794f66870303643",
+         "name" : "러브펫",
+         "place_id" : "ChIJIYYwXPuefDURDHKS-KcYNhI",
+         "plus_code" : {
+            "compound_code" : "GW82+VW 서울특별시",
+            "global_code" : "8Q98GW82+VW"
+         },
+         "rating" : 0,
+         "reference" : "ChIJIYYwXPuefDURDHKS-KcYNhI",
+         "types" : [
+            "pharmacy",
+            "veterinary_care",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 여의도동 여의대방로 417",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5210634,
+               "lng" : 126.9343933
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.52241322989273,
+                  "lng" : 126.9357431298927
+               },
+               "southwest" : {
+                  "lat" : 37.51971357010728,
+                  "lng" : 126.9330434701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "22fdc21235efe760a0c8f6fe4f610563a62fb9a0",
+         "name" : "여의도동물병원 대교점",
+         "photos" : [
+            {
+               "height" : 445,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109647602878193471604/photos\"\u003e여의도동물병원 대교점\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRZAAAAl2GdMYri7ipb9J_EgJSaodvIlE-LauasRSsRYoD3XUWqQwP50JWAf2FBMOrzVAjYl0hHGQbSah3Jjb3IhCpNKCtntChfQNBKq5KLml7JjkpiXncgjz6rRIG_rWRKkXRmEhAP5vbNCkgUmbHaVs6dvoOyGhQcgTf3M8K-M4ffB77uoFsYEuGY9A",
+               "width" : 804
+            }
+         ],
+         "place_id" : "ChIJnVOUwkCffDURYmALnPif2Js",
+         "plus_code" : {
+            "compound_code" : "GWCM+CQ 서울특별시",
+            "global_code" : "8Q98GWCM+CQ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJnVOUwkCffDURYmALnPif2Js",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 당산동5가 11-33",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.533212,
+               "lng" : 126.9022778
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.53456182989271,
+                  "lng" : 126.9036276298927
+               },
+               "southwest" : {
+                  "lat" : 37.53186217010727,
+                  "lng" : 126.9009279701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f499e1da636263dcc395e301c568492a7749a602",
+         "name" : "디오빌동물병원",
+         "place_id" : "ChIJVdqzkdyefDURsDYRpddOLyw",
+         "plus_code" : {
+            "compound_code" : "GWM2+7W 서울특별시",
+            "global_code" : "8Q98GWM2+7W"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJVdqzkdyefDURsDYRpddOLyw",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 신길동 829-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5049302,
+               "lng" : 126.9220045
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50628002989272,
+                  "lng" : 126.9233543298927
+               },
+               "southwest" : {
+                  "lat" : 37.50358037010728,
+                  "lng" : 126.9206546701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a42b53be64f687b8ec74fd362cc22fe1b1944790",
+         "name" : "한국동물병원",
+         "place_id" : "ChIJ91kQdQiffDURm9dSr5R2xo8",
+         "plus_code" : {
+            "compound_code" : "GW3C+XR 서울특별시",
+            "global_code" : "8Q98GW3C+XR"
+         },
+         "rating" : 0,
+         "reference" : "ChIJ91kQdQiffDURm9dSr5R2xo8",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 양천구 목2동 목동중앙북로 73",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.546797,
+               "lng" : 126.8715106
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.54814682989272,
+                  "lng" : 126.8728604298927
+               },
+               "southwest" : {
+                  "lat" : 37.54544717010728,
+                  "lng" : 126.8701607701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "cf814a0c41e61559b7e0a76bb71670920ee87cc9",
+         "name" : "두암한방동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3712,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112270500167421702420/photos\"\u003eJinyeong Jeong\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAKh3kFVz-XFb5QCoLdz4N1J2s5nUjrtH4tHACYdZYvYvx9PL2tLlAJbeL1-oAOP5e-A7HDE6X6RKD9-f3mTHPAmWRffmNagsq15fe6aKCfhRSJaaYamjCBEDzfpDuqwPrEhBMkqFkq5xzuX8k3juDVXPyGhTRXyaN_cjOz8tiKr6REn18xCMJBg",
+               "width" : 5568
+            }
+         ],
+         "place_id" : "ChIJqTnh76aefDURyYIj15rjfgA",
+         "plus_code" : {
+            "compound_code" : "GVWC+PJ 서울특별시",
+            "global_code" : "8Q98GVWC+PJ"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJqTnh76aefDURyYIj15rjfgA",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 21
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 양평동2가 1-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.521622,
+               "lng" : 126.8848688
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.52297182989273,
+                  "lng" : 126.8862186298927
+               },
+               "southwest" : {
+                  "lat" : 37.52027217010728,
+                  "lng" : 126.8835189701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d82e2e7f61d6515343ab0c1afc46f69129ea8474",
+         "name" : "애드펫동물병원",
+         "place_id" : "ChIJ-w1hB4yefDURnzEc1ZYGTGk",
+         "plus_code" : {
+            "compound_code" : "GVCM+JW 서울특별시",
+            "global_code" : "8Q98GVCM+JW"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ-w1hB4yefDURnzEc1ZYGTGk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 신길6동 신길로 70",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.49864480000001,
+               "lng" : 126.9086027
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49999462989273,
+                  "lng" : 126.9099525298927
+               },
+               "southwest" : {
+                  "lat" : 37.49729497010729,
+                  "lng" : 126.9072528701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c2e5e5affe12bb655675db637b6297d73314ffdd",
+         "name" : "신풍",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117840393216506494249/photos\"\u003e호떡맨\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAWTQMdbcxCzT1rVUh2pedxK7e-raWTV6z7JNz5DGtUafeDJBfsjMViCXuzM9UhDwTkR6oaMl5wLiFMhlkyk5Bt8xn1089wze3VaxArP5uATf0R8wTCpXlmqBfg7oSBnT_EhAqzE5qVmlQHzy4lEERrstdGhQnZk0Ztq8HzmYFsefY_WBwOzR1yQ",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJc4Mzdk2efDURZUkK7QlarNQ",
+         "plus_code" : {
+            "compound_code" : "FWX5+FC 서울특별시",
+            "global_code" : "8Q98FWX5+FC"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJc4Mzdk2efDURZUkK7QlarNQ",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 26
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 대림동 1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4947366,
+               "lng" : 126.9003402
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49608642989272,
+                  "lng" : 126.9016900298927
+               },
+               "southwest" : {
+                  "lat" : 37.49338677010727,
+                  "lng" : 126.8989903701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d3cf142716711448fe79b79984d82f521fa0ddb4",
+         "name" : "하나동물병원",
+         "place_id" : "ChIJWTIG2EeefDURmkVi-zt5t4k",
+         "plus_code" : {
+            "compound_code" : "FWV2+V4 서울특별시",
+            "global_code" : "8Q98FWV2+V4"
+         },
+         "rating" : 0,
+         "reference" : "ChIJWTIG2EeefDURmkVi-zt5t4k",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 신길동 4945",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5054573,
+               "lng" : 126.9146573
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50680712989272,
+                  "lng" : 126.9160071298927
+               },
+               "southwest" : {
+                  "lat" : 37.50410747010727,
+                  "lng" : 126.9133074701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3d7d3091430b889af67e804032e4b4e1aa95edd5",
+         "name" : "라이프동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100184444956347415921/photos\"\u003e일기보소맘의일상\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAj0LHFBWUFytBr-IBJ9nTULrebn0whRQCUFj0Dg5JBHLqsk7Qr70KwruLVDvf0LIIA2G-EwGg2qxoA9wgx4AUPxLbSMIMLB8ZpF70h4sgH0QC6dvGltuU_L3NaUUkdL9wEhClXzwgI2uEBStAFgym5m8YGhQWc4spa378T2CIsk6Sei_lk1M96A",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJT5Ots7SffDURPTnJyAsmJ-I",
+         "plus_code" : {
+            "compound_code" : "GW47+5V 서울특별시",
+            "global_code" : "8Q98GW47+5V"
+         },
+         "rating" : 5,
+         "reference" : "ChIJT5Ots7SffDURPTnJyAsmJ-I",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 신길동 161-3",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5114571,
+               "lng" : 126.9156161
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.51280692989273,
+                  "lng" : 126.9169659298927
+               },
+               "southwest" : {
+                  "lat" : 37.51010727010728,
+                  "lng" : 126.9142662701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d44880329f241338e105132305585be3c4d4a187",
+         "name" : "종합동물병원",
+         "place_id" : "ChIJicCD7gOffDURBGUK-7HU3CA",
+         "plus_code" : {
+            "compound_code" : "GW68+H6 서울특별시",
+            "global_code" : "8Q98GW68+H6"
+         },
+         "rating" : 0,
+         "reference" : "ChIJicCD7gOffDURBGUK-7HU3CA",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 영등포동7가 64-48",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5242855,
+               "lng" : 126.9042255
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.52563532989272,
+                  "lng" : 126.9055753298927
+               },
+               "southwest" : {
+                  "lat" : 37.52293567010728,
+                  "lng" : 126.9028756701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "06258a326c9c7a9a90f1485a9891a01e8f0d047a",
+         "name" : "서울축산동물병원",
+         "place_id" : "ChIJM-XdPqeffDURpRSh7rEWDrc",
+         "plus_code" : {
+            "compound_code" : "GWF3+PM 서울특별시",
+            "global_code" : "8Q98GWF3+PM"
+         },
+         "rating" : 0,
+         "reference" : "ChIJM-XdPqeffDURpRSh7rEWDrc",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 영등포본동 경인로 832",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5156938,
+               "lng" : 126.9054517
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.51704362989273,
+                  "lng" : 126.9068015298927
+               },
+               "southwest" : {
+                  "lat" : 37.51434397010728,
+                  "lng" : 126.9041018701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4abd46f3e59dcdec5b539ea403c703a696a12702",
+         "name" : "경인동물의료센터",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104435837323873776071/photos\"\u003eamakusa\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAVXVEYbeS6FQU0EQEM0CiuaTSHeFqFwfeMvxR54h_zduvg-dPy4UkV0oicLG7gFkzgHpTwvKYd0oG9_juBmA0bAO6xH9Uxg9vGIW7ap125GwVQ5O9fmpgqSvV4ww26nTTEhAMEci4XJbLuWHTII9a-3k5GhQSkDbHvbKQ89gCKmJEFtrF6uqE_w",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJzSbgnSuffDURul4ZdpxnSDk",
+         "plus_code" : {
+            "compound_code" : "GW84+75 서울특별시",
+            "global_code" : "8Q98GW84+75"
+         },
+         "rating" : 5,
+         "reference" : "ChIJzSbgnSuffDURul4ZdpxnSDk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 영등포구 대림동 978-19",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4900151,
+               "lng" : 126.906812
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49136492989273,
+                  "lng" : 126.9081618298927
+               },
+               "southwest" : {
+                  "lat" : 37.48866527010728,
+                  "lng" : 126.9054621701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "036061e719e4b1f93c5c2619abb8f743ea0ca669",
+         "name" : "조은동물병원",
+         "place_id" : "ChIJRRvH7TWefDURwsYqvvOo2hE",
+         "plus_code" : {
+            "compound_code" : "FWR4+2P 서울특별시",
+            "global_code" : "8Q98FWR4+2P"
+         },
+         "rating" : 0,
+         "reference" : "ChIJRRvH7TWefDURwsYqvvOo2hE",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 5가 76번지 한신아파트 107동 1층 상가 12호 영등포구 서울특별시 KR",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.538535,
+               "lng" : 126.8913203
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.53988482989271,
+                  "lng" : 126.8926701298927
+               },
+               "southwest" : {
+                  "lat" : 37.53718517010726,
+                  "lng" : 126.8899704701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2ef9d7156d74f4f45bc58c7e9ca39a6467e547ca",
+         "name" : "사랑의 동물병원",
+         "place_id" : "ChIJqWcXOseefDURXYAKOaaftUU",
+         "plus_code" : {
+            "compound_code" : "GVQR+CG 서울특별시",
+            "global_code" : "8Q98GVQR+CG"
+         },
+         "rating" : 0,
+         "reference" : "ChIJqWcXOseefDURXYAKOaaftUU",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      }
+   ],
+   "status" : "OK"
+}

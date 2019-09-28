@@ -1,0 +1,112 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "대한민국 서울특별시 서초구 서초1동 1603-66",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4854065,
+               "lng" : 127.0170236
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.48675632989271,
+                  "lng" : 127.0183734298927
+               },
+               "southwest" : {
+                  "lat" : 37.48405667010727,
+                  "lng" : 127.0156737701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4283e9cf94082b921e25317aeecf2a55f92bea31",
+         "name" : "서초동물병원",
+         "place_id" : "ChIJm4ZTChWhfDUR3Q1lMga7boU",
+         "plus_code" : {
+            "compound_code" : "F2P8+5R 서울특별시",
+            "global_code" : "8Q99F2P8+5R"
+         },
+         "rating" : 2.5,
+         "reference" : "ChIJm4ZTChWhfDUR3Q1lMga7boU",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서초구 양재1동",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.46214,
+               "lng" : 127.026473
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.46348982989272,
+                  "lng" : 127.0278228298927
+               },
+               "southwest" : {
+                  "lat" : 37.46079017010728,
+                  "lng" : 127.0251231701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d880f485e8e0905b8f712dc82a4162c70e0b2ae0",
+         "name" : "서초 힐스 동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102134588773996143060/photos\"\u003e서초 힐스 동물병원\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAbAbKcHApSD16DHplUHtptLXQ_sMH88YyX4G2pfHWygK7PZPahi-sWQWIXztbwHhPOrPYjzMdLEeSmIwjAq95pi6lFuEUWCAGgf-8FPo2d5JpSQyymqxfao0GWiKf2xapEhAlmL4qmhOjVffzgnHa891nGhRwzTDPR8TrAB5cKSVwSTUUpW6t3g",
+               "width" : 1363
+            }
+         ],
+         "place_id" : "ChIJd-AYddmgfDUR6akbw-b-Rdc",
+         "plus_code" : {
+            "compound_code" : "F26G+VH 서울특별시",
+            "global_code" : "8Q99F26G+VH"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJd-AYddmgfDUR6akbw-b-Rdc",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 25
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서초구 서초1동 사임당로 97",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.49026070000001,
+               "lng" : 127.0203404
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49161052989272,
+                  "lng" : 127.0216902298927
+               },
+               "southwest" : {
+                  "lat" : 37.48891087010728,
+                  "lng" : 127.0189905701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c289596c9dd250e341b44e4cc9ce2ca1d7e00dc1",
+         "name" : "강남서초동물병원",
+         "place_id" : "ChIJZ0cQkUGhfDURHkW5UNjGgXE",
+         "plus_code" : {
+            "compound_code" : "F2RC+44 서울특별시",
+            "global_code" : "8Q99F2RC+44"
+         },
+         "rating" : 5,
+         "reference" : "ChIJZ0cQkUGhfDURHkW5UNjGgXE",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      }
+   ],
+   "status" : "OK"
+}

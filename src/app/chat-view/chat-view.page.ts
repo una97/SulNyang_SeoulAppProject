@@ -161,8 +161,8 @@ export class ChatViewPage implements OnInit {
                     });
                   });
                 }
-                this.alertDelete();
               });
+              this.alertDelete();
             });
           }
         }

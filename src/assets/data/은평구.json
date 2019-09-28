@@ -1,0 +1,513 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 신사1동 20-24",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5982242,
+               "lng" : 126.9109752
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59957402989272,
+                  "lng" : 126.9123250298927
+               },
+               "southwest" : {
+                  "lat" : 37.59687437010728,
+                  "lng" : 126.9096253701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "83de5e5898945b3e75bd60ade871ea6c4c538b2c",
+         "name" : "늘푸른동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113470472368945557582/photos\"\u003e신상근\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAHxFvOiw5cb9W5FQNCvDR6_9_HkZIf2cZVV6ZQpT-GqHBGM9odAwCSFhaolFp2vFaYcbcRqSgBgnjFdQWxJ2DifxPmB_GR46j6JqAHg4DLjjLQovlvMCd0VCPCgU3zaXYEhCLk8t0c5-17nD5xUM6XMV9GhTZZW2DJvkAdJ-TCpv20Wc8wqSKdQ",
+               "width" : 1960
+            }
+         ],
+         "place_id" : "ChIJZWoNLbWZfDURBzb-WwHd7UI",
+         "plus_code" : {
+            "compound_code" : "HWX6+79 서울특별시",
+            "global_code" : "8Q98HWX6+79"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJZWoNLbWZfDURBzb-WwHd7UI",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 65
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 응암1동 응암로 319",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5997372,
+               "lng" : 126.9215567
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60108702989272,
+                  "lng" : 126.9229065298927
+               },
+               "southwest" : {
+                  "lat" : 37.59838737010728,
+                  "lng" : 126.9202068701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3a576468799bced240957f40b5719dd351640a0c",
+         "name" : "한수동물병원",
+         "place_id" : "ChIJDzzLiE6YfDURBWm7r3u5kkI",
+         "plus_code" : {
+            "compound_code" : "HWXC+VJ 서울특별시",
+            "global_code" : "8Q98HWXC+VJ"
+         },
+         "rating" : 4,
+         "reference" : "ChIJDzzLiE6YfDURBWm7r3u5kkI",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 불광동 274-10",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6113896,
+               "lng" : 126.9294452
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61273942989272,
+                  "lng" : 126.9307950298927
+               },
+               "southwest" : {
+                  "lat" : 37.61003977010728,
+                  "lng" : 126.9280953701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "526f0136cf3d09d5b661521d125ebe6a75624433",
+         "name" : "불광동물병원",
+         "place_id" : "ChIJ6UFahCCYfDUR5Z2fvRKRy-c",
+         "plus_code" : {
+            "compound_code" : "JW6H+HQ 서울특별시",
+            "global_code" : "8Q98JW6H+HQ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ6UFahCCYfDUR5Z2fvRKRy-c",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 51-22",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.605632,
+               "lng" : 126.91116
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60698182989272,
+                  "lng" : 126.9125098298927
+               },
+               "southwest" : {
+                  "lat" : 37.60428217010728,
+                  "lng" : 126.9098101701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "156fcbfc00ef9b7686facf4d626980fed84a14c5",
+         "name" : "도담동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110714316349013794423/photos\"\u003eSunYOung KIM\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA9U3Ak9ZHNhzRo5BjetW1kAK-G7dL6BEf8yCR5OpUWwYSgjpu9czjJQn9uKekrEML-_-mH6jfCLECeK_r22ze5xmR3I5cTYvSvFITKOfriWo_bbw7pxvwoJUFDAxMYrd4EhCcr7APKUkzH0eEydbAv0ERGhTt8UGP1tv3t9uwXgQercJC5-aeFA",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ6eTESjOYfDUR7n81l00Uawk",
+         "plus_code" : {
+            "compound_code" : "JW46+7F 서울특별시",
+            "global_code" : "8Q98JW46+7F"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ6eTESjOYfDUR7n81l00Uawk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 진관2로 77 205동 B104호 뉴타운 우물골아파트",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6342169,
+               "lng" : 126.9263379
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.63556672989272,
+                  "lng" : 126.9276877298927
+               },
+               "southwest" : {
+                  "lat" : 37.63286707010727,
+                  "lng" : 126.9249880701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4726c2c625796025b4b79991b2247ee54d1d1ab3",
+         "name" : "우리덕구동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJQXl-mL6XfDUR6hv2QNLdOQs",
+         "plus_code" : {
+            "compound_code" : "JWMG+MG 서울특별시",
+            "global_code" : "8Q98JWMG+MG"
+         },
+         "rating" : 0,
+         "reference" : "ChIJQXl-mL6XfDUR6hv2QNLdOQs",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 대조동 223-13",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6131669,
+               "lng" : 126.9178352
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61451672989271,
+                  "lng" : 126.9191850298927
+               },
+               "southwest" : {
+                  "lat" : 37.61181707010727,
+                  "lng" : 126.9164853701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f542e0941ae0ed4b0cdb3250b50b0069cf4f2556",
+         "name" : "연서동물병원",
+         "place_id" : "ChIJIY9MDSmYfDUR6CJSZy5HGNA",
+         "plus_code" : {
+            "compound_code" : "JW79+74 서울특별시",
+            "global_code" : "8Q98JW79+74"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJIY9MDSmYfDUR6CJSZy5HGNA",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 응암동 244-212",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5881949,
+               "lng" : 126.9224382
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.58954472989272,
+                  "lng" : 126.9237880298927
+               },
+               "southwest" : {
+                  "lat" : 37.58684507010728,
+                  "lng" : 126.9210883701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c8509c61ba38d3ff02bdb779b1f4b4c6b0b6bae5",
+         "name" : "참좋은동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJQeWiZUWYfDURPrBPjKWYgYU",
+         "plus_code" : {
+            "compound_code" : "HWQC+7X 서울특별시",
+            "global_code" : "8Q98HWQC+7X"
+         },
+         "rating" : 5,
+         "reference" : "ChIJQeWiZUWYfDURPrBPjKWYgYU",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 대조동 224-24",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.611306,
+               "lng" : 126.9175853
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61265582989272,
+                  "lng" : 126.9189351298927
+               },
+               "southwest" : {
+                  "lat" : 37.60995617010728,
+                  "lng" : 126.9162354701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3a7f35b24034ce6f0a83150e7152e190aedb3fbd",
+         "name" : "더독(THEDOG)동물병원",
+         "place_id" : "ChIJZVNctC6YfDURWJBbW2Y6jMg",
+         "plus_code" : {
+            "compound_code" : "JW69+G2 서울특별시",
+            "global_code" : "8Q98JW69+G2"
+         },
+         "rating" : 2,
+         "reference" : "ChIJZVNctC6YfDURWJBbW2Y6jMg",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 증산동 168-2",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.584337,
+               "lng" : 126.9097812
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.58568682989272,
+                  "lng" : 126.9111310298927
+               },
+               "southwest" : {
+                  "lat" : 37.58298717010727,
+                  "lng" : 126.9084313701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "094560039b02669ec03c03818ee95fc353db5cec",
+         "name" : "신동물병원",
+         "place_id" : "ChIJNX8DIKuZfDURXIugao4LeHI",
+         "plus_code" : {
+            "compound_code" : "HWM5+PW 서울특별시",
+            "global_code" : "8Q98HWM5+PW"
+         },
+         "rating" : 0,
+         "reference" : "ChIJNX8DIKuZfDURXIugao4LeHI",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 녹번동 117-112",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6080567,
+               "lng" : 126.9317229
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60940652989272,
+                  "lng" : 126.9330727298927
+               },
+               "southwest" : {
+                  "lat" : 37.60670687010727,
+                  "lng" : 126.9303730701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7d641c81530d4758e3dc4111bae3b3d33b327d42",
+         "name" : "녹번동물병원",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114706556202575702103/photos\"\u003e케챱너구리쪼꼬\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA6xEeXfXp6kUb750ol2uUkO2wrRor1McInGCA6CIRgEdnFkjooYH7pjcv0TuKAuhsCs_O83eEujL4Lcf6mgxG17aUlMR9JWMHyi-huDl5gA1rHxWZoADqUis2Be2e6PQQEhCoqEwzzRx8a6PYKFa1UkowGhQgiHga6I8HG4sd4YoBqBi0Rcko8A",
+               "width" : 1960
+            }
+         ],
+         "place_id" : "ChIJbZWIxSGYfDURQ_5DsFQR0EI",
+         "plus_code" : {
+            "compound_code" : "JW5J+6M 서울특별시",
+            "global_code" : "8Q98JW5J+6M"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJbZWIxSGYfDURQ_5DsFQR0EI",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 대조동 188-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6166943,
+               "lng" : 126.9230568
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61804412989272,
+                  "lng" : 126.9244066298927
+               },
+               "southwest" : {
+                  "lat" : 37.61534447010728,
+                  "lng" : 126.9217069701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2d9dc2f8665a60869f11053dd5b212dad47afe19",
+         "name" : "(주)드림펫",
+         "place_id" : "ChIJyeZ9i4iXfDURcIkdK80ASqA",
+         "plus_code" : {
+            "compound_code" : "JW8F+M6 서울특별시",
+            "global_code" : "8Q98JW8F+M6"
+         },
+         "rating" : 0,
+         "reference" : "ChIJyeZ9i4iXfDURcIkdK80ASqA",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 역촌동 63-14",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6031681,
+               "lng" : 126.9154191
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60451792989272,
+                  "lng" : 126.9167689298927
+               },
+               "southwest" : {
+                  "lat" : 37.60181827010728,
+                  "lng" : 126.9140692701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7945e94be596cca9f0f33d468f7935ebb659f17c",
+         "name" : "종합동물병원",
+         "place_id" : "ChIJiVfM9TOYfDURRQct50QDQa0",
+         "plus_code" : {
+            "compound_code" : "JW38+75 서울특별시",
+            "global_code" : "8Q98JW38+75"
+         },
+         "rating" : 0,
+         "reference" : "ChIJiVfM9TOYfDURRQct50QDQa0",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 신사동 8-50",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5999462,
+               "lng" : 126.9104196
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60129602989272,
+                  "lng" : 126.9117694298927
+               },
+               "southwest" : {
+                  "lat" : 37.59859637010728,
+                  "lng" : 126.9090697701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b3724295d209bd865d7c3fba69d7d3185296b9d6",
+         "name" : "신영동물병원",
+         "place_id" : "ChIJiWP_WbWZfDURTDDW6z5I2FA",
+         "plus_code" : {
+            "compound_code" : "HWX6+X5 서울특별시",
+            "global_code" : "8Q98HWX6+X5"
+         },
+         "rating" : 0,
+         "reference" : "ChIJiWP_WbWZfDURTDDW6z5I2FA",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 갈현동 504-16",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6171941,
+               "lng" : 126.9148354
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61854392989272,
+                  "lng" : 126.9161852298927
+               },
+               "southwest" : {
+                  "lat" : 37.61584427010728,
+                  "lng" : 126.9134855701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e1edb9a4a711174167585d4e536a8125f28c25f5",
+         "name" : "원동물병원",
+         "place_id" : "ChIJO2RwnoCXfDURTvVyDrl3KiU",
+         "plus_code" : {
+            "compound_code" : "JW87+VW 서울특별시",
+            "global_code" : "8Q98JW87+VW"
+         },
+         "rating" : 0,
+         "reference" : "ChIJO2RwnoCXfDURTvVyDrl3KiU",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 대조동 187-38",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6163888,
+               "lng" : 126.9233623
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.61773862989272,
+                  "lng" : 126.9247121298927
+               },
+               "southwest" : {
+                  "lat" : 37.61503897010727,
+                  "lng" : 126.9220124701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "9fa76e28da91fb2d296422b60eecc13a8ce25b38",
+         "name" : "패미원동물병원",
+         "place_id" : "ChIJAc1o9YiXfDURsEO3wZ122DE",
+         "plus_code" : {
+            "compound_code" : "JW8F+H8 서울특별시",
+            "global_code" : "8Q98JW8F+H8"
+         },
+         "rating" : 0,
+         "reference" : "ChIJAc1o9YiXfDURsEO3wZ122DE",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      }
+   ],
+   "status" : "OK"
+}

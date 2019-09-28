@@ -1,0 +1,623 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 홍제2동 103-6",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.584865,
+               "lng" : 126.948639
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.58621482989273,
+                  "lng" : 126.9499888298927
+               },
+               "southwest" : {
+                  "lat" : 37.58351517010728,
+                  "lng" : 126.9472891701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "74b562c97a50caddd521e42883722e118df13e98",
+         "name" : "한솔동물병원(서울서대문구)",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 373,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100657115274901688296/photos\"\u003e한솔동물병원\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAus96f3MjjKeRfas1c9xgu5r0TtpNSBEPMWRaDC5TvZSr9TpE6phsS-Q0RKNKqUQ3mD-qLgWeFCCRsIgMrGJZRS1ycRJj74ciPB_3tNcR7bhWXMWQGzSIbhbZs_Chjar2EhCuxlKMaqMuULW-Bq2wpwxYGhTNgtubJX35gm5tSInom1hEcNv5JA",
+               "width" : 549
+            }
+         ],
+         "place_id" : "ChIJl988YnOYfDURS9AgSzdb96U",
+         "plus_code" : {
+            "compound_code" : "HWMX+WF 서울특별시",
+            "global_code" : "8Q98HWMX+WF"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJl988YnOYfDURS9AgSzdb96U",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 20
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 영천동 통일로 197",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5708673,
+               "lng" : 126.9613044
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57221712989272,
+                  "lng" : 126.9626542298927
+               },
+               "southwest" : {
+                  "lat" : 37.56951747010727,
+                  "lng" : 126.9599545701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e8bd4903cef88f78f2e856ab2e34ee604c07aa01",
+         "name" : "우리동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115963432291343886037/photos\"\u003eYounah Kim\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAR8YLcML-LrUdhR8qvRXw837ZdsnHroBfbO6YqQnskKtESVXNEkCUS8IRrysAtV8r0EUKIRQE4JXoanOupOJ3C7xZ2TP8qoEJZ-ujkqPoq8ZxzaftxHGhkz-kqjE87FIcEhDIqPVOaf3LeShOlTfn8YFVGhRh8mpYxYyQ7ZfMOS5YcyPrj3y-_Q",
+               "width" : 2240
+            }
+         ],
+         "place_id" : "ChIJEc1F7oSifDURunPwFZPJ6tY",
+         "plus_code" : {
+            "compound_code" : "HXC6+8G 서울특별시",
+            "global_code" : "8Q98HXC6+8G"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJEc1F7oSifDURunPwFZPJ6tY",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 북가좌2동 응암로 66 2층",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5787728,
+               "lng" : 126.9107866
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.58012262989272,
+                  "lng" : 126.9121364298927
+               },
+               "southwest" : {
+                  "lat" : 37.57742297010728,
+                  "lng" : 126.9094367701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "82996750c4764bfcd8af8924571cf4b57a88234a",
+         "name" : "두리틀동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 341,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108452804482884608236/photos\"\u003e두리틀동물병원\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRZAAAAw1CSg1EK3ZTmIp4pkfed8myjJrDZ-DlpV_JM2ZtHfHqFWVXs0HUPWilAvhhpEmjbkH7aEGT9o1z7RjKAeuzB5cjDLHAhmWfRbzy6HKcHY6goOocui_k9nm9PciRgL2FaEhANlgXbyKmFF1DaTWtZ_T2rGhQygsUGqTi8_nvIMf15jvsmqiOu8A",
+               "width" : 1167
+            }
+         ],
+         "place_id" : "ChIJUYsA2gGZfDURZ3t2ermkLQM",
+         "plus_code" : {
+            "compound_code" : "HWH6+G8 서울특별시",
+            "global_code" : "8Q98HWH6+G8"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJUYsA2gGZfDURZ3t2ermkLQM",
+         "types" : [ "veterinary_care", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 25
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 서울시 서대문구 남가좌동 338-39",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.576659,
+               "lng" : 126.924873
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57800882989273,
+                  "lng" : 126.9262228298927
+               },
+               "southwest" : {
+                  "lat" : 37.57530917010729,
+                  "lng" : 126.9235231701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "896aebe9a8e32cc422f26e3479ac0a6dec033f9e",
+         "name" : "한스동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJ5U2AgViYfDUReunktjaqGiA",
+         "plus_code" : {
+            "compound_code" : "HWGF+MW 서울특별시",
+            "global_code" : "8Q98HWGF+MW"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ5U2AgViYfDUReunktjaqGiA",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 천연동 통일로 171-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5690038,
+               "lng" : 126.9632755
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57035362989272,
+                  "lng" : 126.9646253298927
+               },
+               "southwest" : {
+                  "lat" : 37.56765397010728,
+                  "lng" : 126.9619256701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "cc7ace5a526e8f23bde2039ad708b41ef99de449",
+         "name" : "독립문동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101521852599077120146/photos\"\u003eilkeun chun\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAu7RQDtjMo2krDGXVlADu5kzHsN59sxWJytYmEafO90wP7mT7u-IZ9mqqna2ZoR_A_HlPtY8grRtD6nuFpv1gmG-NPLVp1l_o97IA9MuEs2oM7hCfchxp6pxKOSTMSL20EhC2lZSw6_GYS37BVQw13ao0GhQ0aXni5xpr4EFc4mq5tNOkWT5KXQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJbeY8x4SifDURAkWaZeksTcg",
+         "plus_code" : {
+            "compound_code" : "HX97+J8 서울특별시",
+            "global_code" : "8Q98HX97+J8"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJbeY8x4SifDURAkWaZeksTcg",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 북아현동 신촌로 289-1",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5574769,
+               "lng" : 126.9582759
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.55882672989272,
+                  "lng" : 126.9596257298927
+               },
+               "southwest" : {
+                  "lat" : 37.55612707010728,
+                  "lng" : 126.9569260701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e7fbfee4df6f44d9e1c5e55fce9b637ed5e23742",
+         "name" : "북아현동물병원",
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110698941010026494213/photos\"\u003e渤海之狼\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAEJVpEAyRcuOCiLLLFGvhVGMbBwUbT2oQvGS5SximC6SWXAsb1WXaZFBDIwxZzU_oTLepWzW73tzQX57N5VKdCQVM85NI0XinIGfN7GyC6QYO9NPbasAoFgmnS-h3myNyEhCjWNunmgRH2WCWIegniK09GhRufn-zFRm8QZeJa8AaK0tv-7oagA",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJsQNKbXiifDURnetZYjWRnDI",
+         "plus_code" : {
+            "compound_code" : "HX45+X8 서울특별시",
+            "global_code" : "8Q98HX45+X8"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJsQNKbXiifDURnetZYjWRnDI",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 홍제1동 330-54",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5895869,
+               "lng" : 126.9427501
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59093672989273,
+                  "lng" : 126.9440999298927
+               },
+               "southwest" : {
+                  "lat" : 37.58823707010728,
+                  "lng" : 126.9414002701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "bbe4d13a3c4881e4e0d0d2e200b1f9ceaa731bcf",
+         "name" : "홍제동물병원",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114077623444285685291/photos\"\u003eSenkan Koukuu\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA3gIiVDLCa2EIRZ8R2YLP4dEMKciL9_7kG9Fw2xXEq7uc0UeX7jbO1Dkqr1oTqhzRrDPuatex37ZwHBGgtl7gWokguOO3cUJd8gzcw0nrjMyWp_Dly3k2geLFF5kvk9KREhA-KmL2z8V6l117rhqeOxMFGhT6K-1zbuIiWCbVo0vrQAi1vXUXRw",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJx6S3ohKYfDURNC2NUaFPyK0",
+         "plus_code" : {
+            "compound_code" : "HWQV+R4 서울특별시",
+            "global_code" : "8Q98HWQV+R4"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJx6S3ohKYfDURNC2NUaFPyK0",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 18
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 연희동 89-9",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5687282,
+               "lng" : 126.9317795
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57007802989272,
+                  "lng" : 126.9331293298927
+               },
+               "southwest" : {
+                  "lat" : 37.56737837010727,
+                  "lng" : 126.9304296701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e076f4727bd99649b8d0e399337053799852748c",
+         "name" : "연희동물병원",
+         "place_id" : "ChIJ99QdRfOYfDURdMO-6MGkRvg",
+         "plus_code" : {
+            "compound_code" : "HW9J+FP 서울특별시",
+            "global_code" : "8Q98HW9J+FP"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ99QdRfOYfDURdMO-6MGkRvg",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 북아현동 신촌로35길 10",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5577978,
+               "lng" : 126.9554328
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.55914762989272,
+                  "lng" : 126.9567826298927
+               },
+               "southwest" : {
+                  "lat" : 37.55644797010728,
+                  "lng" : 126.9540829701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "139a7c88323639366105312cd3ace1ba426ea841",
+         "name" : "마음을나누는동물병원",
+         "photos" : [
+            {
+               "height" : 3132,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104333259445696163831/photos\"\u003eKAY HONG\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA1ovkwy6Hp3hzEHjEt-gp0a2INyeufFOQ50Wwm6p5nM8I8UrqhL12RLtZOA7M1tI_UD_7BiDk-2kVhLbhTvq3U2vQRAqdUyoDZOO1B4TABUQxKBK_i7ayRqMrhWKe8bLTEhDSw2WT9ge-d968zlU6ts8XGhQPQOVwE0Kyn9USLfh2N6_DUiIAEg",
+               "width" : 5351
+            }
+         ],
+         "place_id" : "ChIJq6qqqnmifDURXq3s6yvUNRs",
+         "plus_code" : {
+            "compound_code" : "HX54+45 서울특별시",
+            "global_code" : "8Q98HX54+45"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJq6qqqnmifDURXq3s6yvUNRs",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 연희동 연희로 178",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5727411,
+               "lng" : 126.9357258
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57409092989272,
+                  "lng" : 126.9370756298927
+               },
+               "southwest" : {
+                  "lat" : 37.57139127010728,
+                  "lng" : 126.9343759701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5f0ddd4aadc6c9fbdb025e0d9c761f083fe14e8b",
+         "name" : "헬로우동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107610982174158444513/photos\"\u003eJongchul Jang\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA4kWIUt0agQHceFjtVfmpJX89vRuZ1Xw7lkxXAAbjqzmtLzGWV2ZzyYCa0kopkIkU7QM7nRTdJlN-dbajsav4QYw7PDEYlbTXDdIMAbsJq7g-vHJ5CGjvCM-Rbj_BXZUjEhBXaxhWWFKoX7brnm7zyadrGhQ5qb4nT2Q9zCHbPcHvrj-tmQ1UFQ",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJdYL01mGYfDURLF47czdR44M",
+         "plus_code" : {
+            "compound_code" : "HWFP+37 서울특별시",
+            "global_code" : "8Q98HWFP+37"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJdYL01mGYfDURLF47czdR44M",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 홍은동 346-2",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5843094,
+               "lng" : 126.9238077
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.58565922989271,
+                  "lng" : 126.9251575298927
+               },
+               "southwest" : {
+                  "lat" : 37.58295957010727,
+                  "lng" : 126.9224578701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a15ed82cf7d3940b73da43cc8f30023aa5731613",
+         "name" : "백련동물병원",
+         "place_id" : "ChIJQdlo8FqYfDURKDTSbkKH1yk",
+         "plus_code" : {
+            "compound_code" : "HWMF+PG 서울특별시",
+            "global_code" : "8Q98HWMF+PG"
+         },
+         "rating" : 0,
+         "reference" : "ChIJQdlo8FqYfDURKDTSbkKH1yk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 홍은동 223-7",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5917255,
+               "lng" : 126.9409169
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.59307532989271,
+                  "lng" : 126.9422667298927
+               },
+               "southwest" : {
+                  "lat" : 37.59037567010727,
+                  "lng" : 126.9395670701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "df091ad0465676a778feea5fe2ebdd3c4c77cd99",
+         "name" : "진동물병원",
+         "place_id" : "ChIJExpzVBKYfDURV4aNIMZ_E24",
+         "plus_code" : {
+            "compound_code" : "HWRR+M9 서울특별시",
+            "global_code" : "8Q98HWRR+M9"
+         },
+         "rating" : 0,
+         "reference" : "ChIJExpzVBKYfDURV4aNIMZ_E24",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 마포구 아현동 331-11",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5570078,
+               "lng" : 126.9533333
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.55835762989273,
+                  "lng" : 126.9546831298927
+               },
+               "southwest" : {
+                  "lat" : 37.55565797010728,
+                  "lng" : 126.9519834701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f3408bb2869fae5e679a2c560e56b6ae2c9598a6",
+         "name" : "월드팻동물병원",
+         "photos" : [
+            {
+               "height" : 4656,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117351557515789226367/photos\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAxbRPXqU7AOOygnT7y2mP9qGdNxthxG1OdHvwxdiiymcDhF3a4q2UOzcafH5u_n0NMsZ939cckSMHn5iXDL3g5ou4FrPFJA2e4u7e7Fajlru8PSiN5yu4NAI1P_IRbib9EhBYDoSlODY8e60HGerjK0pJGhSHJwGfTIp-BONHvmHtbeT_2ZpIuw",
+               "width" : 2620
+            }
+         ],
+         "place_id" : "ChIJkZR8S52YfDURDt07-pHbi2Q",
+         "plus_code" : {
+            "compound_code" : "HX43+R8 서울특별시",
+            "global_code" : "8Q98HX43+R8"
+         },
+         "rating" : 4,
+         "reference" : "ChIJkZR8S52YfDURDt07-pHbi2Q",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 15
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 마포구 동교동",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5579266,
+               "lng" : 126.928187
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.55927642989272,
+                  "lng" : 126.9295368298927
+               },
+               "southwest" : {
+                  "lat" : 37.55657677010728,
+                  "lng" : 126.9268371701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a77a4c8fe1d280da40a02efe97bd0e3fbc563bab",
+         "name" : "마리동물병원(Mari Animal Hospital)",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116833402097501094631/photos\"\u003eVincent Olivier\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAxTh5i4STG60gMjE51UYjeIbS_vrOVUkRRrHZzdWDGW39Pd4cXcIIW-G7Q5hWnBR-33J0W9Ww2wua0N9fDoLtA3PvT6jdCS1dHZD3ZuawA_hbbimG4uKUj_v4cJgUqdsnEhArFMBIeGb0zRynIJf_doOcGhSdouPVkEwdysgJ_WOuwSZdSnm1LA",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ-dxsFuqYfDURt6A6M6MvVV4",
+         "plus_code" : {
+            "compound_code" : "HW5H+57 서울특별시",
+            "global_code" : "8Q98HW5H+57"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ-dxsFuqYfDURt6A6M6MvVV4",
+         "types" : [ "veterinary_care", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 은평구 응암1동 응암로 319",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5997372,
+               "lng" : 126.9215567
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.60108702989272,
+                  "lng" : 126.9229065298927
+               },
+               "southwest" : {
+                  "lat" : 37.59838737010728,
+                  "lng" : 126.9202068701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3a576468799bced240957f40b5719dd351640a0c",
+         "name" : "한수동물병원",
+         "place_id" : "ChIJDzzLiE6YfDURBWm7r3u5kkI",
+         "plus_code" : {
+            "compound_code" : "HWXC+VJ 서울특별시",
+            "global_code" : "8Q98HWXC+VJ"
+         },
+         "rating" : 4,
+         "reference" : "ChIJDzzLiE6YfDURBWm7r3u5kkI",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 서대문구 남가좌동 350-2",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5779575,
+               "lng" : 126.921474
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.57930732989273,
+                  "lng" : 126.9228238298927
+               },
+               "southwest" : {
+                  "lat" : 37.57660767010729,
+                  "lng" : 126.9201241701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2d6826e2e6841fc2e3d47a9277039eec954f7887",
+         "name" : "오즈동물병원",
+         "place_id" : "ChIJVUy0V_qYfDURtGKaBZn2jsY",
+         "plus_code" : {
+            "compound_code" : "HWHC+5H 서울특별시",
+            "global_code" : "8Q98HWHC+5H"
+         },
+         "rating" : 0,
+         "reference" : "ChIJVUy0V_qYfDURtGKaBZn2jsY",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      }
+   ],
+   "status" : "OK"
+}

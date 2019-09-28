@@ -1,0 +1,1385 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파동",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5015124,
+               "lng" : 127.1109742
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50286222989272,
+                  "lng" : 127.1123240298927
+               },
+               "southwest" : {
+                  "lat" : 37.50016257010728,
+                  "lng" : 127.1096243701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "bb4d92bb3fdc5ccf1f196346938bb4989ae7caf8",
+         "name" : "송파동물종합병원",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 352,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110833257860558432340/photos\"\u003e송파동물종합병원 .\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA_wdog7Vtvms5V5MYVhc70MzLKsoxdxnpREVA8Zfy14nE-XaTJEB12ns4lbb8c9JMDfp5aaelN_blwvpMGyUrEN67ZHZWu4hOeefiTPu7c6_g84FqYzUsZRfrh6JgZ2HXEhCif_QHCGmYiiQ0Hqk9yhLzGhS6L8gfLbhzDaUOWG0FyVtqX2bURQ",
+               "width" : 500
+            }
+         ],
+         "place_id" : "ChIJ4w9yNJqlfDURo3-_BwjU404",
+         "plus_code" : {
+            "compound_code" : "G426+J9 서울특별시",
+            "global_code" : "8Q99G426+J9"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJ4w9yNJqlfDURo3-_BwjU404",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10
+      },
+      {
+         "formatted_address" : "대한민국 백제고분로 432 2F 송파구 서울특별시 KR",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5092061,
+               "lng" : 127.1118818
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.51055592989272,
+                  "lng" : 127.1132316298927
+               },
+               "southwest" : {
+                  "lat" : 37.50785627010728,
+                  "lng" : 127.1105319701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4e0a891e61a52d79cb57d325c6f0d570283c31e5",
+         "name" : "송파원동물병원 SONGPAWON ANIMAL HOSPITAL",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3202,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113526096307361596592/photos\"\u003eWOO SUNG JUNG\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAeYYwZcC4tNp4onQTMJ6firUmJYCYyfTZjpbFkzMP7LkhUFGZy7ZKjzjKO0kXZnCR3vrZyxKpzGSJUuPRu033PcnHhGM_VGWhbFxeUD21Op11nER4hLtfucLrZ9yQUcnWEhBvHNFOQYCVV0a-AbY0nyiKGhQS8MRDlVfg8FW0M_qCPwt6J3eMpg",
+               "width" : 4803
+            }
+         ],
+         "place_id" : "ChIJvwG5MHalfDURM5PaZRsX4w0",
+         "plus_code" : {
+            "compound_code" : "G456+MQ 서울특별시",
+            "global_code" : "8Q99G456+MQ"
+         },
+         "rating" : 3,
+         "reference" : "ChIJvwG5MHalfDURM5PaZRsX4w0",
+         "types" : [ "veterinary_care", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 삼전동 133-17",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5027947,
+               "lng" : 127.0967653
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50414452989272,
+                  "lng" : 127.0981151298927
+               },
+               "southwest" : {
+                  "lat" : 37.50144487010728,
+                  "lng" : 127.0954154701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c5fa47562c1c78f868c7f3d59bf97268ee5a1ca5",
+         "name" : "삼전동물병원",
+         "place_id" : "ChIJ94VxBLulfDURfBWE_dHC86w",
+         "plus_code" : {
+            "compound_code" : "G33W+4P 서울특별시",
+            "global_code" : "8Q99G33W+4P"
+         },
+         "rating" : 2.8,
+         "reference" : "ChIJ94VxBLulfDURfBWE_dHC86w",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 12
+      },
+      {
+         "formatted_address" : "서울시 송파구 문정동 85 어은 회관 102 호 새말 로 125), 새말로 송파구 서울특별시 대한민국",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.48302870000001,
+               "lng" : 127.1277222
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.48437852989272,
+                  "lng" : 127.1290720298927
+               },
+               "southwest" : {
+                  "lat" : 37.48167887010728,
+                  "lng" : 127.1263723701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "02bfc9f95af94f07fb8268ae57fec083e3fdc4db",
+         "name" : "송파 바로 동물병원",
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106198963297755489230/photos\"\u003e박성우\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAARekk8UWa53xoRSGwPnIQr_uTm1yU-Ui_oxFAj_HewNvIDts5zZ0aywNec1lOMxpODGGCJ17KdhvtmFjalOfqHv_iLNN3euck59P0yUeHY-we0iVKHtpACo0zB1bbzCGgEhBbhQ94CKpM96iFpSbo7-TrGhT25-A-avC-ruXaD8fIPywYDIbbvw",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJMaacx1-vfDUR8CCnMdS2fM4",
+         "plus_code" : {
+            "compound_code" : "F4MH+63 서울특별시",
+            "global_code" : "8Q99F4MH+63"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJMaacx1-vfDUR8CCnMdS2fM4",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 15
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파1동 송파대로 474",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5084916,
+               "lng" : 127.1045508
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50984142989272,
+                  "lng" : 127.1059006298927
+               },
+               "southwest" : {
+                  "lat" : 37.50714177010728,
+                  "lng" : 127.1032009701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b00fe3c562a45b46f063333883d4574a288e00b3",
+         "name" : "스킨앤이어동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJfWaPx6-lfDURagnMrOkVW_c",
+         "plus_code" : {
+            "compound_code" : "G453+9R 서울특별시",
+            "global_code" : "8Q99G453+9R"
+         },
+         "rating" : 4,
+         "reference" : "ChIJfWaPx6-lfDURagnMrOkVW_c",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 거여2동 양산로4길 13",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4899558,
+               "lng" : 127.1447166
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49130562989272,
+                  "lng" : 127.1460664298927
+               },
+               "southwest" : {
+                  "lat" : 37.48860597010728,
+                  "lng" : 127.1433667701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d7df39b4843c9226e3d209b8312e6ba2119d657a",
+         "name" : "마루동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111343304474287492572/photos\"\u003eSanghoon Kwon\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAx-bXwuTnsFytItLypvfd6K4d9S8zCd4iSRaXQCNNXLHhY7dsGFkFJSiGWqxkgKqef6618c0vfvFdjnhjMHsIO_4ige2mfcg7J1UQkPzgnpzDCQA1kbqk7jlhmS668jL0EhD_Q6IFZS5_j1P3SzxT2wPjGhRLOC4li-MWzVTdblgrPtXjw9bDcw",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ9fG-B3OvfDURb6hjl_BAI6A",
+         "plus_code" : {
+            "compound_code" : "F4QV+XV 서울특별시",
+            "global_code" : "8Q99F4QV+XV"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ9fG-B3OvfDURb6hjl_BAI6A",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 가락동 190-6",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4941853,
+               "lng" : 127.1330676
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49553512989273,
+                  "lng" : 127.1344174298927
+               },
+               "southwest" : {
+                  "lat" : 37.49283547010728,
+                  "lng" : 127.1317177701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "54173f67010a967bb01097e517eddf04cbc57be0",
+         "name" : "영국동물병원",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108956541372839082033/photos\"\u003e신동기\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAfdKi0Y-_iDNFF-XGoU-KMXktOU2jXnP_aeUKSnoymUcB8Tjo-y5K5-1Q_QJjnkBziceRdrQQJkndLo3w9_v-VJepBdZkPIBS4xUxyw9hHw-dFxDJHcrll6egw0xvk93ZEhBSxaR-rw77xPXyYrq4SZuvGhRsqkz_YCz6sP8d8Pusj9XV6CZ8wg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ3YwCpXuvfDURxCX9qVNcVSo",
+         "plus_code" : {
+            "compound_code" : "F4VM+M6 서울특별시",
+            "global_code" : "8Q99F4VM+M6"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ3YwCpXuvfDURxCX9qVNcVSo",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 12
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 620 송파 푸르지오시티 110호",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.480926,
+               "lng" : 127.121805
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.48227582989271,
+                  "lng" : 127.1231548298927
+               },
+               "southwest" : {
+                  "lat" : 37.47957617010727,
+                  "lng" : 127.1204551701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8880dc792076c58e40f36d6230e86117d75462fe",
+         "name" : "키다리 동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108956541372839082033/photos\"\u003e신동기\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA2RqqkroD3EEpVwB-xSv8CGt6arFBj9zg3Cd6mNLyx1e_64s_qSgFrKJFhcz7yU4KOK040DFhKSMUDx1dvEdBfbUuK2uAE7Wq5ujkJk3h8lLAJtSVGAhG0M8ydt3ruNNwEhBtDKnF-RpPjMCkaLCHyjrhGhQsOTFMHtIHuGh1zMAz_Kr53yhaaw",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ21KOvfalfDURLd4muJiX17Q",
+         "plus_code" : {
+            "compound_code" : "F4JC+9P 서울특별시",
+            "global_code" : "8Q99F4JC+9P"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJ21KOvfalfDURLd4muJiX17Q",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 22
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 방이동 오금로 203",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5082944,
+               "lng" : 127.1166521
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50964422989272,
+                  "lng" : 127.1180019298927
+               },
+               "southwest" : {
+                  "lat" : 37.50694457010727,
+                  "lng" : 127.1153022701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1d805e1259ba8d4a612b57caa740551167ed8589",
+         "name" : "페토피아동물병원",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113449849719644651198/photos\"\u003e김완경\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAqFa_d-uzy4F1tLqkYuYMP8HZNBWxNnQdncDpMLsHtbkwIGLOBPEhOOxRYXs9L0iUHKPsYaH4uJRG-Pu4WFXuvz1WM4kBMFNuys6aof6cYdUoX1sWLk87-W2bzTJClhJGEhBgpg30GPCHPJRJyae7geuTGhTtw0cpBTCDdmX8wAfchvmAAaMf7w",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJaR1LRnilfDUReX2YaCLXNsQ",
+         "plus_code" : {
+            "compound_code" : "G458+8M 서울특별시",
+            "global_code" : "8Q99G458+8M"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJaR1LRnilfDUReX2YaCLXNsQ",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 21
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파동 103-29",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.50323940000001,
+               "lng" : 127.1134581
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50458922989272,
+                  "lng" : 127.1148079298927
+               },
+               "southwest" : {
+                  "lat" : 37.50188957010727,
+                  "lng" : 127.1121082701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "94d74b75bfb7ff5ad9c018322010d4c2356a27fb",
+         "name" : "한양종합동물병원",
+         "place_id" : "ChIJtYf4nZylfDURvlNWEAu1L44",
+         "plus_code" : {
+            "compound_code" : "G437+79 서울특별시",
+            "global_code" : "8Q99G437+79"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJtYf4nZylfDURvlNWEAu1L44",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 가락동 125-8",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.49204659999999,
+               "lng" : 127.1260128
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49339642989272,
+                  "lng" : 127.1273626298927
+               },
+               "southwest" : {
+                  "lat" : 37.49069677010728,
+                  "lng" : 127.1246629701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "cf8f5ba2641ec8389a6dfdea430b4991cdeebcee",
+         "name" : "봄빛동물병원",
+         "place_id" : "ChIJNZ3Ig2KvfDURq3ZzFXDcSOk",
+         "plus_code" : {
+            "compound_code" : "F4RG+RC 서울특별시",
+            "global_code" : "8Q99F4RG+RC"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJNZ3Ig2KvfDURq3ZzFXDcSOk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파동 96-6",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5023506,
+               "lng" : 127.1102085
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50370042989273,
+                  "lng" : 127.1115583298927
+               },
+               "southwest" : {
+                  "lat" : 37.50100077010728,
+                  "lng" : 127.1088586701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "ef4062aeb905a86ac64eb4a00bdebe9cca5c71dc",
+         "name" : "잠실종합동물병원",
+         "place_id" : "ChIJJZ7e05ulfDURMglSuod2y_4",
+         "plus_code" : {
+            "compound_code" : "G426+W3 서울특별시",
+            "global_code" : "8Q99G426+W3"
+         },
+         "rating" : 5,
+         "reference" : "ChIJJZ7e05ulfDURMglSuod2y_4",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 석촌동 252-2",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4996008,
+               "lng" : 127.1031537
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50095062989272,
+                  "lng" : 127.1045035298927
+               },
+               "southwest" : {
+                  "lat" : 37.49825097010728,
+                  "lng" : 127.1018038701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "6addd74fc953becab63013c84b006ee239004694",
+         "name" : "엄마손동물병원",
+         "place_id" : "ChIJUwH5mL2lfDURrc-AXYfUFGo",
+         "plus_code" : {
+            "compound_code" : "F4X3+R7 서울특별시",
+            "global_code" : "8Q99F4X3+R7"
+         },
+         "rating" : 0,
+         "reference" : "ChIJUwH5mL2lfDURrc-AXYfUFGo",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 거여동 133-77",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4980462,
+               "lng" : 127.1460662
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49939602989272,
+                  "lng" : 127.1474160298927
+               },
+               "southwest" : {
+                  "lat" : 37.49669637010728,
+                  "lng" : 127.1447163701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b54bcaa0899c244a4f85defee99bbb3dc5cfdf4b",
+         "name" : "오주동물병원",
+         "place_id" : "ChIJGYwJn5-vfDURZZ32liqyJ8Q",
+         "plus_code" : {
+            "compound_code" : "F4XW+6C 서울특별시",
+            "global_code" : "8Q99F4XW+6C"
+         },
+         "rating" : 4,
+         "reference" : "ChIJGYwJn5-vfDURZZ32liqyJ8Q",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 문정1동 송이로32길 19",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4881849,
+               "lng" : 127.1277058
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.48953472989273,
+                  "lng" : 127.1290556298927
+               },
+               "southwest" : {
+                  "lat" : 37.48683507010729,
+                  "lng" : 127.1263559701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5a58f1b598d9bf73b02ce598a34067cb603a007b",
+         "name" : "하군이네동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101980696389985705920/photos\"\u003e박재완\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAIKMfaePqCUYBBhn5OqKlvpGJnKFQcOEU-NPVcVlnO5D-dG6Uo4X5ix9dxpd1H1zoYi20I4AzwgYZwOrh7SIj7tXUUByPnSWnU9rWsjmJYoRte84VxenjleYgUTZPi4EoEhDxQ2piz0rTUgsiAKrB4Mu9GhQFMGFxoEFPWn5f5PRC2PmzJt16Wg",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJTbsqkGGvfDURK6FFUr_Zmd8",
+         "plus_code" : {
+            "compound_code" : "F4QH+73 서울특별시",
+            "global_code" : "8Q99F4QH+73"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJTbsqkGGvfDURK6FFUr_Zmd8",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 거여동 562-4",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4929357,
+               "lng" : 127.1438721
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49428552989272,
+                  "lng" : 127.1452219298927
+               },
+               "southwest" : {
+                  "lat" : 37.49158587010727,
+                  "lng" : 127.1425222701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2b28ceb7f518c085edf7efecc6ea428fbf9a8c1a",
+         "name" : "노아동물병원",
+         "place_id" : "ChIJ_fRKb3SvfDUR1zRkr1UK1OU",
+         "plus_code" : {
+            "compound_code" : "F4VV+5G 서울특별시",
+            "global_code" : "8Q99F4VV+5G"
+         },
+         "rating" : 1,
+         "reference" : "ChIJ_fRKb3SvfDUR1zRkr1UK1OU",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파2동 164-7",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5024896,
+               "lng" : 127.1172078
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50383942989272,
+                  "lng" : 127.1185576298927
+               },
+               "southwest" : {
+                  "lat" : 37.50113977010727,
+                  "lng" : 127.1158579701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8399907dd20390ab54438489015dd0004b36e549",
+         "name" : "송이동물병원",
+         "place_id" : "ChIJkUi3b4OlfDURXoWzF3_2LE8",
+         "plus_code" : {
+            "compound_code" : "G428+XV 서울특별시",
+            "global_code" : "8Q99G428+XV"
+         },
+         "rating" : 4,
+         "reference" : "ChIJkUi3b4OlfDURXoWzF3_2LE8",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 잠실동 250-13",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5048153,
+               "lng" : 127.0870681
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50616512989271,
+                  "lng" : 127.0884179298927
+               },
+               "southwest" : {
+                  "lat" : 37.50346547010727,
+                  "lng" : 127.0857182701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f1720965e385fbdd81a9fd6c78ff97e4e93dcdd4",
+         "name" : "광동한방동물병원",
+         "place_id" : "ChIJQUA-wLOlfDURPpliXWelQSk",
+         "plus_code" : {
+            "compound_code" : "G33P+WR 서울특별시",
+            "global_code" : "8Q99G33P+WR"
+         },
+         "rating" : 0,
+         "reference" : "ChIJQUA-wLOlfDURPpliXWelQSk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 오금동 120-7",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5036287,
+               "lng" : 127.1386779
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50497852989272,
+                  "lng" : 127.1400277298927
+               },
+               "southwest" : {
+                  "lat" : 37.50227887010728,
+                  "lng" : 127.1373280701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "29c099a2572a848405e8efce45400c076f20c1b1",
+         "name" : "김민재동물병원",
+         "place_id" : "ChIJ5Z0fe5uvfDURHMdTlk-o4bQ",
+         "plus_code" : {
+            "compound_code" : "G43Q+FF 서울특별시",
+            "global_code" : "8Q99G43Q+FF"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJ5Z0fe5uvfDURHMdTlk-o4bQ",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      }
+   ],
+   "status" : "OK"
+}{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파동",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5015124,
+               "lng" : 127.1109742
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50286222989272,
+                  "lng" : 127.1123240298927
+               },
+               "southwest" : {
+                  "lat" : 37.50016257010728,
+                  "lng" : 127.1096243701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "bb4d92bb3fdc5ccf1f196346938bb4989ae7caf8",
+         "name" : "송파동물종합병원",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 352,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110833257860558432340/photos\"\u003e송파동물종합병원 .\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA_wdog7Vtvms5V5MYVhc70MzLKsoxdxnpREVA8Zfy14nE-XaTJEB12ns4lbb8c9JMDfp5aaelN_blwvpMGyUrEN67ZHZWu4hOeefiTPu7c6_g84FqYzUsZRfrh6JgZ2HXEhCif_QHCGmYiiQ0Hqk9yhLzGhS6L8gfLbhzDaUOWG0FyVtqX2bURQ",
+               "width" : 500
+            }
+         ],
+         "place_id" : "ChIJ4w9yNJqlfDURo3-_BwjU404",
+         "plus_code" : {
+            "compound_code" : "G426+J9 서울특별시",
+            "global_code" : "8Q99G426+J9"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJ4w9yNJqlfDURo3-_BwjU404",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10
+      },
+      {
+         "formatted_address" : "대한민국 백제고분로 432 2F 송파구 서울특별시 KR",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5092061,
+               "lng" : 127.1118818
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.51055592989272,
+                  "lng" : 127.1132316298927
+               },
+               "southwest" : {
+                  "lat" : 37.50785627010728,
+                  "lng" : 127.1105319701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4e0a891e61a52d79cb57d325c6f0d570283c31e5",
+         "name" : "송파원동물병원 SONGPAWON ANIMAL HOSPITAL",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3202,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113526096307361596592/photos\"\u003eWOO SUNG JUNG\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAeYYwZcC4tNp4onQTMJ6firUmJYCYyfTZjpbFkzMP7LkhUFGZy7ZKjzjKO0kXZnCR3vrZyxKpzGSJUuPRu033PcnHhGM_VGWhbFxeUD21Op11nER4hLtfucLrZ9yQUcnWEhBvHNFOQYCVV0a-AbY0nyiKGhQS8MRDlVfg8FW0M_qCPwt6J3eMpg",
+               "width" : 4803
+            }
+         ],
+         "place_id" : "ChIJvwG5MHalfDURM5PaZRsX4w0",
+         "plus_code" : {
+            "compound_code" : "G456+MQ 서울특별시",
+            "global_code" : "8Q99G456+MQ"
+         },
+         "rating" : 3,
+         "reference" : "ChIJvwG5MHalfDURM5PaZRsX4w0",
+         "types" : [ "veterinary_care", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 삼전동 133-17",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5027947,
+               "lng" : 127.0967653
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50414452989272,
+                  "lng" : 127.0981151298927
+               },
+               "southwest" : {
+                  "lat" : 37.50144487010728,
+                  "lng" : 127.0954154701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c5fa47562c1c78f868c7f3d59bf97268ee5a1ca5",
+         "name" : "삼전동물병원",
+         "place_id" : "ChIJ94VxBLulfDURfBWE_dHC86w",
+         "plus_code" : {
+            "compound_code" : "G33W+4P 서울특별시",
+            "global_code" : "8Q99G33W+4P"
+         },
+         "rating" : 2.8,
+         "reference" : "ChIJ94VxBLulfDURfBWE_dHC86w",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 12
+      },
+      {
+         "formatted_address" : "서울시 송파구 문정동 85 어은 회관 102 호 새말 로 125), 새말로 송파구 서울특별시 대한민국",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.48302870000001,
+               "lng" : 127.1277222
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.48437852989272,
+                  "lng" : 127.1290720298927
+               },
+               "southwest" : {
+                  "lat" : 37.48167887010728,
+                  "lng" : 127.1263723701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "02bfc9f95af94f07fb8268ae57fec083e3fdc4db",
+         "name" : "송파 바로 동물병원",
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106198963297755489230/photos\"\u003e박성우\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAARekk8UWa53xoRSGwPnIQr_uTm1yU-Ui_oxFAj_HewNvIDts5zZ0aywNec1lOMxpODGGCJ17KdhvtmFjalOfqHv_iLNN3euck59P0yUeHY-we0iVKHtpACo0zB1bbzCGgEhBbhQ94CKpM96iFpSbo7-TrGhT25-A-avC-ruXaD8fIPywYDIbbvw",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJMaacx1-vfDUR8CCnMdS2fM4",
+         "plus_code" : {
+            "compound_code" : "F4MH+63 서울특별시",
+            "global_code" : "8Q99F4MH+63"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJMaacx1-vfDUR8CCnMdS2fM4",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 15
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파1동 송파대로 474",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5084916,
+               "lng" : 127.1045508
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50984142989272,
+                  "lng" : 127.1059006298927
+               },
+               "southwest" : {
+                  "lat" : 37.50714177010728,
+                  "lng" : 127.1032009701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b00fe3c562a45b46f063333883d4574a288e00b3",
+         "name" : "스킨앤이어동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJfWaPx6-lfDURagnMrOkVW_c",
+         "plus_code" : {
+            "compound_code" : "G453+9R 서울특별시",
+            "global_code" : "8Q99G453+9R"
+         },
+         "rating" : 4,
+         "reference" : "ChIJfWaPx6-lfDURagnMrOkVW_c",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 거여2동 양산로4길 13",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4899558,
+               "lng" : 127.1447166
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49130562989272,
+                  "lng" : 127.1460664298927
+               },
+               "southwest" : {
+                  "lat" : 37.48860597010728,
+                  "lng" : 127.1433667701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d7df39b4843c9226e3d209b8312e6ba2119d657a",
+         "name" : "마루동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111343304474287492572/photos\"\u003eSanghoon Kwon\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAx-bXwuTnsFytItLypvfd6K4d9S8zCd4iSRaXQCNNXLHhY7dsGFkFJSiGWqxkgKqef6618c0vfvFdjnhjMHsIO_4ige2mfcg7J1UQkPzgnpzDCQA1kbqk7jlhmS668jL0EhD_Q6IFZS5_j1P3SzxT2wPjGhRLOC4li-MWzVTdblgrPtXjw9bDcw",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ9fG-B3OvfDURb6hjl_BAI6A",
+         "plus_code" : {
+            "compound_code" : "F4QV+XV 서울특별시",
+            "global_code" : "8Q99F4QV+XV"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ9fG-B3OvfDURb6hjl_BAI6A",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 가락동 190-6",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4941853,
+               "lng" : 127.1330676
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49553512989273,
+                  "lng" : 127.1344174298927
+               },
+               "southwest" : {
+                  "lat" : 37.49283547010728,
+                  "lng" : 127.1317177701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "54173f67010a967bb01097e517eddf04cbc57be0",
+         "name" : "영국동물병원",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108956541372839082033/photos\"\u003e신동기\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAfdKi0Y-_iDNFF-XGoU-KMXktOU2jXnP_aeUKSnoymUcB8Tjo-y5K5-1Q_QJjnkBziceRdrQQJkndLo3w9_v-VJepBdZkPIBS4xUxyw9hHw-dFxDJHcrll6egw0xvk93ZEhBSxaR-rw77xPXyYrq4SZuvGhRsqkz_YCz6sP8d8Pusj9XV6CZ8wg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ3YwCpXuvfDURxCX9qVNcVSo",
+         "plus_code" : {
+            "compound_code" : "F4VM+M6 서울특별시",
+            "global_code" : "8Q99F4VM+M6"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ3YwCpXuvfDURxCX9qVNcVSo",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 12
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 620 송파 푸르지오시티 110호",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.480926,
+               "lng" : 127.121805
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.48227582989271,
+                  "lng" : 127.1231548298927
+               },
+               "southwest" : {
+                  "lat" : 37.47957617010727,
+                  "lng" : 127.1204551701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8880dc792076c58e40f36d6230e86117d75462fe",
+         "name" : "키다리 동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108956541372839082033/photos\"\u003e신동기\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA2RqqkroD3EEpVwB-xSv8CGt6arFBj9zg3Cd6mNLyx1e_64s_qSgFrKJFhcz7yU4KOK040DFhKSMUDx1dvEdBfbUuK2uAE7Wq5ujkJk3h8lLAJtSVGAhG0M8ydt3ruNNwEhBtDKnF-RpPjMCkaLCHyjrhGhQsOTFMHtIHuGh1zMAz_Kr53yhaaw",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ21KOvfalfDURLd4muJiX17Q",
+         "plus_code" : {
+            "compound_code" : "F4JC+9P 서울특별시",
+            "global_code" : "8Q99F4JC+9P"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJ21KOvfalfDURLd4muJiX17Q",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 22
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 방이동 오금로 203",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5082944,
+               "lng" : 127.1166521
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50964422989272,
+                  "lng" : 127.1180019298927
+               },
+               "southwest" : {
+                  "lat" : 37.50694457010727,
+                  "lng" : 127.1153022701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1d805e1259ba8d4a612b57caa740551167ed8589",
+         "name" : "페토피아동물병원",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113449849719644651198/photos\"\u003e김완경\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAqFa_d-uzy4F1tLqkYuYMP8HZNBWxNnQdncDpMLsHtbkwIGLOBPEhOOxRYXs9L0iUHKPsYaH4uJRG-Pu4WFXuvz1WM4kBMFNuys6aof6cYdUoX1sWLk87-W2bzTJClhJGEhBgpg30GPCHPJRJyae7geuTGhTtw0cpBTCDdmX8wAfchvmAAaMf7w",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJaR1LRnilfDUReX2YaCLXNsQ",
+         "plus_code" : {
+            "compound_code" : "G458+8M 서울특별시",
+            "global_code" : "8Q99G458+8M"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJaR1LRnilfDUReX2YaCLXNsQ",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 21
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파동 103-29",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.50323940000001,
+               "lng" : 127.1134581
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50458922989272,
+                  "lng" : 127.1148079298927
+               },
+               "southwest" : {
+                  "lat" : 37.50188957010727,
+                  "lng" : 127.1121082701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "94d74b75bfb7ff5ad9c018322010d4c2356a27fb",
+         "name" : "한양종합동물병원",
+         "place_id" : "ChIJtYf4nZylfDURvlNWEAu1L44",
+         "plus_code" : {
+            "compound_code" : "G437+79 서울특별시",
+            "global_code" : "8Q99G437+79"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJtYf4nZylfDURvlNWEAu1L44",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 가락동 125-8",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.49204659999999,
+               "lng" : 127.1260128
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49339642989272,
+                  "lng" : 127.1273626298927
+               },
+               "southwest" : {
+                  "lat" : 37.49069677010728,
+                  "lng" : 127.1246629701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "cf8f5ba2641ec8389a6dfdea430b4991cdeebcee",
+         "name" : "봄빛동물병원",
+         "place_id" : "ChIJNZ3Ig2KvfDURq3ZzFXDcSOk",
+         "plus_code" : {
+            "compound_code" : "F4RG+RC 서울특별시",
+            "global_code" : "8Q99F4RG+RC"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJNZ3Ig2KvfDURq3ZzFXDcSOk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파동 96-6",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5023506,
+               "lng" : 127.1102085
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50370042989273,
+                  "lng" : 127.1115583298927
+               },
+               "southwest" : {
+                  "lat" : 37.50100077010728,
+                  "lng" : 127.1088586701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "ef4062aeb905a86ac64eb4a00bdebe9cca5c71dc",
+         "name" : "잠실종합동물병원",
+         "place_id" : "ChIJJZ7e05ulfDURMglSuod2y_4",
+         "plus_code" : {
+            "compound_code" : "G426+W3 서울특별시",
+            "global_code" : "8Q99G426+W3"
+         },
+         "rating" : 5,
+         "reference" : "ChIJJZ7e05ulfDURMglSuod2y_4",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 석촌동 252-2",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4996008,
+               "lng" : 127.1031537
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50095062989272,
+                  "lng" : 127.1045035298927
+               },
+               "southwest" : {
+                  "lat" : 37.49825097010728,
+                  "lng" : 127.1018038701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "6addd74fc953becab63013c84b006ee239004694",
+         "name" : "엄마손동물병원",
+         "place_id" : "ChIJUwH5mL2lfDURrc-AXYfUFGo",
+         "plus_code" : {
+            "compound_code" : "F4X3+R7 서울특별시",
+            "global_code" : "8Q99F4X3+R7"
+         },
+         "rating" : 0,
+         "reference" : "ChIJUwH5mL2lfDURrc-AXYfUFGo",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 거여동 133-77",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4980462,
+               "lng" : 127.1460662
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49939602989272,
+                  "lng" : 127.1474160298927
+               },
+               "southwest" : {
+                  "lat" : 37.49669637010728,
+                  "lng" : 127.1447163701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b54bcaa0899c244a4f85defee99bbb3dc5cfdf4b",
+         "name" : "오주동물병원",
+         "place_id" : "ChIJGYwJn5-vfDURZZ32liqyJ8Q",
+         "plus_code" : {
+            "compound_code" : "F4XW+6C 서울특별시",
+            "global_code" : "8Q99F4XW+6C"
+         },
+         "rating" : 4,
+         "reference" : "ChIJGYwJn5-vfDURZZ32liqyJ8Q",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 문정1동 송이로32길 19",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4881849,
+               "lng" : 127.1277058
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.48953472989273,
+                  "lng" : 127.1290556298927
+               },
+               "southwest" : {
+                  "lat" : 37.48683507010729,
+                  "lng" : 127.1263559701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5a58f1b598d9bf73b02ce598a34067cb603a007b",
+         "name" : "하군이네동물병원",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101980696389985705920/photos\"\u003e박재완\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAIKMfaePqCUYBBhn5OqKlvpGJnKFQcOEU-NPVcVlnO5D-dG6Uo4X5ix9dxpd1H1zoYi20I4AzwgYZwOrh7SIj7tXUUByPnSWnU9rWsjmJYoRte84VxenjleYgUTZPi4EoEhDxQ2piz0rTUgsiAKrB4Mu9GhQFMGFxoEFPWn5f5PRC2PmzJt16Wg",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJTbsqkGGvfDURK6FFUr_Zmd8",
+         "plus_code" : {
+            "compound_code" : "F4QH+73 서울특별시",
+            "global_code" : "8Q99F4QH+73"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJTbsqkGGvfDURK6FFUr_Zmd8",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 거여동 562-4",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4929357,
+               "lng" : 127.1438721
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49428552989272,
+                  "lng" : 127.1452219298927
+               },
+               "southwest" : {
+                  "lat" : 37.49158587010727,
+                  "lng" : 127.1425222701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2b28ceb7f518c085edf7efecc6ea428fbf9a8c1a",
+         "name" : "노아동물병원",
+         "place_id" : "ChIJ_fRKb3SvfDUR1zRkr1UK1OU",
+         "plus_code" : {
+            "compound_code" : "F4VV+5G 서울특별시",
+            "global_code" : "8Q99F4VV+5G"
+         },
+         "rating" : 1,
+         "reference" : "ChIJ_fRKb3SvfDUR1zRkr1UK1OU",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 송파2동 164-7",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5024896,
+               "lng" : 127.1172078
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50383942989272,
+                  "lng" : 127.1185576298927
+               },
+               "southwest" : {
+                  "lat" : 37.50113977010727,
+                  "lng" : 127.1158579701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8399907dd20390ab54438489015dd0004b36e549",
+         "name" : "송이동물병원",
+         "place_id" : "ChIJkUi3b4OlfDURXoWzF3_2LE8",
+         "plus_code" : {
+            "compound_code" : "G428+XV 서울특별시",
+            "global_code" : "8Q99G428+XV"
+         },
+         "rating" : 4,
+         "reference" : "ChIJkUi3b4OlfDURXoWzF3_2LE8",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 잠실동 250-13",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5048153,
+               "lng" : 127.0870681
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50616512989271,
+                  "lng" : 127.0884179298927
+               },
+               "southwest" : {
+                  "lat" : 37.50346547010727,
+                  "lng" : 127.0857182701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f1720965e385fbdd81a9fd6c78ff97e4e93dcdd4",
+         "name" : "광동한방동물병원",
+         "place_id" : "ChIJQUA-wLOlfDURPpliXWelQSk",
+         "plus_code" : {
+            "compound_code" : "G33P+WR 서울특별시",
+            "global_code" : "8Q99G33P+WR"
+         },
+         "rating" : 0,
+         "reference" : "ChIJQUA-wLOlfDURPpliXWelQSk",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "대한민국 서울특별시 송파구 오금동 120-7",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5036287,
+               "lng" : 127.1386779
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.50497852989272,
+                  "lng" : 127.1400277298927
+               },
+               "southwest" : {
+                  "lat" : 37.50227887010728,
+                  "lng" : 127.1373280701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "29c099a2572a848405e8efce45400c076f20c1b1",
+         "name" : "김민재동물병원",
+         "place_id" : "ChIJ5Z0fe5uvfDURHMdTlk-o4bQ",
+         "plus_code" : {
+            "compound_code" : "G43Q+FF 서울특별시",
+            "global_code" : "8Q99G43Q+FF"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJ5Z0fe5uvfDURHMdTlk-o4bQ",
+         "types" : [ "veterinary_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3
+      }
+   ],
+   "status" : "OK"
+}
