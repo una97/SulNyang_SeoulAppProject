@@ -35,7 +35,7 @@ export class ProgressPage implements OnInit {
   public doughnutChartLabels: string[] = ['처리 건수', '미처리 건수'];
   public doughnutChartType = 'doughnut';
 
-  public labels: string[] = ['힉대', '사고', '길고양이', '기타'];
+  public labels: string[] = ['힉대', '사고', '피해신고', '기타민원'];
   public chartType = 'bar';
 
    ngOnInit() {
