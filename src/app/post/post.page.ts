@@ -47,6 +47,9 @@ export class PostPage implements OnInit {
     public stor: Storage,
     public activatedRoute: ActivatedRoute
   ) {
+    this.stor.get('id').then((val) => {
+      this.currentU = val;
+    });
    }
 
    ngOnInit() {
@@ -114,10 +117,28 @@ export class PostPage implements OnInit {
             text: '확인',
             handler: () => {
               console.log('Confirm Okay');
-
+              console.log("현재 User: "+this.currentU);
               const tmp1 = this.currentU;
               const tmp2 = you;
 
+              firebase.database().ref().once('value').then((snapshot)=>{
+                this.db.list('userInfo/',ref=>ref.orderByChild('userid').equalTo(this.currentU)).valueChanges().subscribe(
+                  data=>{
+                    this.tmpPic=data[0];
+                    this.user1Pic=(this.tmpPic.userpic).toString();
+                   console.log("user1"+this.user1Pic);
+                  });
+              });
+
+              firebase.database().ref().once('value').then((snapshot)=>{
+                this.db.list('userInfo/',ref=>ref.orderByChild('userid').equalTo(you)).valueChanges().subscribe(
+                  data=>{
+                    this.tmpPic=data[0];
+                    this.user2Pic=(this.tmpPic.userpic).toString();
+                   console.log("user2+"+this.user2Pic);
+                  });
+              });
+              
               if ( tmp1 === tmp2 ) {
                 this.chat2Me();
               } else {
@@ -138,29 +159,13 @@ export class PostPage implements OnInit {
                   if (this.check === false) {
                     this.size = snapshot.size;
                     /// this.currentU와 you의 프로필 사진 찾기
-                    firebase.database().ref().once('value').then((snapshot)=>{
-                      this.db.list('userInfo/',ref=>ref.orderByChild('userid').equalTo(this.currentU)).valueChanges().subscribe(
-                        data=>{
-                          this.tmpPic=data[0];
-                          this.user1Pic=this.tmpPic.userpic;
-                         console.log(this.user1Pic);
-                        });
-                    });
-
-                    firebase.database().ref().once('value').then((snapshot)=>{
-                      this.db.list('userInfo/',ref=>ref.orderByChild('userid').equalTo(you)).valueChanges().subscribe(
-                        data=>{
-                          this.tmpPic=data[0];
-                          this.user2Pic=this.tmpPic.userpic;
-                         console.log(this.user2Pic);
-                        });
-                    });
 
                     if (this.size === 0) { // 채팅 목록이 한개도 없음
                       this.index = 0;
                       this.fs.collection('ListSize').doc('index').set({
                         index: this.index
                       });
+                      console.log("채팅방 만들기 전 :"+this.user1Pic);
                       this.fs.collection('chatting').doc((this.index).toString()).set({
                         uid1: this.currentU,
                         uid2: you,
