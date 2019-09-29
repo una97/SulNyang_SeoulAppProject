@@ -54,27 +54,33 @@
             <ion-row>
               <ion-col >
                 <div class="ion-text-center">
-                    <ion-label>제보처리현황</ion-label>
-
+                    <ion-label><b>제보처리 현황</b></ion-label>
                 </div>
               </ion-col>
             </ion-row>
-          </ion-grid>
-                 <canvas baseChart
-                    [data]='tempDoughnutData'
-                    [labels] = 'doughnutChartLabels'
-                    [chartType] = 'doughnutChartType'>
-                    </canvas>
-              </div>
+             </ion-grid>
+                
+                         <canvas baseChart
+                          [data]='tempDoughnutData'
+                          [labels] = 'doughnutChartLabels'
+                          [chartType] = 'doughnutChartType'>
+                          </canvas>
+           </div>
 
-      
-            
-              <div>
-              처리건수 : {{fr}}%</div>
+<br><br>
+<ion-grid>
+    <ion-row>
+      <ion-col >
+        <div class="ion-text-center">
+            <ion-label><b>카테고리별 제보 건수</b></ion-label>
+        </div>
+      </ion-col>
+    </ion-row>
+    
+     </ion-grid>
 
-  <div>종류별 제보 건수</div>
+  <!-- <div>종류별 제보 건수</div> -->
           <div style = 'display:block'>
-    <ion-title>종류별 제보건수</ion-title>
               <canvas baseChart
               [datasets] = 'tempClassification'
               [labels] = 'labels'
