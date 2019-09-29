@@ -8,6 +8,9 @@
 
 <ion-content>
     <br>
+    <div class="nochatting" *ngIf="check===false">
+      <img src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/%EC%84%A4%EB%83%A5%EC%9D%B4%EC%97%90%EC%98%A4.png?alt=media&token=0393873c-1a18-4079-abf4-79b575f30ba3">
+    </div>
     <div class="chatting" *ngFor="let chatting of chattingRef | async">
         <div  class="you" ion-item *ngIf="ID==chatting.uid1" (click)="openChat(chatting.uid2)">
             <img class="imgde" src="{{chatting.uid2Pic}}"/>
