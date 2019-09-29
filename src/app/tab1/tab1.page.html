@@ -338,10 +338,7 @@
   <ion-card *ngFor= "let group of (groups | async)" (click)="openBlank(group.notes)">
     <ion-row>
       <ion-col >
-          <img src = {{group.pic}} > 
-            <ion-card-content>
-                {{group.name}}
-            </ion-card-content>
+          <img height="80px" src = {{group.pic}} > 
       </ion-col>
     </ion-row>
   </ion-card>

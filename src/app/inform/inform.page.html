@@ -603,8 +603,12 @@
      <ion-datetime placeholder="선택" displayFormat="MM/DD/YYYY" [(ngModel)]="dateInput"></ion-datetime>
 
      <ion-label>
-        <ion-textarea rows="10" [(ngModel)]="content" placeholder="제보 내용 자세하게 적어주세요"></ion-textarea>
-    </ion-label>
+        <ion-textarea *ngIf ="category==''" rows="10" [(ngModel)]="content" placeholder="제보 내용 자세하게 적어주세요"></ion-textarea>
+        <ion-textarea *ngIf ="category=='피해신고'" rows="10" [(ngModel)]="content" placeholder="길고양이로 인해 발생하는 문제들을 제보해주세요 ex) 소음, 악취 등"></ion-textarea>
+        <ion-textarea *ngIf ="category=='학대'" rows="10" [(ngModel)]="content" placeholder="학대를 당하고 있거나 학대가 의심되는 길고양이들을 제보해주세요"></ion-textarea>
+        <ion-textarea *ngIf ="category=='사고'" rows="10" [(ngModel)]="content" placeholder="다치거나 질병으로 도움이 필요한 길고양이들을 제보해주세요"></ion-textarea>
+        <ion-textarea *ngIf ="category=='기타민원'" rows="10" [(ngModel)]="content" placeholder="그 외 길고양이들에게 필요한 도움들을 제보해주세요 ex) 길고양이 쉼터 설치, 중성화 수술 지원요청 등"></ion-textarea>
+      </ion-label>
      
 <ion-button expand="block" color="primary" (click)="register()">제보하기</ion-button>
     </ion-card-content>
