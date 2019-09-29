@@ -1,24 +1,44 @@
 <ion-header>
   <ion-toolbar color = "primary">
-      <!-- <ion-buttons slot="secondary">
-          <ion-button >
-            
-              <ion-icon slot="icon-only" name="funnel"></ion-icon>
-            
-            </ion-button>
-      </ion-buttons> -->
+   
       <ion-buttons slot="primary">
-        <ion-button >
-          <ion-icon slot="icon-only" ios="ios-search" md="md-search"></ion-icon>
-        </ion-button>
+       
         <ion-button (click)="goCreatePost()" >
             <ion-icon slot="icon-only" ios="ios-create" md="md-create"></ion-icon>
           </ion-button>
          
       </ion-buttons>
       <ion-title>게시판</ion-title>
+  
+      <ion-select placeholder="구 선택" style="width: 13vh;" [(ngModel)]="chosenGu" (ionChange)="wantGu($event)">
+        <ion-select-option value="all" >전체 보기</ion-select-option>
+        <ion-select-option value="강남구">강남구</ion-select-option>
+        <ion-select-option value="강동구">강동구</ion-select-option>
+        <ion-select-option value="강북구">강북구</ion-select-option>
+        <ion-select-option value="강서구">강서구</ion-select-option>
+        <ion-select-option value="관악구">관악구</ion-select-option>
+        <ion-select-option value="광진구">광진구</ion-select-option>
+        <ion-select-option value="구로구">구로구</ion-select-option>
+        <ion-select-option value="금천구">금천구</ion-select-option>
+        <ion-select-option value="노원구">노원구</ion-select-option>
+        <ion-select-option value="도봉구">도봉구</ion-select-option>
+        <ion-select-option value="동대문구">동대문구</ion-select-option>
+        <ion-select-option value="동작구">동작구</ion-select-option>
+        <ion-select-option value="마포구">마포구</ion-select-option>
+        <ion-select-option value="서대문구">서대문구</ion-select-option>
+        <ion-select-option value="서초구">서초구</ion-select-option>
+        <ion-select-option value="성동구">성동구</ion-select-option>
+        <ion-select-option value="성북구">성북구</ion-select-option>
+        <ion-select-option value="송파구">송파구</ion-select-option>
+        <ion-select-option value="양천구">양천구</ion-select-option>
+        <ion-select-option value="영등포구">영등포구</ion-select-option>
+        <ion-select-option value="용산구">용산구</ion-select-option>
+        <ion-select-option value="은평구">은평구</ion-select-option>
+        <ion-select-option value="종로구">종로구</ion-select-option>
+        <ion-select-option value="중구">중구</ion-select-option>
+        <ion-select-option value="중랑구">중랑구</ion-select-option>
+        </ion-select>
     </ion-toolbar>
-
 
   <ion-segment [(ngModel)]="segment" (ionChange)="segmentChanged($event)" >
       <ion-segment-button value="help">
@@ -29,29 +49,23 @@
           </ion-segment-button>
     </ion-segment>
 
+    
 </ion-header>
 
-<ion-content>
-  <ion-col *ngFor="let item of items; let writer of writerInfo;let gu of writerGu;let dong of writerDong" col-12 no-padding>
-    <!-- <ion-card  (click)="getPost(item)">
-      <ion-card-content>
 
-      </ion-card-content> -->
+<ion-content >
+
+  <ion-col *ngFor="let item of items; let writer of writerInfo;let gu of writerGu;let dong of writerDong" col-12 no-padding>
       <ion-card (click)="getPost(item)" class="card" >
           <img src="{{item.img}}" width="100px" height="150px"/>
           <ion-card-content >
                    <ion-row>
                     <ion-col width-100><h1>{{item.title}}  </h1> </ion-col> 
-                    <!-- <ion-col width-100><h1>{{item.title}}  </h1> </ion-col>    -->
                   </ion-row>
                     <ion-row>
                       <ion-col width-30><h4>{{item.regisGu}}&nbsp;{{item.regisDong}} </h4></ion-col>
                     </ion-row>
           </ion-card-content>
-
-
-
-
     </ion-card>
   
   </ion-col>

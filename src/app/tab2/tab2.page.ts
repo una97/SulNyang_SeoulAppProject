@@ -15,8 +15,8 @@ public code: string;
 public writer: string;
 public items=[];
 public writerInfo=[];
-// public writerGu=[];
-// public writerDong=[];
+
+public chosenGu='all';
 segment:string;
   constructor( 
     public router: Router,
@@ -26,19 +26,10 @@ segment:string;
     public activatedRoute:ActivatedRoute,
     public db:AngularFireDatabase
   ) {
-    // for(let i=0;i<this.items.length;i++){
-    //   this.db.list('userInfo/',ref=>ref.orderByChild('userid/').equalTo(this.items[i].userid)).valueChanges().subscribe(
-    //     data=>{
-    //       this.writerInfo[i]=data[0];
-    //       this.writerGu[i]=this.writerInfo[i].usergu;
-    //       this.writerDong[i]=this.writerInfo[i].userdong;
-    //     }
-    //   );
-    // }
+   
   }
   ngOnInit(){
     this.segment='help';
-   
     this.loadList();
 
   }
@@ -48,10 +39,19 @@ segment:string;
     this.loadList();
   }
   loadList(){
-    this.db.list('regisTxt/',ref=>ref.orderByChild('category/').equalTo(this.segment)).valueChanges().subscribe(
+    if(this.chosenGu=='all'){
+      this.db.list('regisTxt/',ref=>ref.orderByChild('category').equalTo(this.segment)).valueChanges().subscribe(
+        data=>{
+          this.items=data;
+        }
+      )
+    }
+    else{
+    this.db.list('regisTxt/',ref=>ref.orderByChild('category/').equalTo(this.segment)&&ref.orderByChild('regisGu/').equalTo(this.chosenGu)).valueChanges().subscribe(
       data=>{
-        this.items=data;
+       this.items=data;
       });
+    }
   }
 
   goCreatePost() {
@@ -63,4 +63,8 @@ segment:string;
     this.router.navigate(['post', this.code, this.writer]);
   }
 
+  wantGu(event){
+    this.chosenGu=event.detail.value;
+    this.loadList();
+  }
 }

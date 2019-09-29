@@ -139,7 +139,7 @@ user: User = {
       } catch (err) {
       this.alertCtrl.create({
         header: '',
-        message: '빈곳을 확인해주세요',
+        message: '아이디 또는 비밀번호가 틀렸습니다',
         buttons: [{
           text: '확인',
           role: 'cancel'

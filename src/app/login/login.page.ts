@@ -58,7 +58,7 @@ export class LoginPage implements OnInit {
       } catch (err) {
       this.alertCtrl.create({
         header: '',
-        message: '빈곳을 확인해주세요',
+        message: '아이디나 비밀번호가 틀렸습니다.',
         buttons: [{
           text: '확인',
           role: 'cancel'
