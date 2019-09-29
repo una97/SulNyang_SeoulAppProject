@@ -51,25 +51,24 @@
   </ion-card-content>
 </ion-card>
 
-<ion-card *ngIf = "temp_complete == 0">
-    <ion-item>
+<!--관리자이고 처리 전 제보일 때-->
+<ion-card  *ngIf = "userauth == '관리자' && temp_complete == 0">
+    <ion-item >
         <ion-label>답변</ion-label>
-        <ion-textarea [(ngModel)]="comment" clearOnEdit="true" placeholder="답변을 작성해 주세요" style="height:10vh;" ></ion-textarea>
+        <ion-textarea [(ngModel)]="comment" clearOnEdit="true" placeholder="답변을 작성해 주세요" style="height:20vh;" ></ion-textarea>
       </ion-item>
-      <ion-button *ngIf= "temp_complete == 0" (click)="done()" expand="block" shape="round" fill="outline"> 확인 완료 </ion-button>
-      <ion-button *ngIf= "temp_complete == 1" (click)="cancel()"expand="block" shape="round" fill="outline"> 확인 취소 </ion-button>
-</ion-card>
+     </ion-card>
 
-<ion-card *ngIf = "temp_complete == 1">
+<ion-card *ngIf = "userauth == '관리자' && temp_complete == 1">
   <ion-card-content>
     <ion-item>
         <ion-label>답변</ion-label>
         {{comment}}
       </ion-item>
-      <ion-button *ngIf= "temp_complete == 0" (click)="done()" expand="block" shape="round" fill="outline"> 확인 완료 </ion-button>
-<ion-button *ngIf= "temp_complete == 1" (click)="cancel()"expand="block" shape="round" fill="outline"> 확인 취소 </ion-button>
-
-    </ion-card-content>
+      </ion-card-content>
 </ion-card>
-
 </ion-content>
+<ion-button *ngIf= "userauth == '관리자' && temp_complete == 0" (click)="done()"> 확인 완료 </ion-button>
+<ion-button *ngIf= "userauth == '관리자' && temp_complete == 1" (click)="cancel()"> 확인 취소 </ion-button>
+<ion-button *ngIf= "userauth == '일반사용자' && temp_complete == 0" (click)= "cancel2()" > 삭제 </ion-button>
+
