@@ -54,16 +54,22 @@
 <!--관리자이고 처리 전 제보일 때-->
 <ion-card  *ngIf = "userauth == '관리자' && temp_complete == 0">
     <ion-item >
-        <ion-label>답변</ion-label>
-        <ion-textarea [(ngModel)]="comment" clearOnEdit="true" placeholder="답변을 작성해 주세요" style="height:20vh;" ></ion-textarea>
+      <ion-label position="stacked" lines="none" >
+        <b>답변</b>
+      </ion-label>
+        <ion-textarea rows ="6" [(ngModel)]="comment" clearOnEdit="true" placeholder="답변을 작성해 주세요" style="height:20vh;" ></ion-textarea>
       </ion-item>
      </ion-card>
 
-<ion-card *ngIf = "userauth == '관리자' && temp_complete == 1">
+<ion-card *ngIf = "temp_complete == 1">
   <ion-card-content>
     <ion-item>
-        <ion-label>답변</ion-label>
-        {{comment}}
+      <ion-label position="stacked" lines="none" >
+        <b>[답변]</b>
+      </ion-label>
+        <ion-textarea rows ="6" aria-readonly = "true" [(ngModel)]="comment" clearOnEdit="true" style="height:20vh;" >
+          {{comment}}
+        </ion-textarea>
       </ion-item>
       </ion-card-content>
 </ion-card>
