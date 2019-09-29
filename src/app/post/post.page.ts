@@ -30,7 +30,7 @@ export class PostPage implements OnInit {
   first = true;
   getSize: any;
   currentU: string;
-
+  name: string;
   user1Pic;
   user2Pic;
   tmpPic;
@@ -49,6 +49,7 @@ export class PostPage implements OnInit {
   ) {
     this.stor.get('id').then((val) => {
       this.currentU = val;
+      console.log(this.currentU);
     });
    }
 
@@ -59,6 +60,13 @@ export class PostPage implements OnInit {
     this.stor.get('id').then((val) => {
       this.currentU = val;
     });
+    firebase.database().ref().once('value').then((snapshot) => {
+            // tslint:disable-next-line: prefer-const
+                let c = snapshot.child(`regisTxt/${this.code}/userid`).val();  //id
+                this.name = c;
+      console.log(this.name);
+    });
+
   }
 
   load() {
