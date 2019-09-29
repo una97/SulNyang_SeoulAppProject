@@ -14,6 +14,7 @@ import { from, VirtualTimeScheduler } from 'rxjs';
   styleUrls: ['./showinform.page.scss'],
 })
 export class ShowinformPage implements OnInit {
+  public userauth: string = null;
 // 글 보여주기 위한 변수들
 temp: any;
 public item: any;
@@ -24,6 +25,7 @@ writer: string;
 temp_content: number;
 temp_complete: number;
 comment: string;
+text: string;
 constructor(
   public navCtrl: NavController,
   public atrCtrl: AlertController,
@@ -34,6 +36,9 @@ constructor(
   public stor: Storage,
   public activatedRoute: ActivatedRoute
 ) {
+  this.stor.get('auth').then((val) => {
+        this.userauth = val;
+      });
  }
  ngOnInit() {
   this.code = this.activatedRoute.snapshot.paramMap.get('code');
@@ -81,10 +86,26 @@ cancel() {
   }).then(alertEl => {
     alertEl.present();
   });
-
   this.router.navigateByUrl('cinform');
-
 }
+/* 제보 취소 */
+cancel2() {
+    firebase.database().ref().once('value').then((snapshot) => {
+      // tslint:disable-next-line: prefer-const
+      this.db.object(`informTxt/${this.code}`).set(null);
+    });
+    this.atrCtrl.create({
+      header: '알림',
+      message: '삭제 되었습니다.',
+      buttons: [{
+        text: '확인',
+        role: 'cancel'
+      }]
+    }).then(alertEl => {
+      alertEl.present();
+    });
+    this.router.navigateByUrl('cinform');
+  }
 load() {
   this.db.list('informTxt/', ref => ref.orderByChild('code').equalTo(this.code)).valueChanges().subscribe(
     data => {

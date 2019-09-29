@@ -9,53 +9,66 @@
 <ion-content>
 <ion-card>
   <ion-card-content *ngFor="let item of item">
-      <ion-item>
+      <ion-item lines="none">
           <img width="100%" height="200px" src="{{item.img}}"/>
       </ion-item>
-      <ion-item >
-              <table>
+      <br>
+      <ion-item lines="none" >
+              <table class="product_tabel" >
                 <tr>
-                    <td>
+                    <td rowspan="2" width="20vh;" >
                       <ion-avatar>
                         <img id="writerimg" src=""/>
                       </ion-avatar>
-                      {{item.sender}}
+                    </td>
+                    <td>
+                     {{item.sender}} 
                     </td>
                 </tr>
+                <tr> 
+                  <td>
+                   <h6> {{item.gu}} {{item.dong}} &nbsp;&nbsp;&nbsp;{{item.date}}</h6>  
+                  </td> 
+                 
+                </tr>
+               
               </table>
-              <br><br>
+            
       </ion-item>
-      <ion-item>
-        <ion-label position ="floating">
-            {{item.gu}}&nbsp;{{item.dong}}
+     <br>
+
+  <!-- Disabled and readonly textarea in an item with a stacked label -->
+      <ion-item lines="none">
+        <ion-label position="stacked" lines="none" >
+          <b>제보내용</b>
         </ion-label>
-    </ion-item>
-    <ion-item>
-        <ion-label position ="floating">
-            {{item.date}}
-        </ion-label>
-    </ion-item>
-    <ion-item>
-          <ion-content>
-             {{item.content}}
-          </ion-content>   
+        <textarea class="textbox" style="width: 100vh; height: 10vh;" 
+          disabled
+          readonly
+          value="{{item.content}}">
+        </textarea>
       </ion-item>
   </ion-card-content>
 </ion-card>
 
-<ion-card *ngIf = "temp_complete == 0">
-    <ion-item>
-        <ion-label>Comment</ion-label>
-        <ion-textarea [(ngModel)]="comment" clearOnEdit="true" placeholder="코멘트를 작성해 주세요"></ion-textarea>
+<!--관리자이고 처리 전 제보일 때-->
+<ion-card  *ngIf = "userauth == '관리자' && temp_complete == 0">
+    <ion-item >
+        <ion-label>답변</ion-label>
+        <ion-textarea [(ngModel)]="comment" clearOnEdit="true" placeholder="답변을 작성해 주세요" style="height:20vh;" ></ion-textarea>
       </ion-item>
-</ion-card>
+     </ion-card>
 
-<ion-card *ngIf = "temp_complete == 1">
+<ion-card *ngIf = "userauth == '관리자' && temp_complete == 1">
+  <ion-card-content>
     <ion-item>
-        <ion-label>Comment</ion-label>
+        <ion-label>답변</ion-label>
         {{comment}}
       </ion-item>
+      </ion-card-content>
 </ion-card>
 </ion-content>
-<ion-button *ngIf= "temp_complete == 0" (click)="done()"> 확인 완료 </ion-button>
-<ion-button *ngIf= "temp_complete == 1" (click)="cancel()"> 확인 취소 </ion-button>
+<ion-button *ngIf= "userauth == '관리자' && temp_complete == 0" (click)="done()"> 확인 완료 </ion-button>
+<ion-button *ngIf= "userauth == '관리자' && temp_complete == 1" (click)="cancel()"> 확인 취소 </ion-button>
+<ion-button *ngIf= "userauth == '일반사용자' && temp_complete == 0" (click)= "cancel2()" > 삭제 </ion-button>
+
