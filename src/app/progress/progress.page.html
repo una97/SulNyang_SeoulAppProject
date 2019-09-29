@@ -5,76 +5,82 @@
           <ion-back-button text="" defaultHref="/tabs/tab1"></ion-back-button>
         </ion-buttons>
     </ion-toolbar>
+    <table>
+              <tr >
+                <td >
+                   <ion-select placeholder="서울 전체" [(ngModel)]="informGu" >
+                       <ion-select-option value="서울 전체">서울 전체</ion-select-option>
+                       <ion-select-option value="강남구">강남구</ion-select-option>
+                       <ion-select-option value="강동구">강동구</ion-select-option>
+                       <ion-select-option value="강북구">강북구</ion-select-option>
+                       <ion-select-option value="강서구">강서구</ion-select-option>
+                       <ion-select-option value="구로구">구로구</ion-select-option>
+                       <ion-select-option value="금천구">금천구</ion-select-option>
+                       <ion-select-option value="관악구">관악구</ion-select-option>
+                       <ion-select-option value="광진구">광진구</ion-select-option>
+                       <ion-select-option value="노원구">노원구</ion-select-option>
+                       <ion-select-option value="도봉구">도봉구</ion-select-option>
+                       <ion-select-option value="동대문구">동대문구</ion-select-option>
+                       <ion-select-option value="동작구">동작구</ion-select-option>
+                       <ion-select-option value="마포구">마포구</ion-select-option>
+                       <ion-select-option value="서대문구">서대문구</ion-select-option>
+                       <ion-select-option value="서초구">서초구</ion-select-option>
+                       <ion-select-option value="성동구">성동구</ion-select-option>
+                       <ion-select-option value="성북구">성북구</ion-select-option>
+                       <ion-select-option value="송파구">송파구</ion-select-option>
+                       <ion-select-option value="양천구">양천구</ion-select-option>
+                       <ion-select-option value="영등포구">영등포구</ion-select-option>
+                       <ion-select-option value="용산구">용산구</ion-select-option>
+                       <ion-select-option value="은평구">은평구</ion-select-option>
+                       <ion-select-option value="종로구">종로구</ion-select-option>
+                       <ion-select-option value="중구">중구</ion-select-option>
+                       <ion-select-option value="중랑구">중랑구</ion-select-option>
+                      </ion-select>
+                </td>
+                <td>
+                  <ion-button (click)="register()"  >
+                    선택
+                  </ion-button>
+                </td>
+                </tr>
+                </table>
   </ion-header>
+
     <ion-content>
-      <div>
-          서울시 제보 처리 현황
-      </div>
-    <div style = 'display:block'>
-      <canvas baseChart
-      [data]='tempDoughnutData'
-      [labels] = 'doughnutChartLabels'
-      [chartType] = 'doughnutChartType'>
-      </canvas>
-    </div>
-    처리건수 : {{fr}}%
-    <div>
-      종류별 건수
-    </div>
-      <table>
-        <tr >
-          <td >
-             <ion-select placeholder="서울 전체" [(ngModel)]="informGu">
-                 <ion-select-option value="서울 전체">서울 전체</ion-select-option>
-                 <ion-select-option value="강남구">강남구</ion-select-option>
-                 <ion-select-option value="강동구">강동구</ion-select-option>
-                 <ion-select-option value="강북구">강북구</ion-select-option>
-                 <ion-select-option value="강서구">강서구</ion-select-option>
-                 <ion-select-option value="구로구">구로구</ion-select-option>
-                 <ion-select-option value="금천구">금천구</ion-select-option>
-                 <ion-select-option value="관악구">관악구</ion-select-option>
-                 <ion-select-option value="광진구">광진구</ion-select-option>
-                 <ion-select-option value="노원구">노원구</ion-select-option>
-                 <ion-select-option value="도봉구">도봉구</ion-select-option>
-                 <ion-select-option value="동대문구">동대문구</ion-select-option>
-                 <ion-select-option value="동작구">동작구</ion-select-option>
-                 <ion-select-option value="마포구">마포구</ion-select-option>
-                 <ion-select-option value="서대문구">서대문구</ion-select-option>
-                 <ion-select-option value="서초구">서초구</ion-select-option>
-                 <ion-select-option value="성동구">성동구</ion-select-option>
-                 <ion-select-option value="성북구">성북구</ion-select-option>
-                 <ion-select-option value="송파구">송파구</ion-select-option>
-                 <ion-select-option value="양천구">양천구</ion-select-option>
-                 <ion-select-option value="영등포구">영등포구</ion-select-option>
-                 <ion-select-option value="용산구">용산구</ion-select-option>
-                 <ion-select-option value="은평구">은평구</ion-select-option>
-                 <ion-select-option value="종로구">종로구</ion-select-option>
-                 <ion-select-option value="중구">중구</ion-select-option>
-                 <ion-select-option value="중랑구">중랑구</ion-select-option>
-                </ion-select>
-          </td>
-          <td>
-            <ion-button (click)="register()" >
-              선택
-            </ion-button>
-          </td>
-          </tr>
-          </table>
+  
+       
+          <div>
+            <ion-grid>
+            <ion-row>
+              <ion-col >
+                <div class="ion-text-center">
+                    <ion-label>제보처리현황</ion-label>
+
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+                 <canvas baseChart
+                    [data]='tempDoughnutData'
+                    [labels] = 'doughnutChartLabels'
+                    [chartType] = 'doughnutChartType'>
+                    </canvas>
+              </div>
+
+      
+            
+              <div>
+              처리건수 : {{fr}}%</div>
+
+  <div>종류별 제보 건수</div>
           <div style = 'display:block'>
+    <ion-title>종류별 제보건수</ion-title>
               <canvas baseChart
               [datasets] = 'tempClassification'
               [labels] = 'labels'
               [chartType] = 'chartType'>
             </canvas>
             </div>
-   <!-- <div style = 'display:block'>
-      <canvas baseChart
-      [data] = 'chartData2'
-      [labels] = 'labels2'
-      [chartType] = 'chartType2'>
-    </canvas>
-    </div>
-    -->
     </ion-content>
     
   

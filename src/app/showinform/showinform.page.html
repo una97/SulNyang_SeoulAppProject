@@ -42,7 +42,7 @@
         <ion-label position="stacked" lines="none" >
           <b>제보내용</b>
         </ion-label>
-        <textarea class="textbox" style="width: 100vh; height: 10vh;" 
+        <textarea rows = '7'  class="textbox" style="width: 35vh; height: 10vh;" 
           disabled
           readonly
           value="{{item.content}}">
@@ -67,8 +67,8 @@
       <ion-label position="stacked" lines="none" >
         <b>[답변]</b>
       </ion-label>
-        <ion-textarea rows ="6" aria-readonly = "true" [(ngModel)]="comment" clearOnEdit="true" style="height:20vh;" >
-          {{comment}}
+        <ion-textarea rows ="6" readonly = "true" [(ngModel)]="comment" clearOnEdit="true" style="height:20vh;" >
+        
         </ion-textarea>
       </ion-item>
       </ion-card-content>
