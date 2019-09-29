@@ -69,6 +69,41 @@ export class PostPage implements OnInit {
 
   }
 
+  async delete() {
+    await this.atrCtrl.create({
+      header:'확인!',
+      message: '채팅방을 삭제하시겠습니까?',
+      buttons:[
+        {
+          text: '취소',
+          role: 'cancel',
+          cssClass:'secondary',
+          handler:(blah)=>{
+            console.log("삭제 안함");
+          }
+        },
+        {
+          text:'Okay',
+          handler:()=>{
+            firebase.database().ref().once('value').then((snapshot) => {
+              this.db.object(`regisTxt/${this.code}`).set(null);
+            });
+          }
+        }
+      ]
+    });
+    this.atrCtrl.create({
+      header: '알림',
+      message: '확인 취소 되었습니다.',
+      buttons: [{
+        text: '확인',
+        role: 'cancel'
+      }]
+    }).then(alertEl => {
+      alertEl.present();
+    });
+    this.router.navigateByUrl('mypostlist');
+  }
   load() {
     this.db.list('regisTxt/', ref => ref.orderByChild('code').equalTo(this.code)).valueChanges().subscribe(
       data => {

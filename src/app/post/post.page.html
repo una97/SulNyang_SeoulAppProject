@@ -54,5 +54,5 @@
       <ion-button *ngIf=" name != currentU" expand="block" shape="round" fill="outline"(click)="gotoChat(item.userid)"><ion-icon name="contact"></ion-icon>채팅하러 가기</ion-button>
   </ion-card-content>
 </ion-card>
-
 </ion-content>
+<ion-button *ngIf = "name === currentU" (click)= "delete()" > 삭제 </ion-button>
