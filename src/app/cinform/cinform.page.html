@@ -11,17 +11,22 @@
     <ion-col *ngFor="let item of items" col-12 no-padding>
       <ion-card  (click)="getPost(item)">
         <ion-row>
-          <ion-col col-3>
-            <!-- <ion-avatar item-start> -->
-              <img width="150px" height="120px" id="postimg" src="{{item.img}}">
-            <!-- </ion-avatar> -->
+          <ion-col col-3 >
+           
+              <img style="height: 20vh;" width="150px" id="postimg" src="{{item.img}}">
           </ion-col>
           <ion-col col-7>
               <ion-card-header>
-                {{item.category}}   
+               <ion-row>
+                  {{item.category}} 
+               </ion-row>
+               <ion-row>
+                  {{item.gu}}&nbsp;{{item.dong}}
+               </ion-row>
                 </ion-card-header>
                 <ion-card-content *ngIf= "item.complete == 0">
-                    {{item.content.substring(0,15)}}
+                   
+                    {{item.content.substring(0,15)}}..
                 </ion-card-content>
                     <img *ngIf= "item.complete == 1" src="https://firebasestorage.googleapis.com/v0/b/sulnyang.appspot.com/o/KakaoTalk_Photo_2019-09-29-00-06-33.png?alt=media&token=e622ef94-950b-4482-9170-72eed338b91d"/>
           </ion-col>
