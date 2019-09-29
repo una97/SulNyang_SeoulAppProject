@@ -44,8 +44,8 @@ export class HospitalPage implements OnInit {
     }
       this.platform.ready().then(()=>{
         var mapOptions={
-          center:{lat:37.6662953,lng:126.9948531},
-          zoom:13
+          center:{lat:37.5577376,lng:126.959146},
+          zoom:12
         }
         this.map=new google.maps.Map(document.getElementById("map"),mapOptions);
         

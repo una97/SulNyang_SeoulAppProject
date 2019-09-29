@@ -21,11 +21,8 @@ export class ReDevelopPage implements OnInit {
   //지도
   map:any;
   marker:any;
-  lat:any="";
-  lng:any="";
-  timestamp:any="";
-
-
+  lat;
+  lng;
 
   constructor(
     public navCtrl:NavController,
@@ -39,32 +36,11 @@ export class ReDevelopPage implements OnInit {
     ///지도
     this.platform.ready().then(()=>{
       var mapOptions={
-        center:{lat:37.565767, lng:126.978095},
-        zoom:10
+        center:{lat:37.5577376,lng:126.959146},
+        zoom:11
       }
       this.map=new google.maps.Map(document.getElementById("map"),mapOptions);
     });
-   
-      var ref=this;
-      let watch=this.geolocation.watchPosition();
-      watch.subscribe((position)=>{
-        var gps=new google.maps.LatLng(position.coords.latitude,position.coords.longitude); // 내 위치 받아오기
-        if(ref.marker == null){
-          ref.marker=new google.maps.Marker({
-            position:gps,
-            map:ref.map,
-            title:'my position'
-          });
-        }
-        else{
-          ref.marker.setPosition(gps);
-        }
-        ref.map.panTo(gps);
-        ref.lat=position.coords.latitude.toString();
-        ref.lng=position.coords.longitude.toString();
-        ref.timestamp=(new Date(position.timestamp)).toString();
-      });
-      ////여기까지
    }
 
   ngOnInit() {
@@ -114,4 +90,46 @@ export class ReDevelopPage implements OnInit {
     });
   }
 
+  showMarker(item, i){
+    console.log(i);
+    if(i==0 )
+    {
+      this.lat=37.564465;
+      this.lng=126.813365;
+    }
+    else if(i==1){
+      this.lat=37.448045;
+      this.lng=126.901205;
+    }
+    else if(i==2){
+      this.lat=37.585272;
+      this.lng=126.819724;
+    }
+    else if(i==3){
+      this.lat=37.542274;
+      this.lng=127.125872;
+    }
+    else if(i==4){
+      this.lat=37.549476;
+      this.lng=127.167668;
+    } 
+    else if(i==5){
+      this.lat=37.495201;
+      this.lng=127.060946;
+    }
+    else if(i==6){
+      this.lat=37.561653;
+      this.lng=127.162310;
+    }
+     this.map=new google.maps.Map(document.getElementById("map"),{
+      center:{lat:this.lat,lng:this.lng},
+      zoom:13
+    });
+    var myLatLng=new google.maps.LatLng(this.lat,this.lng);
+    this.marker=new google.maps.Marker({
+      position:myLatLng,
+      title:item.address,
+      map:this.map
+    });
+  }
 }
