@@ -19,7 +19,7 @@ JSON 트리 구조를 이용하는 실시간 데이터베이스(Realtime Databas
 
 <p align="center"><img src="https://user-images.githubusercontent.com/43545606/93047619-dd35b300-f697-11ea-8821-1c009fc7848b.png" width="500"></p>
 
-### 4. 앱 실행영상 유튜브 링크
+### 3. 앱 실행영상 유튜브 링크
 
 - 일반 사용자 ver 앱 실행 영상
 
